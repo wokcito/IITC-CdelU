@@ -1,0 +1,3368 @@
+{
+    "gyms": {
+        "8310b81bf11139b3825db4473d539566.16": {
+            "guid": "8310b81bf11139b3825db4473d539566.16",
+            "lat": -32.471175,
+            "lng": -58.252538,
+            "name": "Nuevo Salón Santa Rita"
+        },
+        "38bff24b19c844b3a536fe34dcbd5eac.16": {
+            "guid": "38bff24b19c844b3a536fe34dcbd5eac.16",
+            "lat": -32.470214,
+            "lng": -58.253776,
+            "name": "Juegos Infantiles"
+        },
+        "f0368e3b45154271a0ca1080d4c1993f.16": {
+            "guid": "f0368e3b45154271a0ca1080d4c1993f.16",
+            "lat": -32.469264,
+            "lng": -58.25164,
+            "name": "Tanque de agua. La Rural"
+        },
+        "cd0d59f96fdb4c9aacb9815da65474b5.16": {
+            "guid": "cd0d59f96fdb4c9aacb9815da65474b5.16",
+            "lat": -32.467831,
+            "lng": -58.250598,
+            "name": "Virgen Nuestra señora del Carmen"
+        },
+        "83a0bd470e7147dd88678c921f4f1700.16": {
+            "guid": "83a0bd470e7147dd88678c921f4f1700.16",
+            "lat": -32.476031,
+            "lng": -58.253485,
+            "name": "Parroquia San Roque"
+        },
+        "d73a5be7e1674c7a8713033fa534f128.16": {
+            "guid": "d73a5be7e1674c7a8713033fa534f128.16",
+            "lat": -32.475621,
+            "lng": -58.254146,
+            "name": "Mural \"Mandalas\""
+        },
+        "6ceeab1dd0ba4e34a0b30992282f7af3.16": {
+            "guid": "6ceeab1dd0ba4e34a0b30992282f7af3.16",
+            "lat": -32.470625,
+            "lng": -58.249634,
+            "name": "Arcos de la Sociedad Rural",
+            "isEx": true
+        },
+        "481d85248b984c5bb5c596539ff6dc92.16": {
+            "guid": "481d85248b984c5bb5c596539ff6dc92.16",
+            "lat": -32.484699,
+            "lng": -58.231978,
+            "name": "Bicentenario De La Revolución De Mayo- Placa",
+            "isEx": true
+        },
+        "ace9dde107c747c0a7d9a437e300d287.16": {
+            "guid": "ace9dde107c747c0a7d9a437e300d287.16",
+            "lat": -32.483447,
+            "lng": -58.233306,
+            "name": "Placa: Paseo De Los Artesanos"
+        },
+        "c1765c82ce1047ea9124d0620c51b4d8.16": {
+            "guid": "c1765c82ce1047ea9124d0620c51b4d8.16",
+            "lat": -32.483499,
+            "lng": -58.233597,
+            "name": "Mercado Municipal 3 de Febrero"
+        },
+        "4272821c3abc415587d130d72dd60a17.16": {
+            "guid": "4272821c3abc415587d130d72dd60a17.16",
+            "lat": -32.494112,
+            "lng": -58.234918,
+            "name": "Pérgola de la Defensa Sur"
+        },
+        "732a07560b1a4afa8b79e17fd740e0ac.16": {
+            "guid": "732a07560b1a4afa8b79e17fd740e0ac.16",
+            "lat": -32.487411,
+            "lng": -58.232417,
+            "name": "Placa Asociación Trabajadores del Estado"
+        },
+        "2f948aaf2edf4c1ba3d00097e050fa1d.16": {
+            "guid": "2f948aaf2edf4c1ba3d00097e050fa1d.16",
+            "lat": -32.489158,
+            "lng": -58.232772,
+            "name": "Mural Infantil"
+        },
+        "97de67f00a9c4f55b899524759729e23.16": {
+            "guid": "97de67f00a9c4f55b899524759729e23.16",
+            "lat": -32.49044,
+            "lng": -58.229995,
+            "name": "Santa Cecilia",
+            "isEx": true
+        },
+        "9ae961c54751450582c34a946b83d9c4.16": {
+            "guid": "9ae961c54751450582c34a946b83d9c4.16",
+            "lat": -32.490542,
+            "lng": -58.229698,
+            "name": "Monolito Plaza Central",
+            "isEx": true
+        },
+        "a1387e13e30c40bf80d361f4f5029c85.16": {
+            "guid": "a1387e13e30c40bf80d361f4f5029c85.16",
+            "lat": -32.49285,
+            "lng": -58.233484,
+            "name": "Hermita Jesus Misericordioso"
+        },
+        "444423671cc54e03a4fc3d31ca4abf6d.16": {
+            "guid": "444423671cc54e03a4fc3d31ca4abf6d.16",
+            "lat": -32.481244,
+            "lng": -58.234584,
+            "name": "Mural \"Educación Pública para todos\""
+        },
+        "485c75326da34806ae78fccf2bce49a7.16": {
+            "guid": "485c75326da34806ae78fccf2bce49a7.16",
+            "lat": -32.480258,
+            "lng": -58.234275,
+            "name": "Plaza San Martín",
+            "isEx": true
+        },
+        "e43e069cc50b49ea9cb8302a3a397646.16": {
+            "guid": "e43e069cc50b49ea9cb8302a3a397646.16",
+            "lat": -32.477469,
+            "lng": -58.234206,
+            "name": "Fuente Hexagonal"
+        },
+        "cda9785b22cb44b4be4ed9a03c8ee1a0.16": {
+            "guid": "cda9785b22cb44b4be4ed9a03c8ee1a0.16",
+            "lat": -32.47788,
+            "lng": -58.236483,
+            "name": "Placa Plaza Estado Israel"
+        },
+        "a352a56e9d4843ff81f4c5b93f990633.16": {
+            "guid": "a352a56e9d4843ff81f4c5b93f990633.16",
+            "lat": -32.478475,
+            "lng": -58.239864,
+            "name": "Busto General Artigas"
+        },
+        "6d6b7edf50d542c999c3b2a3c2916f6a.16": {
+            "guid": "6d6b7edf50d542c999c3b2a3c2916f6a.16",
+            "lat": -32.482393,
+            "lng": -58.240341,
+            "name": "Mural Peronista"
+        },
+        "7082c45325dc41aa96ad97929fc3568e.16": {
+            "guid": "7082c45325dc41aa96ad97929fc3568e.16",
+            "lat": -32.477695,
+            "lng": -58.240081,
+            "name": "Mural \"Cuerpo y mente\""
+        },
+        "2368105971654a7085598916f60c5636.16": {
+            "guid": "2368105971654a7085598916f60c5636.16",
+            "lat": -32.472684,
+            "lng": -58.235181,
+            "name": "Gauchos"
+        },
+        "68b755f9ff3543a69a4d0ce39828cee5.16": {
+            "guid": "68b755f9ff3543a69a4d0ce39828cee5.16",
+            "lat": -32.496027,
+            "lng": -58.229566,
+            "name": "UTN - FRCU"
+        },
+        "38e922abe25545c6a4892a8a2dd205f9.16": {
+            "guid": "38e922abe25545c6a4892a8a2dd205f9.16",
+            "lat": -32.497673,
+            "lng": -58.228849,
+            "name": "Busto Nestor Kirchner",
+            "isEx": true
+        },
+        "7a6fe4ef8f884c2180dc102459b901ba.16": {
+            "guid": "7a6fe4ef8f884c2180dc102459b901ba.16",
+            "lat": -32.495225,
+            "lng": -58.226628,
+            "name": "Leer para Liberarse"
+        },
+        "81bcca6c42124c20ba95ff6e8e015520.16": {
+            "guid": "81bcca6c42124c20ba95ff6e8e015520.16",
+            "lat": -32.492801,
+            "lng": -58.226127,
+            "name": "Cristo De Concepción",
+            "isEx": true
+        },
+        "be6d47158529466a8ae27b5cf3ed838b.16": {
+            "guid": "be6d47158529466a8ae27b5cf3ed838b.16",
+            "lat": -32.492551,
+            "lng": -58.225308,
+            "name": "Mural Pescados"
+        },
+        "ca9412539bfa4c15aa58f6bd7a0aa591.16": {
+            "guid": "ca9412539bfa4c15aa58f6bd7a0aa591.16",
+            "lat": -32.483417,
+            "lng": -58.224986,
+            "name": "Chica Tattoo- Mural",
+            "isEx": true
+        },
+        "617e3473e15d4b259fef41244a9ced7a.16": {
+            "guid": "617e3473e15d4b259fef41244a9ced7a.16",
+            "lat": -32.482573,
+            "lng": -58.224848,
+            "name": "Hombre Árbol - Mural"
+        },
+        "fd359e1e58574851a71d248cf855c381.16": {
+            "guid": "fd359e1e58574851a71d248cf855c381.16",
+            "lat": -32.482685,
+            "lng": -58.224599,
+            "name": "Mural: Las Cuatro Chicas"
+        },
+        "566da0c7c08143b2a68318b0f274ad01.16": {
+            "guid": "566da0c7c08143b2a68318b0f274ad01.16",
+            "lat": -32.483334,
+            "lng": -58.222184,
+            "name": "Mural Messi Con Halcón"
+        },
+        "7b753c1a7d5a49bf917a43206d179693.16": {
+            "guid": "7b753c1a7d5a49bf917a43206d179693.16",
+            "lat": -32.483856,
+            "lng": -58.224444,
+            "name": "Mural Martín pescador"
+        },
+        "11e1363bb21c4e3583d5154a188849fb.16": {
+            "guid": "11e1363bb21c4e3583d5154a188849fb.16",
+            "lat": -32.487523,
+            "lng": -58.224544,
+            "name": "Mural \"Niño en bicicleta\""
+        },
+        "71cba0b1b4b147108612780c6ce387c3.16": {
+            "guid": "71cba0b1b4b147108612780c6ce387c3.16",
+            "lat": -32.476139,
+            "lng": -58.222444,
+            "name": "Regatas Hockey"
+        },
+        "41757a379c714f63b4b6ca1470901de7.16": {
+            "guid": "41757a379c714f63b4b6ca1470901de7.16",
+            "lat": -32.477659,
+            "lng": -58.221636,
+            "name": "Virgen En Santuario"
+        },
+        "1f0fbbb32feb4d378256674636b1317b.16": {
+            "guid": "1f0fbbb32feb4d378256674636b1317b.16",
+            "lat": -32.478966,
+            "lng": -58.222114,
+            "name": "Monumento A La Madre"
+        },
+        "1da7a43ccfe74369859a42996b20ae80.16": {
+            "guid": "1da7a43ccfe74369859a42996b20ae80.16",
+            "lat": -32.470651,
+            "lng": -58.226089,
+            "name": "Monumento: Las Manos"
+        },
+        "a60675a3335d414b9c592beb34556317.16": {
+            "guid": "a60675a3335d414b9c592beb34556317.16",
+            "lat": -32.471351,
+            "lng": -58.226684,
+            "name": "Juegos infantiles de Las Manos"
+        },
+        "742e3a889ff848578608ca1d4634d185.16": {
+            "guid": "742e3a889ff848578608ca1d4634d185.16",
+            "lat": -32.472422,
+            "lng": -58.229621,
+            "name": "Santuario"
+        },
+        "935f4a234d624bda9dad4b443a59f18e.16": {
+            "guid": "935f4a234d624bda9dad4b443a59f18e.16",
+            "lat": -32.485814,
+            "lng": -58.237951,
+            "name": "Mural La Sirenita"
+        },
+        "480f55111f6a448989a79683411d29a8.16": {
+            "guid": "480f55111f6a448989a79683411d29a8.16",
+            "lat": -32.484994,
+            "lng": -58.238373,
+            "name": "Iglesia Adventista Del Séptimo Día"
+        },
+        "a57985bc2958447784f9b35d15d24596.16": {
+            "guid": "a57985bc2958447784f9b35d15d24596.16",
+            "lat": -32.4832,
+            "lng": -58.234943,
+            "name": "Dirección de Discapacidad y Dirección de DDHH"
+        },
+        "934d321d82aa4f0098e5aef37d2e9c88.16": {
+            "guid": "934d321d82aa4f0098e5aef37d2e9c88.16",
+            "lat": -32.48812,
+            "lng": -58.235943,
+            "name": "Parque de juegos Rivadavia"
+        },
+        "aa769b67b8814b4ea07de23cd5b9d14b.16": {
+            "guid": "aa769b67b8814b4ea07de23cd5b9d14b.16",
+            "lat": -32.491567,
+            "lng": -58.237814,
+            "name": "Hermita del Gauchito Gil"
+        },
+        "83e3ae897c684e2396a97ff08222a7e7.16": {
+            "guid": "83e3ae897c684e2396a97ff08222a7e7.16",
+            "lat": -32.486181,
+            "lng": -58.241421,
+            "name": "Placa Dr Scelzi"
+        },
+        "fe4d1c7226f53adaa6618a7d4f7f2385.16": {
+            "guid": "fe4d1c7226f53adaa6618a7d4f7f2385.16",
+            "lat": -32.486286,
+            "lng": -58.242449,
+            "name": "Corazon de Hierro"
+        },
+        "5d54fa141aad42c6aa9c43c6d22ad64e.16": {
+            "guid": "5d54fa141aad42c6aa9c43c6d22ad64e.16",
+            "lat": -32.480377,
+            "lng": -58.244515,
+            "name": "Parque del Donante",
+            "isEx": true
+        },
+        "030cfc308a954eb4aeb02b98072f61cc.16": {
+            "guid": "030cfc308a954eb4aeb02b98072f61cc.16",
+            "lat": -32.479736,
+            "lng": -58.243611,
+            "name": "Tanque De Agua"
+        },
+        "933233f86e9b44ec9735d7f500bd838c.16": {
+            "guid": "933233f86e9b44ec9735d7f500bd838c.16",
+            "lat": -32.479112,
+            "lng": -58.243431,
+            "name": "Busto Homenaje"
+        },
+        "6b3221be1f564e54a3b78c557fc7f796.16": {
+            "guid": "6b3221be1f564e54a3b78c557fc7f796.16",
+            "lat": -32.476964,
+            "lng": -58.246072,
+            "name": "Super Tanque De Agua"
+        },
+        "f3f059abead84382a720c1403e138ac1.16": {
+            "guid": "f3f059abead84382a720c1403e138ac1.16",
+            "lat": -32.474439,
+            "lng": -58.242602,
+            "name": "Escultura De Colón",
+            "isEx": true
+        },
+        "58c85896662f4032964f591027168e5f.16": {
+            "guid": "58c85896662f4032964f591027168e5f.16",
+            "lat": -32.470802,
+            "lng": -58.243484,
+            "name": "Monolito María Rosa"
+        },
+        "9310ccdfb9db490bb248eb01d5ca521d.16": {
+            "guid": "9310ccdfb9db490bb248eb01d5ca521d.16",
+            "lat": -32.470527,
+            "lng": -58.241072,
+            "name": "Iglesia Cristo es la Respuesta"
+        },
+        "a6a5198d638343f88b1dcfdf4db3f8a5.16": {
+            "guid": "a6a5198d638343f88b1dcfdf4db3f8a5.16",
+            "lat": -32.479686,
+            "lng": -58.247719,
+            "name": "Mural de la bandera de Entre Rios"
+        },
+        "a3c78699e0ab477ba41980da94fc6e61.16": {
+            "guid": "a3c78699e0ab477ba41980da94fc6e61.16",
+            "lat": -32.479647,
+            "lng": -58.246846,
+            "name": "Homenaje Samuel Yabiansky"
+        },
+        "d338507f8b6943a3ac2bdc040825befe.16": {
+            "guid": "d338507f8b6943a3ac2bdc040825befe.16",
+            "lat": -32.482106,
+            "lng": -58.246941,
+            "name": "Mural de la Paz"
+        },
+        "c3c4d9cfdb4749a284784b8a5f370bb9.16": {
+            "guid": "c3c4d9cfdb4749a284784b8a5f370bb9.16",
+            "lat": -32.48444,
+            "lng": -58.247226,
+            "name": "Torre de Agua 56 Viviendas"
+        },
+        "8ff995fac455422fa85cdbb3c73c8fd2.16": {
+            "guid": "8ff995fac455422fa85cdbb3c73c8fd2.16",
+            "lat": -32.487898,
+            "lng": -58.249851,
+            "name": "Monumento al Tratado del Pilar"
+        },
+        "741b0e2916bd3c248d020eb1e4f01cb3.16": {
+            "guid": "741b0e2916bd3c248d020eb1e4f01cb3.16",
+            "lat": -32.487754,
+            "lng": -58.248752,
+            "name": "Pachamama"
+        },
+        "3cfdfa9b477b4f76aa4f9df5f595d75b.16": {
+            "guid": "3cfdfa9b477b4f76aa4f9df5f595d75b.16",
+            "lat": -32.488231,
+            "lng": -58.25175,
+            "name": "Cementerio C.Del Uruguay"
+        },
+        "3e21cb712b274eec9268c7dcbf6ff6b1.16": {
+            "guid": "3e21cb712b274eec9268c7dcbf6ff6b1.16",
+            "lat": -32.492274,
+            "lng": -58.24883,
+            "name": "Club Itapé"
+        },
+        "6fb4e4b17f0e4b97aa1f49aed35c8ca6.16": {
+            "guid": "6fb4e4b17f0e4b97aa1f49aed35c8ca6.16",
+            "lat": -32.493556,
+            "lng": -58.248557,
+            "name": "Tanque De Guerra"
+        },
+        "de7c2afd9ae544f284f60b14649d2848.16": {
+            "guid": "de7c2afd9ae544f284f60b14649d2848.16",
+            "lat": -32.492782,
+            "lng": -58.245727,
+            "name": "Escuadrón C.Del Uruguay - Escudo"
+        },
+        "e8e49507ad9d4c9dbdbf1ac0dbc70aca.16": {
+            "guid": "e8e49507ad9d4c9dbdbf1ac0dbc70aca.16",
+            "lat": -32.491907,
+            "lng": -58.241295,
+            "name": "Placa Plan de pavimentación Municipal"
+        },
+        "2df79088c1b6404aa27cf66b7560038b.16": {
+            "guid": "2df79088c1b6404aa27cf66b7560038b.16",
+            "lat": -32.477034,
+            "lng": -58.212513,
+            "name": "Juegos Saludables Isla del Puerto"
+        },
+        "7152cb4f4e0d4028a48c2d8f7bf79d23.16": {
+            "guid": "7152cb4f4e0d4028a48c2d8f7bf79d23.16",
+            "lat": -32.498698,
+            "lng": -58.237546,
+            "name": "Pergola del paseo Defensa"
+        },
+        "2560cca8642745eb9052d82274266e5e.16": {
+            "guid": "2560cca8642745eb9052d82274266e5e.16",
+            "lat": -32.476107,
+            "lng": -58.226284,
+            "name": "Arco Rómulo Y Remo"
+        },
+        "d99053a2947f421c8a384f028c79a97a.16": {
+            "guid": "d99053a2947f421c8a384f028c79a97a.16",
+            "lat": -32.475261,
+            "lng": -58.226017,
+            "name": "Columpios infantiles"
+        },
+        "9c04586fbb034529bfb1dc3d1dba24ac.16": {
+            "guid": "9c04586fbb034529bfb1dc3d1dba24ac.16",
+            "lat": -32.476496,
+            "lng": -58.228437,
+            "name": "Santa Cecillia"
+        },
+        "fe8bfa5f0d0846198a341233be08c66e.16": {
+            "guid": "fe8bfa5f0d0846198a341233be08c66e.16",
+            "lat": -32.467338,
+            "lng": -58.237707,
+            "name": "Iglesia san isidro"
+        },
+        "5b06ba3e64b64d60bf0745e49ae992a4.16": {
+            "guid": "5b06ba3e64b64d60bf0745e49ae992a4.16",
+            "lat": -32.496332,
+            "lng": -58.226359,
+            "name": "Faro de Concepción del Uruguay"
+        },
+        "daa65855378f483a80cdce42b8ad33bc.16": {
+            "guid": "daa65855378f483a80cdce42b8ad33bc.16",
+            "lat": -32.487207,
+            "lng": -58.253095,
+            "name": "Monumento Ángeles"
+        },
+        "ce8867f979df42fda9f2231ba1cd4609.16": {
+            "guid": "ce8867f979df42fda9f2231ba1cd4609.16",
+            "lat": -32.487101,
+            "lng": -58.252195,
+            "name": "Lions Internatinal - Escultura"
+        },
+        "298729919e65384bb125503dabc31130.16": {
+            "guid": "298729919e65384bb125503dabc31130.16",
+            "lat": -32.485538,
+            "lng": -58.252616,
+            "name": "Virgencita de Luján"
+        },
+        "ffd53ef5693149d6a18700af2cfd5b3c.16": {
+            "guid": "ffd53ef5693149d6a18700af2cfd5b3c.16",
+            "lat": -32.485199,
+            "lng": -58.255691,
+            "name": "Iglesia Cristiana Betesda"
+        },
+        "0f9e157d956544609bac5ef23f5d3cce.16": {
+            "guid": "0f9e157d956544609bac5ef23f5d3cce.16",
+            "lat": -32.48841,
+            "lng": -58.260653,
+            "name": "Monumento: General Urquiza"
+        },
+        "009e81ce5be5404785ff055ef29f0fa3.16": {
+            "guid": "009e81ce5be5404785ff055ef29f0fa3.16",
+            "lat": -32.48785,
+            "lng": -58.260773,
+            "name": "Santa Biblia"
+        },
+        "a195175b90b74d4fa4b78e2df8316da4.16": {
+            "guid": "a195175b90b74d4fa4b78e2df8316da4.16",
+            "lat": -32.49321,
+            "lng": -58.258466,
+            "name": "Juego Infantil. Plaza"
+        },
+        "3c7b87dea4dd44769acee6b157c30690.16": {
+            "guid": "3c7b87dea4dd44769acee6b157c30690.16",
+            "lat": -32.493412,
+            "lng": -58.259721,
+            "name": "Altar homenaje a la virgen Santa Teresita"
+        },
+        "14b56ec1c7644eebb471fda07b533fc1.16": {
+            "guid": "14b56ec1c7644eebb471fda07b533fc1.16",
+            "lat": -32.494671,
+            "lng": -58.259423,
+            "name": "Virgen \"Maria Auxiliadora\" 2"
+        },
+        "0614399aa734442c81c0b0a32e9f8c2a.16": {
+            "guid": "0614399aa734442c81c0b0a32e9f8c2a.16",
+            "lat": -32.478741,
+            "lng": -58.222236,
+            "name": "Monumento Al Marino",
+            "isEx": true
+        },
+        "0728349002bb35fcbe6f645a915c81f2.16": {
+            "guid": "0728349002bb35fcbe6f645a915c81f2.16",
+            "lat": -32.471074,
+            "lng": -58.250329,
+            "name": "Potrero en La Rural"
+        }
+    },
+    "pokestops": {
+        "f2d4ade168e13e1588fa19d71568e38b.16": {
+            "guid": "f2d4ade168e13e1588fa19d71568e38b.16",
+            "lat": -32.469595,
+            "lng": -58.252271,
+            "name": "Virgen Nuestra Señora Itatí"
+        },
+        "2dc8c76e223a46aaa85444a42e482c78.16": {
+            "guid": "2dc8c76e223a46aaa85444a42e482c78.16",
+            "lat": -32.468756,
+            "lng": -58.256028,
+            "name": "Virgencita de la Guadalupe"
+        },
+        "e987160f0aa248e09ef81787562486cc.16": {
+            "guid": "e987160f0aa248e09ef81787562486cc.16",
+            "lat": -32.469252,
+            "lng": -58.257386,
+            "name": "Placa del programa deferal"
+        },
+        "ad149f4f995b3c5aabb41d8beed29a5d.16": {
+            "guid": "ad149f4f995b3c5aabb41d8beed29a5d.16",
+            "lat": -32.468261,
+            "lng": -58.257003,
+            "name": "Placa IAPV #3"
+        },
+        "f137577933f93aed9f14c62410169488.16": {
+            "guid": "f137577933f93aed9f14c62410169488.16",
+            "lat": -32.465696,
+            "lng": -58.247571,
+            "name": "Mural de Concepcion del Uruguay"
+        },
+        "aa9cba31dfb33fc99b909d0e076e22fa.16": {
+            "guid": "aa9cba31dfb33fc99b909d0e076e22fa.16",
+            "lat": -32.47018,
+            "lng": -58.25159,
+            "name": "Virgen en gruta"
+        },
+        "74b5aed4a6ea3e7a82679791cbd9ae0e.16": {
+            "guid": "74b5aed4a6ea3e7a82679791cbd9ae0e.16",
+            "lat": -32.470796,
+            "lng": -58.251322,
+            "name": "Tanque de Agua 2. La Rural"
+        },
+        "e91a8e9ead81339da6f2a486845a3119.16": {
+            "guid": "e91a8e9ead81339da6f2a486845a3119.16",
+            "lat": -32.470395,
+            "lng": -58.250481,
+            "name": "Paleta de Colores By \"D.M\""
+        },
+        "e6519ff69571308281ecdd77d8c47d4b.16": {
+            "guid": "e6519ff69571308281ecdd77d8c47d4b.16",
+            "lat": -32.473484,
+            "lng": -58.252074,
+            "name": "Virgen Santísima"
+        },
+        "ae4384069d8c4682beb5f83d2e352869.16": {
+            "guid": "ae4384069d8c4682beb5f83d2e352869.16",
+            "lat": -32.473893,
+            "lng": -58.252305,
+            "name": "Parque de juegos"
+        },
+        "f9e6d91e6c32354691ba53fe6b39c975.16": {
+            "guid": "f9e6d91e6c32354691ba53fe6b39c975.16",
+            "lat": -32.473894,
+            "lng": -58.252762,
+            "name": "Oasis"
+        },
+        "a3a7b06633894e8b90f22c7959088573.16": {
+            "guid": "a3a7b06633894e8b90f22c7959088573.16",
+            "lat": -32.47379,
+            "lng": -58.253799,
+            "name": "Mural cultural"
+        },
+        "7ae4c3ffc62d493fba469d055c4d7528.16": {
+            "guid": "7ae4c3ffc62d493fba469d055c4d7528.16",
+            "lat": -32.476553,
+            "lng": -58.255562,
+            "name": "Mural Club Almagro"
+        },
+        "343cffb48fcc40a6b2c02bffb8308eef.16": {
+            "guid": "343cffb48fcc40a6b2c02bffb8308eef.16",
+            "lat": -32.475213,
+            "lng": -58.254161,
+            "name": "Mural Arcoiris al aprendizaje"
+        },
+        "c9e1af5f49b44eaca95946109d5192ff.16": {
+            "guid": "c9e1af5f49b44eaca95946109d5192ff.16",
+            "lat": -32.473268,
+            "lng": -58.257572,
+            "name": "Mural en contra del acoso callejero"
+        },
+        "a8243cff9a7b406a91ba52d5eb880914.16": {
+            "guid": "a8243cff9a7b406a91ba52d5eb880914.16",
+            "lat": -32.474967,
+            "lng": -58.252579,
+            "name": "Tanque de agua rectangular"
+        },
+        "54cfdb90c57447778bbdca774c5cedde.16": {
+            "guid": "54cfdb90c57447778bbdca774c5cedde.16",
+            "lat": -32.475684,
+            "lng": -58.252164,
+            "name": "Sagrado Corazón De Jesús"
+        },
+        "86b5d7563b3a3f2dbd5c80d7d7979495.16": {
+            "guid": "86b5d7563b3a3f2dbd5c80d7d7979495.16",
+            "lat": -32.475926,
+            "lng": -58.251211,
+            "name": "Club Atlético Almagro"
+        },
+        "3ba8e801e5da39caac18166151a03be1.16": {
+            "guid": "3ba8e801e5da39caac18166151a03be1.16",
+            "lat": -32.475209,
+            "lng": -58.250645,
+            "name": "Mural Uvas"
+        },
+        "39ea9550e2773e3686859da3e009c49f.16": {
+            "guid": "39ea9550e2773e3686859da3e009c49f.16",
+            "lat": -32.471779,
+            "lng": -58.249768,
+            "name": "Placa \"Al futuro con viviendas\""
+        },
+        "4d5b80e6a7db47b8b0676dd56729ac24.16": {
+            "guid": "4d5b80e6a7db47b8b0676dd56729ac24.16",
+            "lat": -32.484175,
+            "lng": -58.232166,
+            "name": "Busto Manuel Belgrano"
+        },
+        "833f4c1be9234b46ac92339021d9284c.16": {
+            "guid": "833f4c1be9234b46ac92339021d9284c.16",
+            "lat": -32.484091,
+            "lng": -58.231718,
+            "name": "Homenaje De Los Trabajadores Al Pronunciamiento"
+        },
+        "aa044ce2a030439992acd7b1729e1e76.16": {
+            "guid": "aa044ce2a030439992acd7b1729e1e76.16",
+            "lat": -32.485166,
+            "lng": -58.232063,
+            "name": "Busto De Mariano Moreno"
+        },
+        "62fc80df8eac40528bf2ed3c485bb812.16": {
+            "guid": "62fc80df8eac40528bf2ed3c485bb812.16",
+            "lat": -32.485061,
+            "lng": -58.231189,
+            "name": "Museo Deportivo Uruguayense"
+        },
+        "1986f694cd5945169374306adf82adca.16": {
+            "guid": "1986f694cd5945169374306adf82adca.16",
+            "lat": -32.485278,
+            "lng": -58.231282,
+            "name": "Placas En Poder Judicial"
+        },
+        "2d83ad5d6a424bfaa233e7ea5073fdd7.16": {
+            "guid": "2d83ad5d6a424bfaa233e7ea5073fdd7.16",
+            "lat": -32.48562,
+            "lng": -58.231896,
+            "name": "Decoración En Mosaico"
+        },
+        "af2ddff6f39849deb98cef0195fef734.16": {
+            "guid": "af2ddff6f39849deb98cef0195fef734.16",
+            "lat": -32.485487,
+            "lng": -58.232533,
+            "name": "Club Social C. Del Uruguay"
+        },
+        "6031a92f831e42758f8c6025083227cb.16": {
+            "guid": "6031a92f831e42758f8c6025083227cb.16",
+            "lat": -32.485658,
+            "lng": -58.23295,
+            "name": "Mural: Noche"
+        },
+        "fb33cf76553a4f65bbf53218f1af5f98.16": {
+            "guid": "fb33cf76553a4f65bbf53218f1af5f98.16",
+            "lat": -32.48525,
+            "lng": -58.232913,
+            "name": "Catedral Concepción Del Uruguay"
+        },
+        "afbd985f090548b398b4ad45d73a57c1.16": {
+            "guid": "afbd985f090548b398b4ad45d73a57c1.16",
+            "lat": -32.484749,
+            "lng": -58.23282,
+            "name": "Placa: Homenaje al Congreso Constituyente"
+        },
+        "c5b621f65c254544a93dba75624a08ec.16": {
+            "guid": "c5b621f65c254544a93dba75624a08ec.16",
+            "lat": -32.484172,
+            "lng": -58.233084,
+            "name": "Homenaje Al General Justo. J. De Urquiza"
+        },
+        "88976bc074f54bacb2347d7dfd1f0fdb.16": {
+            "guid": "88976bc074f54bacb2347d7dfd1f0fdb.16",
+            "lat": -32.483938,
+            "lng": -58.232551,
+            "name": "Residencia De Urquiza 1869"
+        },
+        "61739711e0d64e6683ce100e043ba6c2.16": {
+            "guid": "61739711e0d64e6683ce100e043ba6c2.16",
+            "lat": -32.483764,
+            "lng": -58.231992,
+            "name": "Banco de Entre Ríos"
+        },
+        "8497cea1e02a4ad2a3b19d0a87097d14.16": {
+            "guid": "8497cea1e02a4ad2a3b19d0a87097d14.16",
+            "lat": -32.483459,
+            "lng": -58.234283,
+            "name": "Casa de Catequesis de la Basílica \"Inmaculada Concepción\""
+        },
+        "c608f25605ad45bc8f5ec39f3c9e3580.16": {
+            "guid": "c608f25605ad45bc8f5ec39f3c9e3580.16",
+            "lat": -32.483178,
+            "lng": -58.234209,
+            "name": "Parroquia Juan Pablo II"
+        },
+        "56964ec6571148e183efdcaa7296e398.16": {
+            "guid": "56964ec6571148e183efdcaa7296e398.16",
+            "lat": -32.482704,
+            "lng": -58.234156,
+            "name": "Placa conmemorativa a la Primera Junta"
+        },
+        "dfc565534e194a389d28b1dc02bd4197.16": {
+            "guid": "dfc565534e194a389d28b1dc02bd4197.16",
+            "lat": -32.482548,
+            "lng": -58.233568,
+            "name": "Placa Bicentenario Revolución De Mayo"
+        },
+        "a3d24d2c71d84f34b48ad902d7814f0a.16": {
+            "guid": "a3d24d2c71d84f34b48ad902d7814f0a.16",
+            "lat": -32.482898,
+            "lng": -58.233331,
+            "name": "Placa Ana Urquiza de Victorica"
+        },
+        "d24dc0f31edd40ddb6e2814015905711.16": {
+            "guid": "d24dc0f31edd40ddb6e2814015905711.16",
+            "lat": -32.482141,
+            "lng": -58.232766,
+            "name": "I.A.M.D.E."
+        },
+        "4755665efb524eaab149918a90cb537c.16": {
+            "guid": "4755665efb524eaab149918a90cb537c.16",
+            "lat": -32.481988,
+            "lng": -58.232521,
+            "name": "Torre Telefónica"
+        },
+        "34c2007e8eff447385e23864df8ee04f.16": {
+            "guid": "34c2007e8eff447385e23864df8ee04f.16",
+            "lat": -32.482784,
+            "lng": -58.232388,
+            "name": "Cañón antiguo"
+        },
+        "4dbb7dd552143d1cb272a79c6df5a541.16": {
+            "guid": "4dbb7dd552143d1cb272a79c6df5a541.16",
+            "lat": -32.483159,
+            "lng": -58.23238,
+            "name": "\"Les traigo paz\""
+        },
+        "5f22d7503e8a4b2d8d61148b92040bf3.16": {
+            "guid": "5f22d7503e8a4b2d8d61148b92040bf3.16",
+            "lat": -32.483018,
+            "lng": -58.231493,
+            "name": "Casino Texier"
+        },
+        "2e20de0dc31b4c5c8ab3bbba0b848076.16": {
+            "guid": "2e20de0dc31b4c5c8ab3bbba0b848076.16",
+            "lat": -32.482546,
+            "lng": -58.231592,
+            "name": "Sociedad Rural"
+        },
+        "74300099c738476b889194f37cb2e4da.16": {
+            "guid": "74300099c738476b889194f37cb2e4da.16",
+            "lat": -32.481061,
+            "lng": -58.230978,
+            "name": "Centro de Jubilados y Pensionados Nacionales"
+        },
+        "20a4b391842a4f7590dc8086197b3b00.16": {
+            "guid": "20a4b391842a4f7590dc8086197b3b00.16",
+            "lat": -32.482105,
+            "lng": -58.23082,
+            "name": "Universidad Nacional De Entre Rios"
+        },
+        "711af7badb0542e7b6aecca4e6c5568e.16": {
+            "guid": "711af7badb0542e7b6aecca4e6c5568e.16",
+            "lat": -32.480652,
+            "lng": -58.230255,
+            "name": "Mural pelota de fútbol"
+        },
+        "5a31299283fb35cea3419069fd627606.16": {
+            "guid": "5a31299283fb35cea3419069fd627606.16",
+            "lat": -32.480556,
+            "lng": -58.229537,
+            "name": "Mural \"Feria 3260\""
+        },
+        "b90d4b07fd644dd49be904f2f346f42a.16": {
+            "guid": "b90d4b07fd644dd49be904f2f346f42a.16",
+            "lat": -32.481138,
+            "lng": -58.229793,
+            "name": "Placa a José Benjamín Zubiaur"
+        },
+        "8a4aae4cb7684b509dacf05b95b6e3be.16": {
+            "guid": "8a4aae4cb7684b509dacf05b95b6e3be.16",
+            "lat": -32.48196,
+            "lng": -58.22997,
+            "name": "Jose Benjamin Zubiaur"
+        },
+        "8b66038a5ed241629ca6eb906340bcf8.16": {
+            "guid": "8b66038a5ed241629ca6eb906340bcf8.16",
+            "lat": -32.481919,
+            "lng": -58.229539,
+            "name": "Universidad De Concepción, UCU"
+        },
+        "08687af8d8013b558ca4d567f0c92280.16": {
+            "guid": "08687af8d8013b558ca4d567f0c92280.16",
+            "lat": -32.482644,
+            "lng": -58.229654,
+            "name": "Centro Cultural \"La Gotera\""
+        },
+        "08cf3e39da2344b8918b20be44f564d1.16": {
+            "guid": "08cf3e39da2344b8918b20be44f564d1.16",
+            "lat": -32.482778,
+            "lng": -58.230154,
+            "name": "Iglesia: Transformados #2"
+        },
+        "c0872e1314ab4dc7b10cbde770ddbc11.16": {
+            "guid": "c0872e1314ab4dc7b10cbde770ddbc11.16",
+            "lat": -32.482996,
+            "lng": -58.230643,
+            "name": "Antiguo cine-teatro Rocamora"
+        },
+        "1e4697af79d248dfa98b702f5df97f02.16": {
+            "guid": "1e4697af79d248dfa98b702f5df97f02.16",
+            "lat": -32.483513,
+            "lng": -58.230539,
+            "name": "Museo historico municipal"
+        },
+        "4ff7d3cca3d44daba270e25ef4f76d56.16": {
+            "guid": "4ff7d3cca3d44daba270e25ef4f76d56.16",
+            "lat": -32.483581,
+            "lng": -58.230775,
+            "name": "Placa homenaje a Tomas de Rocamora."
+        },
+        "e8001dd6f4854bfeb6a83c99f0cecb98.16": {
+            "guid": "e8001dd6f4854bfeb6a83c99f0cecb98.16",
+            "lat": -32.483776,
+            "lng": -58.230779,
+            "name": "Municipalidad De Concepción"
+        },
+        "766ff0211ee7449ba97530ea2a0fd908.16": {
+            "guid": "766ff0211ee7449ba97530ea2a0fd908.16",
+            "lat": -32.483917,
+            "lng": -58.230523,
+            "name": "\"Manos Entrerianas\""
+        },
+        "ec158d1052b741a99f2c5e8cd6a7423f.16": {
+            "guid": "ec158d1052b741a99f2c5e8cd6a7423f.16",
+            "lat": -32.484394,
+            "lng": -58.230408,
+            "name": "Placa Homenaje a José Gervasio Artigas"
+        },
+        "e89fef039e594076befa5205d0cd657a.16": {
+            "guid": "e89fef039e594076befa5205d0cd657a.16",
+            "lat": -32.484236,
+            "lng": -58.229575,
+            "name": "Homenaje al Dr. Eduardo Tibiletti"
+        },
+        "15d0537d56744ab9a706fd5f8d388756.16": {
+            "guid": "15d0537d56744ab9a706fd5f8d388756.16",
+            "lat": -32.48534,
+            "lng": -58.230318,
+            "name": "Mural contra el maltrato animal"
+        },
+        "8e0ed91f60b24396b95af572ab9667ce.16": {
+            "guid": "8e0ed91f60b24396b95af572ab9667ce.16",
+            "lat": -32.48563,
+            "lng": -58.233697,
+            "name": "Banco Nación"
+        },
+        "d520bb27ba0d4d57aa2fa6089d3fed28.16": {
+            "guid": "d520bb27ba0d4d57aa2fa6089d3fed28.16",
+            "lat": -32.486307,
+            "lng": -58.233593,
+            "name": "Mural Mafalda"
+        },
+        "db98e9efe4594294b29e29564ae4b586.16": {
+            "guid": "db98e9efe4594294b29e29564ae4b586.16",
+            "lat": -32.486493,
+            "lng": -58.234551,
+            "name": "Iglesia Transformados"
+        },
+        "a992b1067ef14bfdb9248b95c2cf1268.16": {
+            "guid": "a992b1067ef14bfdb9248b95c2cf1268.16",
+            "lat": -32.485551,
+            "lng": -58.234601,
+            "name": "Alianza Francesa de Concepción del Uruguay"
+        },
+        "5796e97fec99432fb0a9338dea9604df.16": {
+            "guid": "5796e97fec99432fb0a9338dea9604df.16",
+            "lat": -32.484838,
+            "lng": -58.234644,
+            "name": "Mural Casa De La Cultura"
+        },
+        "4f0534508e6b4ab08b065cb8f4332751.16": {
+            "guid": "4f0534508e6b4ab08b065cb8f4332751.16",
+            "lat": -32.484663,
+            "lng": -58.234797,
+            "name": "Ex casas comerciales"
+        },
+        "1a5d2d0ddb7f43be9932b0593d638d18.16": {
+            "guid": "1a5d2d0ddb7f43be9932b0593d638d18.16",
+            "lat": -32.484925,
+            "lng": -58.234022,
+            "name": "Ministerio Público Fiscal."
+        },
+        "726da5bc2277300882628a29a0827804.16": {
+            "guid": "726da5bc2277300882628a29a0827804.16",
+            "lat": -32.49356,
+            "lng": -58.236119,
+            "name": "Pergola de Descanso n°6"
+        },
+        "cec79e2c1508395ea6077adba166cdec.16": {
+            "guid": "cec79e2c1508395ea6077adba166cdec.16",
+            "lat": -32.492911,
+            "lng": -58.237022,
+            "name": "Pergola de Descanso n°5"
+        },
+        "c42620ff8ea147f193f1cba0e6babdb9.16": {
+            "guid": "c42620ff8ea147f193f1cba0e6babdb9.16",
+            "lat": -32.490954,
+            "lng": -58.234451,
+            "name": "Mural pescador"
+        },
+        "92d98020984a4f1e96c104bebb5de8b0.16": {
+            "guid": "92d98020984a4f1e96c104bebb5de8b0.16",
+            "lat": -32.489588,
+            "lng": -58.23475,
+            "name": "la puerta mágica"
+        },
+        "e6662cd88cd83958aeb3ca491841ff57.16": {
+            "guid": "e6662cd88cd83958aeb3ca491841ff57.16",
+            "lat": -32.489418,
+            "lng": -58.233843,
+            "name": "Iglesia Evangélica"
+        },
+        "f3837d3c16e74676aa479d2087e24717.16": {
+            "guid": "f3837d3c16e74676aa479d2087e24717.16",
+            "lat": -32.48755,
+            "lng": -58.234248,
+            "name": "Federación de Jubilados y Pensionados"
+        },
+        "fa34598106da421f87d40a6e6a6c0b6b.16": {
+            "guid": "fa34598106da421f87d40a6e6a6c0b6b.16",
+            "lat": -32.487249,
+            "lng": -58.234083,
+            "name": "I.E.B."
+        },
+        "b54715a57b964a50a123d4586ec29ddd.16": {
+            "guid": "b54715a57b964a50a123d4586ec29ddd.16",
+            "lat": -32.486525,
+            "lng": -58.23403,
+            "name": "Colegio de Profesionales de la Ingeniería Civil de Entre Ríos"
+        },
+        "d3a2d2f6579e47e9ada00f3df60e66fa.16": {
+            "guid": "d3a2d2f6579e47e9ada00f3df60e66fa.16",
+            "lat": -32.487227,
+            "lng": -58.233387,
+            "name": "C.M.yG.P.E.R."
+        },
+        "9fd154cc253248a0b978609e90b78ed3.16": {
+            "guid": "9fd154cc253248a0b978609e90b78ed3.16",
+            "lat": -32.487827,
+            "lng": -58.233142,
+            "name": "Mirador Calle España"
+        },
+        "3a0e5f0c4de43a87af5e4571e6c27675.16": {
+            "guid": "3a0e5f0c4de43a87af5e4571e6c27675.16",
+            "lat": -32.486262,
+            "lng": -58.232786,
+            "name": "Antigua Sociedad de Seguros Mutuos"
+        },
+        "b631e783d9f34c55b297646dfb57e306.16": {
+            "guid": "b631e783d9f34c55b297646dfb57e306.16",
+            "lat": -32.486527,
+            "lng": -58.232755,
+            "name": "Escudo del Personal Embarcados"
+        },
+        "67c8dc461c5f4c27af5b61923467b93f.16": {
+            "guid": "67c8dc461c5f4c27af5b61923467b93f.16",
+            "lat": -32.487001,
+            "lng": -58.232659,
+            "name": "Homenaje a Sarmiento"
+        },
+        "af6dd08c6fb44bd0a3b081ff886de3b8.16": {
+            "guid": "af6dd08c6fb44bd0a3b081ff886de3b8.16",
+            "lat": -32.488133,
+            "lng": -58.232416,
+            "name": "Mansión familias Malestrini-Magasanik"
+        },
+        "3ff78d7abe164050a43daad4621572ce.16": {
+            "guid": "3ff78d7abe164050a43daad4621572ce.16",
+            "lat": -32.487597,
+            "lng": -58.231865,
+            "name": "Placa: Asociación de Cocherias Funebres"
+        },
+        "a625fcf2764645a393896d23786a8b06.16": {
+            "guid": "a625fcf2764645a393896d23786a8b06.16",
+            "lat": -32.486468,
+            "lng": -58.231846,
+            "name": "historico diario \"La Calle\""
+        },
+        "07da387b6f44306cbd9140fd4c86a9ec.16": {
+            "guid": "07da387b6f44306cbd9140fd4c86a9ec.16",
+            "lat": -32.485864,
+            "lng": -58.231206,
+            "name": "\"72 años de la Declaración de los Derechos Humanos\""
+        },
+        "7d0355f3a7c749c4958ba1e41be6fd2e.16": {
+            "guid": "7d0355f3a7c749c4958ba1e41be6fd2e.16",
+            "lat": -32.486948,
+            "lng": -58.230814,
+            "name": "Placa Sociedad española"
+        },
+        "4e61491bfd3f4ad7bf18304d3ac8fd6c.16": {
+            "guid": "4e61491bfd3f4ad7bf18304d3ac8fd6c.16",
+            "lat": -32.487235,
+            "lng": -58.230041,
+            "name": "Vírgencita de Luján en Mosaico"
+        },
+        "2fec1507e0224d01a8888b44754d61c4.16": {
+            "guid": "2fec1507e0224d01a8888b44754d61c4.16",
+            "lat": -32.487978,
+            "lng": -58.230708,
+            "name": "Mural Don Quijote"
+        },
+        "21c151a8917e40ecb644e7b0ffdc31c4.16": {
+            "guid": "21c151a8917e40ecb644e7b0ffdc31c4.16",
+            "lat": -32.488413,
+            "lng": -58.23062,
+            "name": "Casino de Suboficiales Stella Maris"
+        },
+        "866e2ca5e96d4047ae36d814caa8f8c6.16": {
+            "guid": "866e2ca5e96d4047ae36d814caa8f8c6.16",
+            "lat": -32.490615,
+            "lng": -58.232128,
+            "name": "Mural del Fierrero"
+        },
+        "19e5e64db38644f7bfc02d053a92a352.16": {
+            "guid": "19e5e64db38644f7bfc02d053a92a352.16",
+            "lat": -32.489467,
+            "lng": -58.229675,
+            "name": "Ministerio de Justicia"
+        },
+        "cc7c1a96d7e14a75a3155f1a755a3a71.16": {
+            "guid": "cc7c1a96d7e14a75a3155f1a755a3a71.16",
+            "lat": -32.489228,
+            "lng": -58.230168,
+            "name": "Teatro Avenida"
+        },
+        "352fce433add4776a47dd3bf14175758.16": {
+            "guid": "352fce433add4776a47dd3bf14175758.16",
+            "lat": -32.491103,
+            "lng": -58.229308,
+            "name": "Mural \"Mujer militar\""
+        },
+        "60da3f961f3341c485a11dc89757a7b5.16": {
+            "guid": "60da3f961f3341c485a11dc89757a7b5.16",
+            "lat": -32.491718,
+            "lng": -58.229283,
+            "name": "Placa: Sindicato de Empleados y Obreros Telefónicos de Entre Rios"
+        },
+        "bf4d9419669b403fa48afafdb579ab00.16": {
+            "guid": "bf4d9419669b403fa48afafdb579ab00.16",
+            "lat": -32.490936,
+            "lng": -58.230626,
+            "name": "Iglesia Cristo Vive"
+        },
+        "8beb1d979dae41d88307a6e4fb4366d4.16": {
+            "guid": "8beb1d979dae41d88307a6e4fb4366d4.16",
+            "lat": -32.493075,
+            "lng": -58.232314,
+            "name": "Torre de Agua"
+        },
+        "0788a6c8dc424dbdaa765397b46eb2ce.16": {
+            "guid": "0788a6c8dc424dbdaa765397b46eb2ce.16",
+            "lat": -32.492943,
+            "lng": -58.234418,
+            "name": "Parroquia Arroyo de la china."
+        },
+        "d498c0ce01384b13867809a51fb6fbd9.16": {
+            "guid": "d498c0ce01384b13867809a51fb6fbd9.16",
+            "lat": -32.494629,
+            "lng": -58.233315,
+            "name": "Gauchito Gil Hermita"
+        },
+        "56437072c7e63b299ee6d0d021130fd1.16": {
+            "guid": "56437072c7e63b299ee6d0d021130fd1.16",
+            "lat": -32.495741,
+            "lng": -58.233341,
+            "name": "Pergola de Descanso n°8"
+        },
+        "dc996149f78f431db9b0a7f7e0de001b.16": {
+            "guid": "dc996149f78f431db9b0a7f7e0de001b.16",
+            "lat": -32.494017,
+            "lng": -58.232018,
+            "name": "Mural: Club Parque Sur"
+        },
+        "3767d9a339c238be80bd27becb9efdd4.16": {
+            "guid": "3767d9a339c238be80bd27becb9efdd4.16",
+            "lat": -32.493403,
+            "lng": -58.229715,
+            "name": "Mural: El Pibe Thom"
+        },
+        "8876beacf98f447880fbcc4d976f29e4.16": {
+            "guid": "8876beacf98f447880fbcc4d976f29e4.16",
+            "lat": -32.494567,
+            "lng": -58.229515,
+            "name": "Parrilla Puerto Viejo"
+        },
+        "236f1bdc84c642528943dfc3080e5537.16": {
+            "guid": "236f1bdc84c642528943dfc3080e5537.16",
+            "lat": -32.493948,
+            "lng": -58.229442,
+            "name": "Placa Homenaje al Dr. Luis Calderón"
+        },
+        "05ce3b4fc68342bf87b0ee7ed282fdba.16": {
+            "guid": "05ce3b4fc68342bf87b0ee7ed282fdba.16",
+            "lat": -32.481174,
+            "lng": -58.233915,
+            "name": "Placa del Taller Latinoamericano"
+        },
+        "46fd4223f3b84f6eabd183a45fa450dc.16": {
+            "guid": "46fd4223f3b84f6eabd183a45fa450dc.16",
+            "lat": -32.48054,
+            "lng": -58.232995,
+            "name": "Consejo Municipal de la Mujer."
+        },
+        "0df0f0c734b538f4a7dff5207573c40c.16": {
+            "guid": "0df0f0c734b538f4a7dff5207573c40c.16",
+            "lat": -32.480438,
+            "lng": -58.233386,
+            "name": "Círculo de Farmacéuticos"
+        },
+        "0adb8d24961d41499e3c03ae761bc5b9.16": {
+            "guid": "0adb8d24961d41499e3c03ae761bc5b9.16",
+            "lat": -32.48039,
+            "lng": -58.233976,
+            "name": "Placa Aguaribay"
+        },
+        "ca66fd6268b748af86aed31bea6b7582.16": {
+            "guid": "ca66fd6268b748af86aed31bea6b7582.16",
+            "lat": -32.480197,
+            "lng": -58.234624,
+            "name": "Virgen del Rosario de San Nicolás"
+        },
+        "90f5c27f2e1841cead29f295c5e2bc81.16": {
+            "guid": "90f5c27f2e1841cead29f295c5e2bc81.16",
+            "lat": -32.479971,
+            "lng": -58.234033,
+            "name": "Parque de juegos"
+        },
+        "92d916d6ee2940168e72a87daaebd77e.16": {
+            "guid": "92d916d6ee2940168e72a87daaebd77e.16",
+            "lat": -32.479285,
+            "lng": -58.233104,
+            "name": "Mural del fierrero"
+        },
+        "df5a4271129b4776953eb579f0f2525f.16": {
+            "guid": "df5a4271129b4776953eb579f0f2525f.16",
+            "lat": -32.478943,
+            "lng": -58.233284,
+            "name": "Complejo Universitario UADER"
+        },
+        "8f66461b5a60492693ec8a8df1be909c.16": {
+            "guid": "8f66461b5a60492693ec8a8df1be909c.16",
+            "lat": -32.478471,
+            "lng": -58.232913,
+            "name": "Mural: \"Ser Nerd es Bueno\""
+        },
+        "f2ff4d15a4dd4b4ca2f3a24579d47524.16": {
+            "guid": "f2ff4d15a4dd4b4ca2f3a24579d47524.16",
+            "lat": -32.478315,
+            "lng": -58.233623,
+            "name": "Pajaros patrióticos"
+        },
+        "7844d679da9835af993b5e3523d4b98d.16": {
+            "guid": "7844d679da9835af993b5e3523d4b98d.16",
+            "lat": -32.478156,
+            "lng": -58.233826,
+            "name": "El Salmón"
+        },
+        "d806c8c812c94aa38f6b503a17c4e46c.16": {
+            "guid": "d806c8c812c94aa38f6b503a17c4e46c.16",
+            "lat": -32.477447,
+            "lng": -58.233923,
+            "name": "Hipólito Yrigoyen"
+        },
+        "30f9c304587041aba18c1e108c4715b6.16": {
+            "guid": "30f9c304587041aba18c1e108c4715b6.16",
+            "lat": -32.477305,
+            "lng": -58.2332,
+            "name": "Monumento Cervantes"
+        },
+        "0ddf31f4839b41f8bf00d274ad0fd93a.16": {
+            "guid": "0ddf31f4839b41f8bf00d274ad0fd93a.16",
+            "lat": -32.477115,
+            "lng": -58.232171,
+            "name": "Pasarela Arco Peatonal"
+        },
+        "31ec9a8cde5047efab8fba78d247fd5b.16": {
+            "guid": "31ec9a8cde5047efab8fba78d247fd5b.16",
+            "lat": -32.477013,
+            "lng": -58.231399,
+            "name": "Monumento Al Trabajador"
+        },
+        "ed8d34819e8632f0a9d66a4f9348ac0e.16": {
+            "guid": "ed8d34819e8632f0a9d66a4f9348ac0e.16",
+            "lat": -32.477088,
+            "lng": -58.231156,
+            "name": "Mural: Conduzca Despacio"
+        },
+        "1002fe5dfcd93f2ead392337cd563c49.16": {
+            "guid": "1002fe5dfcd93f2ead392337cd563c49.16",
+            "lat": -32.476695,
+            "lng": -58.230541,
+            "name": "Centro de Aprendizaje Universitario"
+        },
+        "bd2c854baf613ed18188a5e5e7eb7e30.16": {
+            "guid": "bd2c854baf613ed18188a5e5e7eb7e30.16",
+            "lat": -32.479254,
+            "lng": -58.229816,
+            "name": "Pedro, el perro cervecero"
+        },
+        "2aae86fe1ac53c44bd9464ab995d6fba.16": {
+            "guid": "2aae86fe1ac53c44bd9464ab995d6fba.16",
+            "lat": -32.479644,
+            "lng": -58.229589,
+            "name": "Maneki-Neko"
+        },
+        "4ea3377c1438307890bd76bdbd1d3640.16": {
+            "guid": "4ea3377c1438307890bd76bdbd1d3640.16",
+            "lat": -32.479706,
+            "lng": -58.229905,
+            "name": "Palillos con fideos"
+        },
+        "4763d6bf95223b39a0423901f87b26d9.16": {
+            "guid": "4763d6bf95223b39a0423901f87b26d9.16",
+            "lat": -32.478848,
+            "lng": -58.231906,
+            "name": "Mural \"Nika\""
+        },
+        "663c053fb8d1409689cf56ec60833f9d.16": {
+            "guid": "663c053fb8d1409689cf56ec60833f9d.16",
+            "lat": -32.478972,
+            "lng": -58.231505,
+            "name": "Mural: Palmeras en piedra"
+        },
+        "43c75b72814e45b5b93653c8aaf19ddf.16": {
+            "guid": "43c75b72814e45b5b93653c8aaf19ddf.16",
+            "lat": -32.476611,
+            "lng": -58.229208,
+            "name": "Monumento Olímpico"
+        },
+        "6842e255707340d296f316e56953e9a4.16": {
+            "guid": "6842e255707340d296f316e56953e9a4.16",
+            "lat": -32.481129,
+            "lng": -58.235374,
+            "name": "Justicia por Kevin"
+        },
+        "73e8f04fdc0d46a4aec656881ab99650.16": {
+            "guid": "73e8f04fdc0d46a4aec656881ab99650.16",
+            "lat": -32.481807,
+            "lng": -58.236108,
+            "name": "Consejo Profesional de Ciencias Económicas de Entre Ríos"
+        },
+        "afc1361d0e5b4bdca02f2549320943a5.16": {
+            "guid": "afc1361d0e5b4bdca02f2549320943a5.16",
+            "lat": -32.482665,
+            "lng": -58.240318,
+            "name": "Escudo de la Republica Argentina"
+        },
+        "95cc46e32c8c31ce9466475e0142693c.16": {
+            "guid": "95cc46e32c8c31ce9466475e0142693c.16",
+            "lat": -32.48162,
+            "lng": -58.24053,
+            "name": "Mural Free Style"
+        },
+        "6aa9c1fc5f4b4078902700ccbb88726b.16": {
+            "guid": "6aa9c1fc5f4b4078902700ccbb88726b.16",
+            "lat": -32.480201,
+            "lng": -58.240047,
+            "name": "Usuarios y Consumidores Unidos."
+        },
+        "61d5e630192c41c89e5c9dd50b6f5a76.16": {
+            "guid": "61d5e630192c41c89e5c9dd50b6f5a76.16",
+            "lat": -32.478919,
+            "lng": -58.240269,
+            "name": "Garita de la Estación"
+        },
+        "59086ff27746365abf801566ae24ea5a.16": {
+            "guid": "59086ff27746365abf801566ae24ea5a.16",
+            "lat": -32.478354,
+            "lng": -58.238696,
+            "name": "Mural: Balde y Escoba"
+        },
+        "a5d683f28d024665955b161ea21cd8d0.16": {
+            "guid": "a5d683f28d024665955b161ea21cd8d0.16",
+            "lat": -32.478193,
+            "lng": -58.23808,
+            "name": "Placa Colectividad Arabe"
+        },
+        "90ad0bed078231898c65503ebe55fa99.16": {
+            "guid": "90ad0bed078231898c65503ebe55fa99.16",
+            "lat": -32.478197,
+            "lng": -58.23762,
+            "name": "Mural : \"Mis Ojos Sonrien Cuando Te ven \""
+        },
+        "2d3ab99ab0454f099d32b37a5ef2ab8e.16": {
+            "guid": "2d3ab99ab0454f099d32b37a5ef2ab8e.16",
+            "lat": -32.478442,
+            "lng": -58.236843,
+            "name": "Iglesia Oratorio Santa Rita"
+        },
+        "a37c802860a14f81a76d0f8a56fe4d71.16": {
+            "guid": "a37c802860a14f81a76d0f8a56fe4d71.16",
+            "lat": -32.478898,
+            "lng": -58.237237,
+            "name": "Mural: Flores silvestres"
+        },
+        "67d7a32602694b8490d71fff12f3a6bb.16": {
+            "guid": "67d7a32602694b8490d71fff12f3a6bb.16",
+            "lat": -32.479766,
+            "lng": -58.238544,
+            "name": "Asociación de Tejo: La estación"
+        },
+        "c4c9f19de39046cc8ad7c845ac8abd16.16": {
+            "guid": "c4c9f19de39046cc8ad7c845ac8abd16.16",
+            "lat": -32.480192,
+            "lng": -58.238139,
+            "name": "Mural: Gimnasia Artística"
+        },
+        "8191562740053fc8811647c8d06a8e60.16": {
+            "guid": "8191562740053fc8811647c8d06a8e60.16",
+            "lat": -32.480365,
+            "lng": -58.237167,
+            "name": "Mariquita Numerologica"
+        },
+        "d4b9816d88924b18b3b3d4d26429bf12.16": {
+            "guid": "d4b9816d88924b18b3b3d4d26429bf12.16",
+            "lat": -32.479648,
+            "lng": -58.236501,
+            "name": "Iglesia Hijos del Altisimo"
+        },
+        "86ee185792e441788ed51ab7734af715.16": {
+            "guid": "86ee185792e441788ed51ab7734af715.16",
+            "lat": -32.479925,
+            "lng": -58.235139,
+            "name": "Cine San Martín"
+        },
+        "b5742e9d93f7430f95b89ef7bfdaab5c.16": {
+            "guid": "b5742e9d93f7430f95b89ef7bfdaab5c.16",
+            "lat": -32.479302,
+            "lng": -58.235182,
+            "name": "Club Zaninetti"
+        },
+        "883ebb9e0a4247f3a5eb4897dfe40bbe.16": {
+            "guid": "883ebb9e0a4247f3a5eb4897dfe40bbe.16",
+            "lat": -32.477625,
+            "lng": -58.235062,
+            "name": "Plazoleta 17 Octubre"
+        },
+        "8fd91c36f02c4425a712ab3fbace243a.16": {
+            "guid": "8fd91c36f02c4425a712ab3fbace243a.16",
+            "lat": -32.475486,
+            "lng": -58.236698,
+            "name": "Ermita del \"Niño Jesús\"."
+        },
+        "90c40eb3c69f4fe5b687a421b97cc489.16": {
+            "guid": "90c40eb3c69f4fe5b687a421b97cc489.16",
+            "lat": -32.475381,
+            "lng": -58.24043,
+            "name": "Busto Sarmiento"
+        },
+        "feeeec1e395f38ef849cfa8f6492988c.16": {
+            "guid": "feeeec1e395f38ef849cfa8f6492988c.16",
+            "lat": -32.473871,
+            "lng": -58.240444,
+            "name": "\"Chinito\" barrio Santa Teresita"
+        },
+        "626962a7d8104db3bdab862366c3e0a1.16": {
+            "guid": "626962a7d8104db3bdab862366c3e0a1.16",
+            "lat": -32.476294,
+            "lng": -58.23908,
+            "name": "Mural Mujer Dragon y Ave"
+        },
+        "ab9bb76e6eb943c19330755dc756fca7.16": {
+            "guid": "ab9bb76e6eb943c19330755dc756fca7.16",
+            "lat": -32.474791,
+            "lng": -58.238282,
+            "name": "Mural Puerco"
+        },
+        "ff95aa0ed2054c9c9a592ecc28001869.16": {
+            "guid": "ff95aa0ed2054c9c9a592ecc28001869.16",
+            "lat": -32.476825,
+            "lng": -58.236163,
+            "name": "Imagen de San Cayetano."
+        },
+        "e04d29caf10448c7a39e70bf4e43145c.16": {
+            "guid": "e04d29caf10448c7a39e70bf4e43145c.16",
+            "lat": -32.477127,
+            "lng": -58.237743,
+            "name": "Hombres trabajando"
+        },
+        "f6c9f04c632a4ee4b745c01f24fc4840.16": {
+            "guid": "f6c9f04c632a4ee4b745c01f24fc4840.16",
+            "lat": -32.496256,
+            "lng": -58.229172,
+            "name": "Mural del Estudiante"
+        },
+        "ed75a156ed3c47ed8f3a47cee03026e3.16": {
+            "guid": "ed75a156ed3c47ed8f3a47cee03026e3.16",
+            "lat": -32.498426,
+            "lng": -58.229312,
+            "name": "Pérgola de Descanso"
+        },
+        "7921fc649aa93bfdbbcc6e0ccee513af.16": {
+            "guid": "7921fc649aa93bfdbbcc6e0ccee513af.16",
+            "lat": -32.49834,
+            "lng": -58.231007,
+            "name": "Cancha de Futbol publica"
+        },
+        "b80390be2bc442e1aa6d8c23aafa60cb.16": {
+            "guid": "b80390be2bc442e1aa6d8c23aafa60cb.16",
+            "lat": -32.49883,
+            "lng": -58.232601,
+            "name": "Pérgola de Descanso #3"
+        },
+        "54ac1b4975244fb6a8ffb30ddf2d601d.16": {
+            "guid": "54ac1b4975244fb6a8ffb30ddf2d601d.16",
+            "lat": -32.497362,
+            "lng": -58.228712,
+            "name": "Plaza Carlos Schiavo"
+        },
+        "5dfbf2061da94a9b8e56c1f21e25d62f.16": {
+            "guid": "5dfbf2061da94a9b8e56c1f21e25d62f.16",
+            "lat": -32.49657,
+            "lng": -58.22912,
+            "name": "Capilla Nuestra Señora de Fátima"
+        },
+        "a1f64af4378743f1beb15858a7fdea58.16": {
+            "guid": "a1f64af4378743f1beb15858a7fdea58.16",
+            "lat": -32.49503,
+            "lng": -58.226623,
+            "name": "Emilio Pereira"
+        },
+        "048117ca15a84378b75d12b60d034eee.16": {
+            "guid": "048117ca15a84378b75d12b60d034eee.16",
+            "lat": -32.495444,
+            "lng": -58.228267,
+            "name": "Club Parque Sur"
+        },
+        "a40ae372f620399695354b35d67ab89c.16": {
+            "guid": "a40ae372f620399695354b35d67ab89c.16",
+            "lat": -32.495975,
+            "lng": -58.228263,
+            "name": "Netoj Lagura"
+        },
+        "1450c2c92cb9473fb6a9189774abe850.16": {
+            "guid": "1450c2c92cb9473fb6a9189774abe850.16",
+            "lat": -32.496905,
+            "lng": -58.228343,
+            "name": "Elper lanegra"
+        },
+        "7e2e09b1214d430bb4851939f669fcbb.16": {
+            "guid": "7e2e09b1214d430bb4851939f669fcbb.16",
+            "lat": -32.498132,
+            "lng": -58.227486,
+            "name": "Monumento a los Pescadores de Parque Sur"
+        },
+        "19dc605f9232491b8675dd7862632698.16": {
+            "guid": "19dc605f9232491b8675dd7862632698.16",
+            "lat": -32.49837,
+            "lng": -58.228848,
+            "name": "Juegos Saludables 3"
+        },
+        "0d427afeb6ea496fa83c0107d126d7ca.16": {
+            "guid": "0d427afeb6ea496fa83c0107d126d7ca.16",
+            "lat": -32.500061,
+            "lng": -58.229003,
+            "name": "placa batalla de Itapé"
+        },
+        "30e5c41593b64a25839233f665e22294.16": {
+            "guid": "30e5c41593b64a25839233f665e22294.16",
+            "lat": -32.49192,
+            "lng": -58.225137,
+            "name": "Mural: Pareja estelar"
+        },
+        "19fb884aaf944c47bac5124165613829.16": {
+            "guid": "19fb884aaf944c47bac5124165613829.16",
+            "lat": -32.492345,
+            "lng": -58.226097,
+            "name": "Santa Rita"
+        },
+        "c66dded9516c42a29f13c631c1557d4e.16": {
+            "guid": "c66dded9516c42a29f13c631c1557d4e.16",
+            "lat": -32.49463,
+            "lng": -58.228888,
+            "name": "Academia de Boxeo \"Amilcar Brusa\""
+        },
+        "fcff2f42340645358bd3c8ca71d0b0e2.16": {
+            "guid": "fcff2f42340645358bd3c8ca71d0b0e2.16",
+            "lat": -32.491577,
+            "lng": -58.228901,
+            "name": "Casa Familia Angel Ratto"
+        },
+        "a18a100b7f954501bb7e94ceb0da0600.16": {
+            "guid": "a18a100b7f954501bb7e94ceb0da0600.16",
+            "lat": -32.490833,
+            "lng": -58.224723,
+            "name": "Ciudad Sol y Playa"
+        },
+        "81fa3cf00a3047f5914c444178e00f8c.16": {
+            "guid": "81fa3cf00a3047f5914c444178e00f8c.16",
+            "lat": -32.489974,
+            "lng": -58.224466,
+            "name": "Mural: La Naturaleza es Dios"
+        },
+        "dc580def80444b7a9564f768c5f7b73a.16": {
+            "guid": "dc580def80444b7a9564f768c5f7b73a.16",
+            "lat": -32.484612,
+            "lng": -58.228244,
+            "name": "Facultad De Humanidades"
+        },
+        "68c65769a1674193b83a4ddb5de3b97d.16": {
+            "guid": "68c65769a1674193b83a4ddb5de3b97d.16",
+            "lat": -32.484692,
+            "lng": -58.228469,
+            "name": "Sarmiento"
+        },
+        "363937ba5fe245889e676809ee5f04b1.16": {
+            "guid": "363937ba5fe245889e676809ee5f04b1.16",
+            "lat": -32.483974,
+            "lng": -58.228755,
+            "name": "Placa homenaje Asociación hogar rural \"Dolores Costa de Urquiza\""
+        },
+        "df150ea45fd547b39d9ee03fea8e1092.16": {
+            "guid": "df150ea45fd547b39d9ee03fea8e1092.16",
+            "lat": -32.483773,
+            "lng": -58.228446,
+            "name": "Mural Colibrí"
+        },
+        "6da66c20bd2f4409a65192fa01e76984.16": {
+            "guid": "6da66c20bd2f4409a65192fa01e76984.16",
+            "lat": -32.483181,
+            "lng": -58.227863,
+            "name": "Asociación de Magistrados"
+        },
+        "806a931bf6db3a5a90323226cfe6eebf.16": {
+            "guid": "806a931bf6db3a5a90323226cfe6eebf.16",
+            "lat": -32.48373,
+            "lng": -58.227371,
+            "name": "Mural \"Hombre del espejo\""
+        },
+        "0e523dda1354355eb89f880a2c8fe66f.16": {
+            "guid": "0e523dda1354355eb89f880a2c8fe66f.16",
+            "lat": -32.483956,
+            "lng": -58.227207,
+            "name": "Mural \"Hombre de la jaula\""
+        },
+        "85cfc517978144979da5ae88920723bf.16": {
+            "guid": "85cfc517978144979da5ae88920723bf.16",
+            "lat": -32.483647,
+            "lng": -58.226367,
+            "name": "Mural Micaela"
+        },
+        "6baeb4560f7141e299ec5c13d155605c.16": {
+            "guid": "6baeb4560f7141e299ec5c13d155605c.16",
+            "lat": -32.483365,
+            "lng": -58.224737,
+            "name": "Bebé Con Chupete- Mural"
+        },
+        "a9eb7aa1f8db352aa65f1c282f1fe023.16": {
+            "guid": "a9eb7aa1f8db352aa65f1c282f1fe023.16",
+            "lat": -32.482819,
+            "lng": -58.224961,
+            "name": "El hombre del acordeon"
+        },
+        "22ca657e896a46e1bcfe729d05efd307.16": {
+            "guid": "22ca657e896a46e1bcfe729d05efd307.16",
+            "lat": -32.482361,
+            "lng": -58.225586,
+            "name": "Dr. Augusto Blanchet"
+        },
+        "8d91a0114d2d3706b45ca93834855f80.16": {
+            "guid": "8d91a0114d2d3706b45ca93834855f80.16",
+            "lat": -32.482773,
+            "lng": -58.22602,
+            "name": "Mural \"Arquitectura Moderna\""
+        },
+        "8aa56ab4e7aa4c96aa123525b91c6144.16": {
+            "guid": "8aa56ab4e7aa4c96aa123525b91c6144.16",
+            "lat": -32.48228,
+            "lng": -58.226468,
+            "name": "Mural: cigarra"
+        },
+        "8019507ad6974baeac10a1d946f65de4.16": {
+            "guid": "8019507ad6974baeac10a1d946f65de4.16",
+            "lat": -32.482245,
+            "lng": -58.227889,
+            "name": "Asociación Bancaria (sindicato)"
+        },
+        "801537502a804e1ea2c2c2f1cf6408c7.16": {
+            "guid": "801537502a804e1ea2c2c2f1cf6408c7.16",
+            "lat": -32.482304,
+            "lng": -58.227376,
+            "name": "En Memoria"
+        },
+        "ef2aab676cb840d1aec9865e10c58ad8.16": {
+            "guid": "ef2aab676cb840d1aec9865e10c58ad8.16",
+            "lat": -32.483036,
+            "lng": -58.227043,
+            "name": "Mural en homenaje a la bandera"
+        },
+        "e7b64fa9a088426a8ab4f645cf168263.16": {
+            "guid": "e7b64fa9a088426a8ab4f645cf168263.16",
+            "lat": -32.481783,
+            "lng": -58.229112,
+            "name": "Facultad De Ciencias Agrarias"
+        },
+        "a937ea5a58144024aa1e2b665efd3085.16": {
+            "guid": "a937ea5a58144024aa1e2b665efd3085.16",
+            "lat": -32.480186,
+            "lng": -58.228747,
+            "name": "Unión Tranviarios Automotor"
+        },
+        "0797f844025c4de09b78b52998ce66e7.16": {
+            "guid": "0797f844025c4de09b78b52998ce66e7.16",
+            "lat": -32.480796,
+            "lng": -58.228485,
+            "name": "Mural: Naturalmente"
+        },
+        "9c4ef6787d073364be2412927d4d87d2.16": {
+            "guid": "9c4ef6787d073364be2412927d4d87d2.16",
+            "lat": -32.480838,
+            "lng": -58.227836,
+            "name": "La mano acusadora"
+        },
+        "b949982fdad940788166e23e54c0f952.16": {
+            "guid": "b949982fdad940788166e23e54c0f952.16",
+            "lat": -32.480004,
+            "lng": -58.227474,
+            "name": "Sindicato Luz y Fuerza."
+        },
+        "f31c6caa00f548f3ae3632146b6b7652.16": {
+            "guid": "f31c6caa00f548f3ae3632146b6b7652.16",
+            "lat": -32.480317,
+            "lng": -58.227019,
+            "name": "Arbol con hojas de colores"
+        },
+        "a28c46fd01d04ac686759d2686c4e49c.16": {
+            "guid": "a28c46fd01d04ac686759d2686c4e49c.16",
+            "lat": -32.483535,
+            "lng": -58.22286,
+            "name": "Cíclope Condenado"
+        },
+        "e933cfc2b35c386ea681c9d3412d589d.16": {
+            "guid": "e933cfc2b35c386ea681c9d3412d589d.16",
+            "lat": -32.484968,
+            "lng": -58.222732,
+            "name": "Zona de Descanso 2"
+        },
+        "1d68bc6fd68835b29b1f8eadda062c01.16": {
+            "guid": "1d68bc6fd68835b29b1f8eadda062c01.16",
+            "lat": -32.485926,
+            "lng": -58.222893,
+            "name": "TPCU"
+        },
+        "23b549f26c3c420ba82f2e78961e639a.16": {
+            "guid": "23b549f26c3c420ba82f2e78961e639a.16",
+            "lat": -32.484526,
+            "lng": -58.224282,
+            "name": "Mural \"Solo amor\""
+        },
+        "f5dfe638de2149e28562c6c530a53154.16": {
+            "guid": "f5dfe638de2149e28562c6c530a53154.16",
+            "lat": -32.486823,
+            "lng": -58.2247,
+            "name": "Placa Homenaje Juan José Rizzo"
+        },
+        "0dde360094a14d5ea0b2d799ce51a953.16": {
+            "guid": "0dde360094a14d5ea0b2d799ce51a953.16",
+            "lat": -32.487722,
+            "lng": -58.224501,
+            "name": "Mural: Docentes en lucha"
+        },
+        "201d305711c64ad18710299055a5dee5.16": {
+            "guid": "201d305711c64ad18710299055a5dee5.16",
+            "lat": -32.4871,
+            "lng": -58.225297,
+            "name": "Club Deportivo Almafuerte"
+        },
+        "946535f9f4244f07b7ee9145ccb4aacb.16": {
+            "guid": "946535f9f4244f07b7ee9145ccb4aacb.16",
+            "lat": -32.485632,
+            "lng": -58.225642,
+            "name": "Mural \"In Hoc Signo Vinces\""
+        },
+        "d45de773cfc84f059446191d566ab928.16": {
+            "guid": "d45de773cfc84f059446191d566ab928.16",
+            "lat": -32.487714,
+            "lng": -58.229086,
+            "name": "Mozaicos Dinosaurios"
+        },
+        "1528115caf313690b7ee780244abbfc3.16": {
+            "guid": "1528115caf313690b7ee780244abbfc3.16",
+            "lat": -32.489361,
+            "lng": -58.228813,
+            "name": "Placa \"Al futuro con viviendas\""
+        },
+        "150bd4411f7640da9258a91d3839a60d.16": {
+            "guid": "150bd4411f7640da9258a91d3839a60d.16",
+            "lat": -32.488943,
+            "lng": -58.225113,
+            "name": "Mural: El Buitre"
+        },
+        "39a5339dbbf3458dad72b972654ab390.16": {
+            "guid": "39a5339dbbf3458dad72b972654ab390.16",
+            "lat": -32.488656,
+            "lng": -58.224763,
+            "name": "Mural: cuidemos el planeta"
+        },
+        "796ea89807443c3a8929794f1b35e582.16": {
+            "guid": "796ea89807443c3a8929794f1b35e582.16",
+            "lat": -32.474986,
+            "lng": -58.222884,
+            "name": "Placa centenario CRU"
+        },
+        "01bb1f257f7140eba7157b0d9485a1be.16": {
+            "guid": "01bb1f257f7140eba7157b0d9485a1be.16",
+            "lat": -32.47644,
+            "lng": -58.22206,
+            "name": "Club Regatas Uruguay"
+        },
+        "9f48f98581db4209accdb7875e6c5321.16": {
+            "guid": "9f48f98581db4209accdb7875e6c5321.16",
+            "lat": -32.476901,
+            "lng": -58.221568,
+            "name": "Mariano E. Lopez - Busto"
+        },
+        "95abd3b14a1d3f86b95add516d94627d.16": {
+            "guid": "95abd3b14a1d3f86b95add516d94627d.16",
+            "lat": -32.477606,
+            "lng": -58.222359,
+            "name": "Mural \"40 Años de Malvinas\""
+        },
+        "dd8b8aec18774294b247ff6679d87af6.16": {
+            "guid": "dd8b8aec18774294b247ff6679d87af6.16",
+            "lat": -32.477801,
+            "lng": -58.221198,
+            "name": "Placa División del Río Uruguay"
+        },
+        "0d4a16ea96c14abb977c9b0e189595fc.16": {
+            "guid": "0d4a16ea96c14abb977c9b0e189595fc.16",
+            "lat": -32.478233,
+            "lng": -58.221387,
+            "name": "Busto Brown"
+        },
+        "69a5e6040860403299dbb109aa751dc4.16": {
+            "guid": "69a5e6040860403299dbb109aa751dc4.16",
+            "lat": -32.478828,
+            "lng": -58.221877,
+            "name": "Santuario A Leonardo"
+        },
+        "45c670da46734825860af502051b4c0b.16": {
+            "guid": "45c670da46734825860af502051b4c0b.16",
+            "lat": -32.478589,
+            "lng": -58.223255,
+            "name": "Mural: \"Fue sin querer queriendo\""
+        },
+        "95a4a2863d084aa891733031fa5126d6.16": {
+            "guid": "95a4a2863d084aa891733031fa5126d6.16",
+            "lat": -32.479572,
+            "lng": -58.222687,
+            "name": "Iglesia. Jesucristo el Rey"
+        },
+        "11a84e6438604ea4abaf4d5ac8b27828.16": {
+            "guid": "11a84e6438604ea4abaf4d5ac8b27828.16",
+            "lat": -32.480613,
+            "lng": -58.222569,
+            "name": "Mural OVNI"
+        },
+        "e7ff85bbaad44509baf5e1d2f3a0a41e.16": {
+            "guid": "e7ff85bbaad44509baf5e1d2f3a0a41e.16",
+            "lat": -32.480818,
+            "lng": -58.223163,
+            "name": "Capilla Stella Maris"
+        },
+        "4133896ea731447aafb46462f6ea143b.16": {
+            "guid": "4133896ea731447aafb46462f6ea143b.16",
+            "lat": -32.482714,
+            "lng": -58.222048,
+            "name": "Chica Tatoo"
+        },
+        "a9af45afb0fc4010a2b7fba7e7b96191.16": {
+            "guid": "a9af45afb0fc4010a2b7fba7e7b96191.16",
+            "lat": -32.482461,
+            "lng": -58.221826,
+            "name": "Juan Domingo Perón - Mural"
+        },
+        "9d45d46be10948cd86bb44196e0546ce.16": {
+            "guid": "9d45d46be10948cd86bb44196e0546ce.16",
+            "lat": -32.482168,
+            "lng": -58.221754,
+            "name": "Hugo Domingo Baldoni - Mural"
+        },
+        "5808abbfc868453fac0196d4fbf8b374.16": {
+            "guid": "5808abbfc868453fac0196d4fbf8b374.16",
+            "lat": -32.482884,
+            "lng": -58.223275,
+            "name": "Mural \"Amor por la Tierra\""
+        },
+        "e7ccfe1bef8544cfb63d1c626e99d172.16": {
+            "guid": "e7ccfe1bef8544cfb63d1c626e99d172.16",
+            "lat": -32.482307,
+            "lng": -58.222618,
+            "name": "Mural: Niño Gurt"
+        },
+        "07e00a93c18c4726ad75ed83a055ad4d.16": {
+            "guid": "07e00a93c18c4726ad75ed83a055ad4d.16",
+            "lat": -32.470634,
+            "lng": -58.226642,
+            "name": "Para Saludable"
+        },
+        "f293ab066ce53fe6b33e3109178a8167.16": {
+            "guid": "f293ab066ce53fe6b33e3109178a8167.16",
+            "lat": -32.470462,
+            "lng": -58.227276,
+            "name": "Monolito Defensa Norte"
+        },
+        "4868c335d8b3457a972c36edff7a5b2f.16": {
+            "guid": "4868c335d8b3457a972c36edff7a5b2f.16",
+            "lat": -32.472106,
+            "lng": -58.227073,
+            "name": "Estadio Nuñez"
+        },
+        "2a6daea1e0113e98839454b169fbc9dc.16": {
+            "guid": "2a6daea1e0113e98839454b169fbc9dc.16",
+            "lat": -32.472099,
+            "lng": -58.226672,
+            "name": "100 Años Gimnasia"
+        },
+        "3eab7b4c881149fa9463990e60665d17.16": {
+            "guid": "3eab7b4c881149fa9463990e60665d17.16",
+            "lat": -32.471816,
+            "lng": -58.22491,
+            "name": "Yacht Club Entrerriano"
+        },
+        "75210069f0b34ea5b0aa0c28f19f51db.16": {
+            "guid": "75210069f0b34ea5b0aa0c28f19f51db.16",
+            "lat": -32.472186,
+            "lng": -58.224653,
+            "name": "Placa: \"La Fraternidad\""
+        },
+        "29d4300c28f84436aa2d121fe999efde.16": {
+            "guid": "29d4300c28f84436aa2d121fe999efde.16",
+            "lat": -32.472586,
+            "lng": -58.224397,
+            "name": "Locomotora Y Vagón Antiguo"
+        },
+        "3f5583e649bc309ba10f958e6ebb5425.16": {
+            "guid": "3f5583e649bc309ba10f958e6ebb5425.16",
+            "lat": -32.473379,
+            "lng": -58.227451,
+            "name": "Mural Lobo Corriendo Cerditos"
+        },
+        "a7f7224102ce3edbbc8c720dd0498d65.16": {
+            "guid": "a7f7224102ce3edbbc8c720dd0498d65.16",
+            "lat": -32.473864,
+            "lng": -58.227413,
+            "name": "Mural Lobo"
+        },
+        "3e02032efb063bff843ec072c7ded9f6.16": {
+            "guid": "3e02032efb063bff843ec072c7ded9f6.16",
+            "lat": -32.472991,
+            "lng": -58.227603,
+            "name": "Club Gimnasio & Esgrima"
+        },
+        "10920714d7e84d27b937c90fd07274a4.16": {
+            "guid": "10920714d7e84d27b937c90fd07274a4.16",
+            "lat": -32.472457,
+            "lng": -58.229692,
+            "name": "Cruz En Santuario"
+        },
+        "c735e71810374a5d887d6885c4b83931.16": {
+            "guid": "c735e71810374a5d887d6885c4b83931.16",
+            "lat": -32.472986,
+            "lng": -58.229653,
+            "name": "Capilla San José"
+        },
+        "3a8205568dd54ed28cdd8bc6e08eca31.16": {
+            "guid": "3a8205568dd54ed28cdd8bc6e08eca31.16",
+            "lat": -32.485645,
+            "lng": -58.237534,
+            "name": "Mural: Hombre Araña"
+        },
+        "b1961f36e68f33b3a1c518cb905822c6.16": {
+            "guid": "b1961f36e68f33b3a1c518cb905822c6.16",
+            "lat": -32.486502,
+            "lng": -58.237175,
+            "name": "\"Zorritos Simétricos\""
+        },
+        "9a1ba04091bf332aa18493349a565940.16": {
+            "guid": "9a1ba04091bf332aa18493349a565940.16",
+            "lat": -32.486854,
+            "lng": -58.237097,
+            "name": "\"Sueños del Río\""
+        },
+        "3307ed687bd747c1bcdc7d988907fc83.16": {
+            "guid": "3307ed687bd747c1bcdc7d988907fc83.16",
+            "lat": -32.486882,
+            "lng": -58.237769,
+            "name": "Sindicato de Trabajadores"
+        },
+        "1e6cc416c1e8366e9e1f07dd2723293f.16": {
+            "guid": "1e6cc416c1e8366e9e1f07dd2723293f.16",
+            "lat": -32.486887,
+            "lng": -58.236488,
+            "name": "Dirrección de Derechos Humanos e Inclusión de las Personas con Discapacidad #2"
+        },
+        "e61dc02b26f4454294ceabf24e22cea4.16": {
+            "guid": "e61dc02b26f4454294ceabf24e22cea4.16",
+            "lat": -32.486824,
+            "lng": -58.236247,
+            "name": "San Jorge"
+        },
+        "10122dbb512948f6b43b66886cbd456b.16": {
+            "guid": "10122dbb512948f6b43b66886cbd456b.16",
+            "lat": -32.486213,
+            "lng": -58.236428,
+            "name": "Sindicato"
+        },
+        "5e0ff4544cc542e689f2c02519e9f024.16": {
+            "guid": "5e0ff4544cc542e689f2c02519e9f024.16",
+            "lat": -32.486026,
+            "lng": -58.235656,
+            "name": "Instituto superior (terciario) de Formación Docente: Dra. Tobar García"
+        },
+        "7d986b6ddc854b92af524c041bc0d883.16": {
+            "guid": "7d986b6ddc854b92af524c041bc0d883.16",
+            "lat": -32.485769,
+            "lng": -58.235467,
+            "name": "Dirección Nacional De Migraciones."
+        },
+        "814ef341e6344a33b067c8051e5231f2.16": {
+            "guid": "814ef341e6344a33b067c8051e5231f2.16",
+            "lat": -32.485316,
+            "lng": -58.235423,
+            "name": "Placa de los defensores de la ciudad"
+        },
+        "941b593b6e4142659d6edd55cde5d4c6.16": {
+            "guid": "941b593b6e4142659d6edd55cde5d4c6.16",
+            "lat": -32.484968,
+            "lng": -58.235636,
+            "name": "Iglesia Universal."
+        },
+        "ccf965c828824bfab78925c1a558b1b8.16": {
+            "guid": "ccf965c828824bfab78925c1a558b1b8.16",
+            "lat": -32.484898,
+            "lng": -58.236529,
+            "name": "Iglesia Evangélica Metodista CDU"
+        },
+        "211b969c21de3146ae487b88918d7b16.16": {
+            "guid": "211b969c21de3146ae487b88918d7b16.16",
+            "lat": -32.486625,
+            "lng": -58.234985,
+            "name": "Jockey Club"
+        },
+        "695225b3aed145b6a138ad37afd5e4e2.16": {
+            "guid": "695225b3aed145b6a138ad37afd5e4e2.16",
+            "lat": -32.483759,
+            "lng": -58.235377,
+            "name": "Ateneo \"Crisólogo Larralde\"."
+        },
+        "754294a13d22498187bcb19e103e0542.16": {
+            "guid": "754294a13d22498187bcb19e103e0542.16",
+            "lat": -32.483852,
+            "lng": -58.235723,
+            "name": "Reloj Peatonal"
+        },
+        "559b891978cb4ff493226976071bcb52.16": {
+            "guid": "559b891978cb4ff493226976071bcb52.16",
+            "lat": -32.482937,
+            "lng": -58.235441,
+            "name": "Biblioteca Barrilete"
+        },
+        "0f26cca560563e8ba03d2d2283389fa4.16": {
+            "guid": "0f26cca560563e8ba03d2d2283389fa4.16",
+            "lat": -32.483256,
+            "lng": -58.236432,
+            "name": "Sindicato de Choferes"
+        },
+        "f85b0529389b45148db5b6078e92bfb0.16": {
+            "guid": "f85b0529389b45148db5b6078e92bfb0.16",
+            "lat": -32.483608,
+            "lng": -58.236613,
+            "name": "Centro social israelita argentino"
+        },
+        "418aaf0388ea40b3a9a275b9a81d711c.16": {
+            "guid": "418aaf0388ea40b3a9a275b9a81d711c.16",
+            "lat": -32.484198,
+            "lng": -58.238254,
+            "name": "Mural Shakespeare"
+        },
+        "84bd1e006ac83048bbbaa6c67d60b87b.16": {
+            "guid": "84bd1e006ac83048bbbaa6c67d60b87b.16",
+            "lat": -32.48508,
+            "lng": -58.238655,
+            "name": "G.S.A."
+        },
+        "e31ab37808153f5597764d474b79634a.16": {
+            "guid": "e31ab37808153f5597764d474b79634a.16",
+            "lat": -32.485149,
+            "lng": -58.239982,
+            "name": "Mural Espacio Queen"
+        },
+        "9cc4b489af3e3a9d9924a55c5cf66224.16": {
+            "guid": "9cc4b489af3e3a9d9924a55c5cf66224.16",
+            "lat": -32.484769,
+            "lng": -58.239963,
+            "name": "Las Yotivenco"
+        },
+        "59beebbd1548388485000bc5fe6910cd.16": {
+            "guid": "59beebbd1548388485000bc5fe6910cd.16",
+            "lat": -32.484498,
+            "lng": -58.239517,
+            "name": "Dirección General De Servicios Sociales"
+        },
+        "57e9852058e64cc4a53cdbc1eea387a6.16": {
+            "guid": "57e9852058e64cc4a53cdbc1eea387a6.16",
+            "lat": -32.486705,
+            "lng": -58.239036,
+            "name": "Mural Dragón"
+        },
+        "5c7413f0c30e48689797574d80d99b35.16": {
+            "guid": "5c7413f0c30e48689797574d80d99b35.16",
+            "lat": -32.487043,
+            "lng": -58.24052,
+            "name": "Club Atlético San Martin"
+        },
+        "7007c7e95e984104af90d34269ea0b84.16": {
+            "guid": "7007c7e95e984104af90d34269ea0b84.16",
+            "lat": -32.486033,
+            "lng": -58.240493,
+            "name": "Salon del Reino"
+        },
+        "0ba2c748737a4aaaa094e0f5db6e3763.16": {
+            "guid": "0ba2c748737a4aaaa094e0f5db6e3763.16",
+            "lat": -32.485778,
+            "lng": -58.238861,
+            "name": "Placa J J Millan"
+        },
+        "1f8309813ff5448ba460c46f035eb348.16": {
+            "guid": "1f8309813ff5448ba460c46f035eb348.16",
+            "lat": -32.487563,
+            "lng": -58.23631,
+            "name": "Institución de Ballet"
+        },
+        "7ea626d5857e4d46be04c43541a4b374.16": {
+            "guid": "7ea626d5857e4d46be04c43541a4b374.16",
+            "lat": -32.488178,
+            "lng": -58.235254,
+            "name": "Mural Guitarra Sonriente"
+        },
+        "7aefb376c0d23a909d4b83b1599b7433.16": {
+            "guid": "7aefb376c0d23a909d4b83b1599b7433.16",
+            "lat": -32.489597,
+            "lng": -58.235011,
+            "name": "Mariposa Monarca"
+        },
+        "af3e494ec0dd43dabf0c99ab34d356fd.16": {
+            "guid": "af3e494ec0dd43dabf0c99ab34d356fd.16",
+            "lat": -32.491505,
+            "lng": -58.238588,
+            "name": "Jehova Jireh"
+        },
+        "0abebbd422ec3df5a49dc58e2832ddd0.16": {
+            "guid": "0abebbd422ec3df5a49dc58e2832ddd0.16",
+            "lat": -32.490178,
+            "lng": -58.238404,
+            "name": "Mural \"El bigote\""
+        },
+        "c9603a69f8e546fbb18a1278ee74e9f7.16": {
+            "guid": "c9603a69f8e546fbb18a1278ee74e9f7.16",
+            "lat": -32.491752,
+            "lng": -58.235066,
+            "name": "Club Sporting Concepción"
+        },
+        "30a4704f307c3c57b59e792bf5bfa204.16": {
+            "guid": "30a4704f307c3c57b59e792bf5bfa204.16",
+            "lat": -32.487065,
+            "lng": -58.240948,
+            "name": "Olimpia"
+        },
+        "7f686b6bf2014821a0a19f9fc3c68a1b.16": {
+            "guid": "7f686b6bf2014821a0a19f9fc3c68a1b.16",
+            "lat": -32.486583,
+            "lng": -58.242386,
+            "name": "Piedra Tratado de Pilar"
+        },
+        "f5cc3ff16a954e34a47eb79f0af43aed.16": {
+            "guid": "f5cc3ff16a954e34a47eb79f0af43aed.16",
+            "lat": -32.485608,
+            "lng": -58.241937,
+            "name": "Iglesia Evangélica \"Jesús el Salvador \"."
+        },
+        "2479f26f21cb38349a0b126e05ec1424.16": {
+            "guid": "2479f26f21cb38349a0b126e05ec1424.16",
+            "lat": -32.485389,
+            "lng": -58.242744,
+            "name": "Placa: Bv. \"Los Constituyentes\"."
+        },
+        "8e542c49436f4f51b31022d57f0009b3.16": {
+            "guid": "8e542c49436f4f51b31022d57f0009b3.16",
+            "lat": -32.485025,
+            "lng": -58.242702,
+            "name": "Tomas De Rocamora - Busto"
+        },
+        "0953639b3fff417e935b10d5d70a729d.16": {
+            "guid": "0953639b3fff417e935b10d5d70a729d.16",
+            "lat": -32.484989,
+            "lng": -58.242458,
+            "name": "la Iglesia de Jesucristo"
+        },
+        "4cd16b09de7641428fb76243b7628a52.16": {
+            "guid": "4cd16b09de7641428fb76243b7628a52.16",
+            "lat": -32.485054,
+            "lng": -58.241713,
+            "name": "Hogar San Vicente"
+        },
+        "40d88e0e4b4945869d4e84db4ffb958d.16": {
+            "guid": "40d88e0e4b4945869d4e84db4ffb958d.16",
+            "lat": -32.483913,
+            "lng": -58.240772,
+            "name": "APINTA"
+        },
+        "ba4d62afa2d330be9689f22c1cffb3a5.16": {
+            "guid": "ba4d62afa2d330be9689f22c1cffb3a5.16",
+            "lat": -32.48559,
+            "lng": -58.240707,
+            "name": "Asociación Entrerriana de Billar"
+        },
+        "d2c622eff1154e0fa5a1f74fbebb5a54.16": {
+            "guid": "d2c622eff1154e0fa5a1f74fbebb5a54.16",
+            "lat": -32.48751,
+            "lng": -58.243313,
+            "name": "Plaza Sarmiento"
+        },
+        "50220838c20e4af7b300669dc20f2bb9.16": {
+            "guid": "50220838c20e4af7b300669dc20f2bb9.16",
+            "lat": -32.487718,
+            "lng": -58.243544,
+            "name": "Parque Infantil Plaza Sarmiento"
+        },
+        "e74da05a52d946029662e4df25e93102.16": {
+            "guid": "e74da05a52d946029662e4df25e93102.16",
+            "lat": -32.487922,
+            "lng": -58.243513,
+            "name": "El \"Ángel de la Bicicleta\""
+        },
+        "7b98c2f67a6641e2b3a164a1c937a3da.16": {
+            "guid": "7b98c2f67a6641e2b3a164a1c937a3da.16",
+            "lat": -32.487753,
+            "lng": -58.242297,
+            "name": "Club Atlético sportivo Cerro"
+        },
+        "ac2da422b0fc40d2accfe82656c0c546.16": {
+            "guid": "ac2da422b0fc40d2accfe82656c0c546.16",
+            "lat": -32.487985,
+            "lng": -58.244968,
+            "name": "Iglesia evangélica \"santuario de fe\""
+        },
+        "ffc1ccebfd0c42ca8281ab9fb705e9c3.16": {
+            "guid": "ffc1ccebfd0c42ca8281ab9fb705e9c3.16",
+            "lat": -32.48926,
+            "lng": -58.245273,
+            "name": "Club Atlético Sarmiento"
+        },
+        "301bd736189c4443a12c8a828f00225e.16": {
+            "guid": "301bd736189c4443a12c8a828f00225e.16",
+            "lat": -32.486904,
+            "lng": -58.243324,
+            "name": "Mural: \"Chevy\"."
+        },
+        "9db7cd9005f24d5488d5b15b666c8e05.16": {
+            "guid": "9db7cd9005f24d5488d5b15b666c8e05.16",
+            "lat": -32.486925,
+            "lng": -58.24419,
+            "name": "Placa Antonio Dodero"
+        },
+        "04dbf262b4333b3597e6b11babc589d8.16": {
+            "guid": "04dbf262b4333b3597e6b11babc589d8.16",
+            "lat": -32.48617,
+            "lng": -58.244906,
+            "name": "Llave Inglesa Gigante"
+        },
+        "8c1043d9dc583aeb90dbe8d9e70ef079.16": {
+            "guid": "8c1043d9dc583aeb90dbe8d9e70ef079.16",
+            "lat": -32.486216,
+            "lng": -58.245702,
+            "name": "\"Birrero Universal\"."
+        },
+        "ea3e181542d64986ad4937553ca12450.16": {
+            "guid": "ea3e181542d64986ad4937553ca12450.16",
+            "lat": -32.48393,
+            "lng": -58.242744,
+            "name": "Sindicato de obreros"
+        },
+        "60da4f68f05049c6afcda0e1a0684989.16": {
+            "guid": "60da4f68f05049c6afcda0e1a0684989.16",
+            "lat": -32.482023,
+            "lng": -58.243481,
+            "name": "Placa vialidad"
+        },
+        "f5f41e8a2fd74a339625821eae4babd5.16": {
+            "guid": "f5f41e8a2fd74a339625821eae4babd5.16",
+            "lat": -32.482143,
+            "lng": -58.243297,
+            "name": "Monumento Caras"
+        },
+        "cecbc60618c94dc7a186a47f0c68f7f2.16": {
+            "guid": "cecbc60618c94dc7a186a47f0c68f7f2.16",
+            "lat": -32.480746,
+            "lng": -58.244256,
+            "name": "Placa: Plaza del Donante."
+        },
+        "56f07999b67b4654a07796f96c19933d.16": {
+            "guid": "56f07999b67b4654a07796f96c19933d.16",
+            "lat": -32.48067,
+            "lng": -58.243773,
+            "name": "Area de descanso"
+        },
+        "437213f88e1c32e4b2ad6463bd273f7a.16": {
+            "guid": "437213f88e1c32e4b2ad6463bd273f7a.16",
+            "lat": -32.480189,
+            "lng": -58.243097,
+            "name": "Laberinto deportivo"
+        },
+        "5a5135c21e2a46bea6121c95971a5096.16": {
+            "guid": "5a5135c21e2a46bea6121c95971a5096.16",
+            "lat": -32.479785,
+            "lng": -58.24248,
+            "name": "Trenes antiguos"
+        },
+        "623d256d8a43449e9904b331c393c784.16": {
+            "guid": "623d256d8a43449e9904b331c393c784.16",
+            "lat": -32.480254,
+            "lng": -58.242406,
+            "name": "Parque Infantil Multieventos"
+        },
+        "bd9017c8bb5e4ec0b844cfeb7a589409.16": {
+            "guid": "bd9017c8bb5e4ec0b844cfeb7a589409.16",
+            "lat": -32.48012,
+            "lng": -58.241787,
+            "name": "Juegos saludables #2"
+        },
+        "d433ff00b9e44f50b03512daf3dc7196.16": {
+            "guid": "d433ff00b9e44f50b03512daf3dc7196.16",
+            "lat": -32.479475,
+            "lng": -58.24136,
+            "name": "Reloj del Ferrocarril."
+        },
+        "6988ee4a6f8e48c4bd793af74d94d1fc.16": {
+            "guid": "6988ee4a6f8e48c4bd793af74d94d1fc.16",
+            "lat": -32.479498,
+            "lng": -58.241032,
+            "name": "Estación del Tren de Concepción del Uruguay"
+        },
+        "1f0746ce7d264a3bb5acb5c5d0d6ecc8.16": {
+            "guid": "1f0746ce7d264a3bb5acb5c5d0d6ecc8.16",
+            "lat": -32.479979,
+            "lng": -58.240994,
+            "name": "Placa: Predio Multieventos"
+        },
+        "0ee3431fe8eb43f1a1d9f9de69cddc4a.16": {
+            "guid": "0ee3431fe8eb43f1a1d9f9de69cddc4a.16",
+            "lat": -32.480258,
+            "lng": -58.240993,
+            "name": "Arcos del Multieventos"
+        },
+        "4ed9e038dc754e4382b773e97ce9ceab.16": {
+            "guid": "4ed9e038dc754e4382b773e97ce9ceab.16",
+            "lat": -32.478951,
+            "lng": -58.24238,
+            "name": "Busto Sobre Bulevar"
+        },
+        "e133e39a71af4629909f9c1886888414.16": {
+            "guid": "e133e39a71af4629909f9c1886888414.16",
+            "lat": -32.478834,
+            "lng": -58.241852,
+            "name": "Homenaje A Rodolfo Wash"
+        },
+        "1abf462fd7c848658d15f60f5dbbbe4c.16": {
+            "guid": "1abf462fd7c848658d15f60f5dbbbe4c.16",
+            "lat": -32.478631,
+            "lng": -58.240692,
+            "name": "Placa Paul Harris"
+        },
+        "b211e4e7d4d94eeaa72edf8b7d944baa.16": {
+            "guid": "b211e4e7d4d94eeaa72edf8b7d944baa.16",
+            "lat": -32.48177,
+            "lng": -58.241179,
+            "name": "Iglesia Evangélica Congregacional"
+        },
+        "70f39bfdbcac4bf1b0459eb08940a671.16": {
+            "guid": "70f39bfdbcac4bf1b0459eb08940a671.16",
+            "lat": -32.482485,
+            "lng": -58.24083,
+            "name": "Mural \"Sol tribal despeinado\""
+        },
+        "aadbc8c13a5f44139f4b41e68b250956.16": {
+            "guid": "aadbc8c13a5f44139f4b41e68b250956.16",
+            "lat": -32.482492,
+            "lng": -58.241433,
+            "name": "Parque de juegos"
+        },
+        "090f64dbaac746e594c639eb09dd5f58.16": {
+            "guid": "090f64dbaac746e594c639eb09dd5f58.16",
+            "lat": -32.483074,
+            "lng": -58.242188,
+            "name": "Sindicato del Seguro."
+        },
+        "188fd6fb41b03fbcbb8066a3c7bdd60b.16": {
+            "guid": "188fd6fb41b03fbcbb8066a3c7bdd60b.16",
+            "lat": -32.482827,
+            "lng": -58.242236,
+            "name": "\"Infancia Feliz\""
+        },
+        "5e5547f016133a5692569705eb152ff3.16": {
+            "guid": "5e5547f016133a5692569705eb152ff3.16",
+            "lat": -32.483066,
+            "lng": -58.243063,
+            "name": "\"Cir.S.E.\""
+        },
+        "83abeed7c6a9467cbdfc4d97014f557f.16": {
+            "guid": "83abeed7c6a9467cbdfc4d97014f557f.16",
+            "lat": -32.483635,
+            "lng": -58.244072,
+            "name": "Iglesia San Vicente"
+        },
+        "cfd99e4717be4943a48e8409563fa2e4.16": {
+            "guid": "cfd99e4717be4943a48e8409563fa2e4.16",
+            "lat": -32.483844,
+            "lng": -58.244639,
+            "name": "Homenaje Virgen María"
+        },
+        "490e5241d4ff43a0a05a51de9b1b3058.16": {
+            "guid": "490e5241d4ff43a0a05a51de9b1b3058.16",
+            "lat": -32.483089,
+            "lng": -58.245929,
+            "name": "Mural: Naturaleza"
+        },
+        "1c078920ce75488aabb2602f5fba861d.16": {
+            "guid": "1c078920ce75488aabb2602f5fba861d.16",
+            "lat": -32.484679,
+            "lng": -58.245665,
+            "name": "Vieja Cabina Telefónica"
+        },
+        "163df3b6eca8493e99e459fcd95c654f.16": {
+            "guid": "163df3b6eca8493e99e459fcd95c654f.16",
+            "lat": -32.480807,
+            "lng": -58.245576,
+            "name": "Monolito: San Francisco de Asís."
+        },
+        "25eb0848223c4395b8db5260a606a1aa.16": {
+            "guid": "25eb0848223c4395b8db5260a606a1aa.16",
+            "lat": -32.481074,
+            "lng": -58.245533,
+            "name": "Centro de Jubilados y Pensionados"
+        },
+        "5f30730cdf4f4fcb9fe991375de5ca5d.16": {
+            "guid": "5f30730cdf4f4fcb9fe991375de5ca5d.16",
+            "lat": -32.482293,
+            "lng": -58.244228,
+            "name": "Sindicato de obreros Ospavial"
+        },
+        "b7dde12c028b4151882710e4e2c6063d.16": {
+            "guid": "b7dde12c028b4151882710e4e2c6063d.16",
+            "lat": -32.478325,
+            "lng": -58.244366,
+            "name": "Club Atlético Rivadavia"
+        },
+        "571007bb204f4834b611e63abb63938a.16": {
+            "guid": "571007bb204f4834b611e63abb63938a.16",
+            "lat": -32.477717,
+            "lng": -58.244394,
+            "name": "Club Unión Deportivo Ferro"
+        },
+        "0c2a8899a9ca4170948743023e34f9ac.16": {
+            "guid": "0c2a8899a9ca4170948743023e34f9ac.16",
+            "lat": -32.477508,
+            "lng": -58.243578,
+            "name": "Centro de Jubilados y Pensionados de Comercio"
+        },
+        "22a668d051604166bfd1dcfc8add6721.16": {
+            "guid": "22a668d051604166bfd1dcfc8add6721.16",
+            "lat": -32.476547,
+            "lng": -58.243561,
+            "name": "San Miguen Arcangel"
+        },
+        "8b5edb866fa146c7bd243d054d298a7d.16": {
+            "guid": "8b5edb866fa146c7bd243d054d298a7d.16",
+            "lat": -32.475912,
+            "lng": -58.244461,
+            "name": "Virgen Santa Teresita"
+        },
+        "4de140f01a24445aa6ac850a107fb4f9.16": {
+            "guid": "4de140f01a24445aa6ac850a107fb4f9.16",
+            "lat": -32.474586,
+            "lng": -58.242968,
+            "name": "Parque plaza 12 de octubre"
+        },
+        "16279f9e6618468ea5a18b502566d524.16": {
+            "guid": "16279f9e6618468ea5a18b502566d524.16",
+            "lat": -32.47519,
+            "lng": -58.240778,
+            "name": "Parroquia Santa Teresita"
+        },
+        "2edf9c0c92b04a2f957f483b73dec2bd.16": {
+            "guid": "2edf9c0c92b04a2f957f483b73dec2bd.16",
+            "lat": -32.475896,
+            "lng": -58.240792,
+            "name": "Mural Musica trabajo y Libertad"
+        },
+        "83193de5eddc40968bd59fda18ef4853.16": {
+            "guid": "83193de5eddc40968bd59fda18ef4853.16",
+            "lat": -32.476887,
+            "lng": -58.240708,
+            "name": "Mural Gauchito Gil"
+        },
+        "545d8e2192cb46f392b3e06f7a0a9813.16": {
+            "guid": "545d8e2192cb46f392b3e06f7a0a9813.16",
+            "lat": -32.478176,
+            "lng": -58.241185,
+            "name": "Eva Duerte de Perón (Evita)"
+        },
+        "99293588f6da4ba78a55d216fcb20d98.16": {
+            "guid": "99293588f6da4ba78a55d216fcb20d98.16",
+            "lat": -32.478308,
+            "lng": -58.241957,
+            "name": "Pista De Patinaje"
+        },
+        "ef5e085ce4df40fca9e751eb2bc76dd6.16": {
+            "guid": "ef5e085ce4df40fca9e751eb2bc76dd6.16",
+            "lat": -32.478098,
+            "lng": -58.242069,
+            "name": "Parque Infantil"
+        },
+        "0332eb54d5e04658a4ff1a588a5458e8.16": {
+            "guid": "0332eb54d5e04658a4ff1a588a5458e8.16",
+            "lat": -32.474269,
+            "lng": -58.244901,
+            "name": "Placa General Mosconi"
+        },
+        "e144ea24f19e36648715bab458cc94ce.16": {
+            "guid": "e144ea24f19e36648715bab458cc94ce.16",
+            "lat": -32.473907,
+            "lng": -58.245953,
+            "name": "Templo Jesucristo es Rey"
+        },
+        "675b97305d644be4b366ba9567307a5b.16": {
+            "guid": "675b97305d644be4b366ba9567307a5b.16",
+            "lat": -32.470167,
+            "lng": -58.242186,
+            "name": "Placa: Padre Juan Brambilla"
+        },
+        "b997e1137abe3a1db4f4f54c26f9524c.16": {
+            "guid": "b997e1137abe3a1db4f4f54c26f9524c.16",
+            "lat": -32.469748,
+            "lng": -58.243269,
+            "name": "Mural: El Barrilete Cósmico"
+        },
+        "f022b548f468360d96dc5bdb38346a2f.16": {
+            "guid": "f022b548f468360d96dc5bdb38346a2f.16",
+            "lat": -32.47315,
+            "lng": -58.242578,
+            "name": "Ermita: María Auxiliadora"
+        },
+        "69286ea707134221a2eac83f33c21f93.16": {
+            "guid": "69286ea707134221a2eac83f33c21f93.16",
+            "lat": -32.480444,
+            "lng": -58.251403,
+            "name": "Club Social Aitana"
+        },
+        "5ed5814427473423a3984ffdf19af9dd.16": {
+            "guid": "5ed5814427473423a3984ffdf19af9dd.16",
+            "lat": -32.480393,
+            "lng": -58.251014,
+            "name": "Cartel informativo:museos y monumentos históricos."
+        },
+        "0e05c9019cd74f8fbd6c8b7df0a58f70.16": {
+            "guid": "0e05c9019cd74f8fbd6c8b7df0a58f70.16",
+            "lat": -32.48005,
+            "lng": -58.249986,
+            "name": "Iglesia Nueva Apostólica"
+        },
+        "8d18fe38e4bb4ae6943458bbf16e53d8.16": {
+            "guid": "8d18fe38e4bb4ae6943458bbf16e53d8.16",
+            "lat": -32.479155,
+            "lng": -58.248915,
+            "name": "Iglesia bautista MIF"
+        },
+        "1bc9b8d64a2a4b86ac2350d976a5f877.16": {
+            "guid": "1bc9b8d64a2a4b86ac2350d976a5f877.16",
+            "lat": -32.478725,
+            "lng": -58.251388,
+            "name": "Placa Barrio Gral. Belgrano"
+        },
+        "15b5ca46baf24eeabcd27fc972c2c6c2.16": {
+            "guid": "15b5ca46baf24eeabcd27fc972c2c6c2.16",
+            "lat": -32.476646,
+            "lng": -58.248519,
+            "name": "Monolito Virgen de Lujan"
+        },
+        "be892e798d0a364880587bf896aed95f.16": {
+            "guid": "be892e798d0a364880587bf896aed95f.16",
+            "lat": -32.477233,
+            "lng": -58.248191,
+            "name": "Mural Lagash"
+        },
+        "8f7962d0ccd0312bbe5304ab75e2ea87.16": {
+            "guid": "8f7962d0ccd0312bbe5304ab75e2ea87.16",
+            "lat": -32.476118,
+            "lng": -58.247588,
+            "name": "Basurero \"Chinito\""
+        },
+        "cbf29e0df73845f8bffe45b6f61b8b02.16": {
+            "guid": "cbf29e0df73845f8bffe45b6f61b8b02.16",
+            "lat": -32.481604,
+            "lng": -58.25005,
+            "name": "Tanque de agua redondo."
+        },
+        "fa496538b62649aca050900fa9bc7b7f.16": {
+            "guid": "fa496538b62649aca050900fa9bc7b7f.16",
+            "lat": -32.482452,
+            "lng": -58.249815,
+            "name": "Hermita de la virgen Maria"
+        },
+        "ee613c08f4804910965a9d9cbd5c5c51.16": {
+            "guid": "ee613c08f4804910965a9d9cbd5c5c51.16",
+            "lat": -32.483965,
+            "lng": -58.251127,
+            "name": "Parque de juegos infantiles"
+        },
+        "12ddb5a8a4fe35739efdbfae68aa9c95.16": {
+            "guid": "12ddb5a8a4fe35739efdbfae68aa9c95.16",
+            "lat": -32.484291,
+            "lng": -58.250795,
+            "name": "Barrio \"Tomás de Rocamora\""
+        },
+        "3c427a3fc4144b19a510dd04c86aa71c.16": {
+            "guid": "3c427a3fc4144b19a510dd04c86aa71c.16",
+            "lat": -32.484034,
+            "lng": -58.250068,
+            "name": "Guachito Gil"
+        },
+        "3e4ebafe9abb4026919a344b05b19d70.16": {
+            "guid": "3e4ebafe9abb4026919a344b05b19d70.16",
+            "lat": -32.481457,
+            "lng": -58.246442,
+            "name": "Placa Isaias Torres"
+        },
+        "81bc14b2203b448e817b5da75264a3fa.16": {
+            "guid": "81bc14b2203b448e817b5da75264a3fa.16",
+            "lat": -32.485156,
+            "lng": -58.24868,
+            "name": "Mural Bandera Argentina"
+        },
+        "c51ae9aa3aa94b43b73d71f4689fa710.16": {
+            "guid": "c51ae9aa3aa94b43b73d71f4689fa710.16",
+            "lat": -32.485244,
+            "lng": -58.251893,
+            "name": "Centro de Integración Familiar Municipal"
+        },
+        "a76cca73c5d8469c8608bd96d4b46b91.16": {
+            "guid": "a76cca73c5d8469c8608bd96d4b46b91.16",
+            "lat": -32.486137,
+            "lng": -58.25192,
+            "name": "Espacio verde"
+        },
+        "93105576bc324e829cbef9c9abe3190b.16": {
+            "guid": "93105576bc324e829cbef9c9abe3190b.16",
+            "lat": -32.48688,
+            "lng": -58.247012,
+            "name": "Mural: Auto azul"
+        },
+        "9c7b75f064c84e48bdd38e77371b720e.16": {
+            "guid": "9c7b75f064c84e48bdd38e77371b720e.16",
+            "lat": -32.487427,
+            "lng": -58.24708,
+            "name": "Tarro de pintura gigante"
+        },
+        "af386b449f254b4088e0f86e72805277.16": {
+            "guid": "af386b449f254b4088e0f86e72805277.16",
+            "lat": -32.487618,
+            "lng": -58.247943,
+            "name": "Placa Enrique de Vedia"
+        },
+        "a448ad5d208d377287816210a09e34c8.16": {
+            "guid": "a448ad5d208d377287816210a09e34c8.16",
+            "lat": -32.488203,
+            "lng": -58.248218,
+            "name": "Virgen \"Maria\""
+        },
+        "95ebdb97fb5f4ec3b9c302ecd1510db5.16": {
+            "guid": "95ebdb97fb5f4ec3b9c302ecd1510db5.16",
+            "lat": -32.489591,
+            "lng": -58.24758,
+            "name": "Monolito homenaje: Santa Rita"
+        },
+        "ffaf02c20da64246908eb132994fe0e7.16": {
+            "guid": "ffaf02c20da64246908eb132994fe0e7.16",
+            "lat": -32.489478,
+            "lng": -58.248045,
+            "name": "Sociedad: San Vicente de Paul"
+        },
+        "11fe0b054a4532709efdaf3268f5b60f.16": {
+            "guid": "11fe0b054a4532709efdaf3268f5b60f.16",
+            "lat": -32.490271,
+            "lng": -58.248416,
+            "name": "Escudo Club Atletico Chacarita"
+        },
+        "a28de5071bd4465194c1416d1b61d3a8.16": {
+            "guid": "a28de5071bd4465194c1416d1b61d3a8.16",
+            "lat": -32.490094,
+            "lng": -58.249616,
+            "name": "Mural: \"El sol que ilumina nuestros días\""
+        },
+        "d4261b4457f643ee96e7bc3e741cb72e.16": {
+            "guid": "d4261b4457f643ee96e7bc3e741cb72e.16",
+            "lat": -32.490431,
+            "lng": -58.250531,
+            "name": "Parroquia María Auxiliadora"
+        },
+        "90a2a2f6e8d54fe29dba5bd357d34022.16": {
+            "guid": "90a2a2f6e8d54fe29dba5bd357d34022.16",
+            "lat": -32.490427,
+            "lng": -58.25085,
+            "name": "Salon: Maria Auxiliadora #2"
+        },
+        "c50092a9a8483936899930a246952704.16": {
+            "guid": "c50092a9a8483936899930a246952704.16",
+            "lat": -32.487742,
+            "lng": -58.250148,
+            "name": "CEDELS"
+        },
+        "4727d42b05514ca19d433ead3d274255.16": {
+            "guid": "4727d42b05514ca19d433ead3d274255.16",
+            "lat": -32.488463,
+            "lng": -58.249879,
+            "name": "Fundación: Micaela García."
+        },
+        "60c877b615a247e19e9ea628ecf23470.16": {
+            "guid": "60c877b615a247e19e9ea628ecf23470.16",
+            "lat": -32.487887,
+            "lng": -58.250966,
+            "name": "Mural \"sobre ruedas\"."
+        },
+        "a057f283d1a249d29ada7696659f5d5b.16": {
+            "guid": "a057f283d1a249d29ada7696659f5d5b.16",
+            "lat": -32.488566,
+            "lng": -58.251476,
+            "name": "Monumento Altar Y Placas"
+        },
+        "71966793850d330db1d10d2177f6316f.16": {
+            "guid": "71966793850d330db1d10d2177f6316f.16",
+            "lat": -32.488648,
+            "lng": -58.250767,
+            "name": "Placa: \"Calle Sagastume\""
+        },
+        "38bea943e34d3876b9126fa679813c73.16": {
+            "guid": "38bea943e34d3876b9126fa679813c73.16",
+            "lat": -32.487436,
+            "lng": -58.251941,
+            "name": "Placa: \"Daniel Elias\""
+        },
+        "d38381fce1834e83b5fb32b8bc38186d.16": {
+            "guid": "d38381fce1834e83b5fb32b8bc38186d.16",
+            "lat": -32.4869,
+            "lng": -58.251843,
+            "name": "Ave Maria Purísima"
+        },
+        "4371605de0673c07a08517187db4578f.16": {
+            "guid": "4371605de0673c07a08517187db4578f.16",
+            "lat": -32.487133,
+            "lng": -58.250824,
+            "name": "La Singer"
+        },
+        "ce7750c42de94924b265c0cbc86929f2.16": {
+            "guid": "ce7750c42de94924b265c0cbc86929f2.16",
+            "lat": -32.486645,
+            "lng": -58.249979,
+            "name": "Iglesia La casa de la bendición"
+        },
+        "5c6c7c6f5a183780a8ec8c4167ce7060.16": {
+            "guid": "5c6c7c6f5a183780a8ec8c4167ce7060.16",
+            "lat": -32.492919,
+            "lng": -58.248154,
+            "name": "Canchas de Tenis del Itapé"
+        },
+        "712b60bd72ac323cb2f2cd780a67fa97.16": {
+            "guid": "712b60bd72ac323cb2f2cd780a67fa97.16",
+            "lat": -32.492524,
+            "lng": -58.246861,
+            "name": "Cancha de Fútbol del Itapé."
+        },
+        "ff6de4f04e5d4082ac0bf52275ef156b.16": {
+            "guid": "ff6de4f04e5d4082ac0bf52275ef156b.16",
+            "lat": -32.493438,
+            "lng": -58.250791,
+            "name": "Hermita religiosa."
+        },
+        "51ef288c0458444c854651c3d282a931.16": {
+            "guid": "51ef288c0458444c854651c3d282a931.16",
+            "lat": -32.491794,
+            "lng": -58.250954,
+            "name": "\"Pepo\" el recogebasura"
+        },
+        "92a145f36a803a13b1191bea6f4ef801.16": {
+            "guid": "92a145f36a803a13b1191bea6f4ef801.16",
+            "lat": -32.492878,
+            "lng": -58.245068,
+            "name": "Potrero de Gendarmeria"
+        },
+        "3a714289c75e315d8f7c73fab6738f74.16": {
+            "guid": "3a714289c75e315d8f7c73fab6738f74.16",
+            "lat": -32.49013,
+            "lng": -58.2421,
+            "name": "Dojo Serpiente"
+        },
+        "64d0777b07174e97814aedc12f01a8d5.16": {
+            "guid": "64d0777b07174e97814aedc12f01a8d5.16",
+            "lat": -32.48995,
+            "lng": -58.240761,
+            "name": "Mural a la cooperación"
+        },
+        "e4cab9da78df49ab829e3b6bb856b9dd.16": {
+            "guid": "e4cab9da78df49ab829e3b6bb856b9dd.16",
+            "lat": -32.488752,
+            "lng": -58.241939,
+            "name": "Caludio Pocho Lepratti - Homenaje"
+        },
+        "5f52316e7f2442d5b7043e2d5da28b71.16": {
+            "guid": "5f52316e7f2442d5b7043e2d5da28b71.16",
+            "lat": -32.489604,
+            "lng": -58.242864,
+            "name": "San Cayetano"
+        },
+        "3b1c903a02394bb0b2b9736ff84e30cd.16": {
+            "guid": "3b1c903a02394bb0b2b9736ff84e30cd.16",
+            "lat": -32.473468,
+            "lng": -58.210327,
+            "name": "Faro \"Stella Maris\""
+        },
+        "f569e04c2be44abab9ba78eebfeb5210.16": {
+            "guid": "f569e04c2be44abab9ba78eebfeb5210.16",
+            "lat": -32.476919,
+            "lng": -58.21319,
+            "name": "Parque de juegos infantiles Isla del Puerto"
+        },
+        "33fc9d08037734bf8bc6026a4418e2c7.16": {
+            "guid": "33fc9d08037734bf8bc6026a4418e2c7.16",
+            "lat": -32.477415,
+            "lng": -58.212249,
+            "name": "Zona de Kitesurf y Windsurf."
+        },
+        "abe878d25e6d4870afe053bdaf104e09.16": {
+            "guid": "abe878d25e6d4870afe053bdaf104e09.16",
+            "lat": -32.49041,
+            "lng": -58.209031,
+            "name": "Parador"
+        },
+        "ae07c5b3f445425eb719970324d405f2.16": {
+            "guid": "ae07c5b3f445425eb719970324d405f2.16",
+            "lat": -32.487,
+            "lng": -58.214805,
+            "name": "Parque de Juegos, \"Isla del Puerto\""
+        },
+        "a1f1b8d2f351492baf9c725fa39dcd8f.16": {
+            "guid": "a1f1b8d2f351492baf9c725fa39dcd8f.16",
+            "lat": -32.500227,
+            "lng": -58.224603,
+            "name": "Arcos de entrada Isla del Puerto"
+        },
+        "4057b5cf498e4c6ab3c446cf78e71a4a.16": {
+            "guid": "4057b5cf498e4c6ab3c446cf78e71a4a.16",
+            "lat": -32.507194,
+            "lng": -58.238211,
+            "name": "Viejo Sifon"
+        },
+        "09ea1fe3ad354cb4be14ed60a0302a72.16": {
+            "guid": "09ea1fe3ad354cb4be14ed60a0302a72.16",
+            "lat": -32.499261,
+            "lng": -58.235454,
+            "name": "Pérgola de Descanso de la Defensa Sur"
+        },
+        "de86a40a68fb48f39d7b79cb1a50339f.16": {
+            "guid": "de86a40a68fb48f39d7b79cb1a50339f.16",
+            "lat": -32.509311,
+            "lng": -58.233837,
+            "name": "monolito lugar historico"
+        },
+        "c2987f95278740909c542c6fb0787db9.16": {
+            "guid": "c2987f95278740909c542c6fb0787db9.16",
+            "lat": -32.474365,
+            "lng": -58.22637,
+            "name": "Gimnasia: Tenis club"
+        },
+        "34c055ebb2783a29b570a3dff8522a78.16": {
+            "guid": "34c055ebb2783a29b570a3dff8522a78.16",
+            "lat": -32.474539,
+            "lng": -58.227229,
+            "name": "Mural Lobo Entrerriano"
+        },
+        "0a0be35d09274fc7b8b67512ff1c6419.16": {
+            "guid": "0a0be35d09274fc7b8b67512ff1c6419.16",
+            "lat": -32.47568,
+            "lng": -58.225892,
+            "name": "Tobogán Infantil"
+        },
+        "f3d16f831faf4bea9dcb0cc2b3952d10.16": {
+            "guid": "f3d16f831faf4bea9dcb0cc2b3952d10.16",
+            "lat": -32.475401,
+            "lng": -58.22535,
+            "name": "Parque de juegos saludables"
+        },
+        "545a204e2ccc35d587613b8918539356.16": {
+            "guid": "545a204e2ccc35d587613b8918539356.16",
+            "lat": -32.475844,
+            "lng": -58.225309,
+            "name": "Juegos Infantiles"
+        },
+        "da5a87e97a414e2787387e3de0af974b.16": {
+            "guid": "da5a87e97a414e2787387e3de0af974b.16",
+            "lat": -32.475582,
+            "lng": -58.224651,
+            "name": "Complejo Evita: la mujer del bicentenario"
+        },
+        "a3291fd8044a343caefba99b59920479.16": {
+            "guid": "a3291fd8044a343caefba99b59920479.16",
+            "lat": -32.474088,
+            "lng": -58.224662,
+            "name": "Cancha de Hockey Municipal"
+        },
+        "6eae131ef683339eae1e86ba9a2df3b5.16": {
+            "guid": "6eae131ef683339eae1e86ba9a2df3b5.16",
+            "lat": -32.477419,
+            "lng": -58.223844,
+            "name": "Parque \"El Mirador\""
+        },
+        "78a85b6e6c6739b4bb92072714c406ce.16": {
+            "guid": "78a85b6e6c6739b4bb92072714c406ce.16",
+            "lat": -32.47672,
+            "lng": -58.225341,
+            "name": "Tortuguita"
+        },
+        "e1800bd1c7c83c03b578f8fa27fad64a.16": {
+            "guid": "e1800bd1c7c83c03b578f8fa27fad64a.16",
+            "lat": -32.476847,
+            "lng": -58.225846,
+            "name": "Cancha de Tejo"
+        },
+        "06a1efc50d704e9d915ba1c4ca7b45de.16": {
+            "guid": "06a1efc50d704e9d915ba1c4ca7b45de.16",
+            "lat": -32.478485,
+            "lng": -58.225388,
+            "name": "Mega Tanque de agua"
+        },
+        "9053b72916c6454db5a46465e18b5d77.16": {
+            "guid": "9053b72916c6454db5a46465e18b5d77.16",
+            "lat": -32.478095,
+            "lng": -58.225757,
+            "name": "Liga de fútbol"
+        },
+        "b0e7434103f73efaaab8c4c691496b42.16": {
+            "guid": "b0e7434103f73efaaab8c4c691496b42.16",
+            "lat": -32.479264,
+            "lng": -58.228027,
+            "name": "Tanque de Agua \"Luz y Fuerza\""
+        },
+        "cc0e90eab8c23286b79c5383a81842a4.16": {
+            "guid": "cc0e90eab8c23286b79c5383a81842a4.16",
+            "lat": -32.478767,
+            "lng": -58.227706,
+            "name": "Gruta de la virgen"
+        },
+        "1bde4932e4ea376699ac7f6cccc59a43.16": {
+            "guid": "1bde4932e4ea376699ac7f6cccc59a43.16",
+            "lat": -32.47922,
+            "lng": -58.227169,
+            "name": "La Lusera"
+        },
+        "30b0909ed0ba40a0a47be8216786e39f.16": {
+            "guid": "30b0909ed0ba40a0a47be8216786e39f.16",
+            "lat": -32.478111,
+            "lng": -58.228191,
+            "name": "Placa: Viviendas \"Sindicato de Empleados de Comercio\"."
+        },
+        "ee981560c60544c1bdd7254443cf45ff.16": {
+            "guid": "ee981560c60544c1bdd7254443cf45ff.16",
+            "lat": -32.476561,
+            "lng": -58.227683,
+            "name": "Club Tomás de Rocamora"
+        },
+        "025be04aadab49379217ad53c98ed37f.16": {
+            "guid": "025be04aadab49379217ad53c98ed37f.16",
+            "lat": -32.47633,
+            "lng": -58.227418,
+            "name": "Placa Asociación de Cooperativas del Departamento Uruguay"
+        },
+        "b4098dcec5da4b1b94abb55d43fda4f0.16": {
+            "guid": "b4098dcec5da4b1b94abb55d43fda4f0.16",
+            "lat": -32.475784,
+            "lng": -58.228,
+            "name": "Centro Provincial de educación física N°3"
+        },
+        "0a2d659ee50e4f2a8fdef2571d77f9a6.16": {
+            "guid": "0a2d659ee50e4f2a8fdef2571d77f9a6.16",
+            "lat": -32.476389,
+            "lng": -58.226897,
+            "name": "Lata gigante"
+        },
+        "8c0f7f7519533a34b0f5428c580362eb.16": {
+            "guid": "8c0f7f7519533a34b0f5428c580362eb.16",
+            "lat": -32.478843,
+            "lng": -58.228948,
+            "name": "Mural \"mano con flor\""
+        },
+        "f01ee27fd28d425a9062b2daf32b0916.16": {
+            "guid": "f01ee27fd28d425a9062b2daf32b0916.16",
+            "lat": -32.469532,
+            "lng": -58.236819,
+            "name": "Virgen de la medalla milagrosa"
+        },
+        "0746acfeb0ab38e4819c3386a16feec0.16": {
+            "guid": "0746acfeb0ab38e4819c3386a16feec0.16",
+            "lat": -32.487655,
+            "lng": -58.253722,
+            "name": "La Delfina"
+        },
+        "2b9d1ecf35e432cf802d95a20f661811.16": {
+            "guid": "2b9d1ecf35e432cf802d95a20f661811.16",
+            "lat": -32.48765,
+            "lng": -58.254895,
+            "name": "Plano de la ciudad"
+        },
+        "8780858a83304041bd3ef1d70bcbb2ac.16": {
+            "guid": "8780858a83304041bd3ef1d70bcbb2ac.16",
+            "lat": -32.487415,
+            "lng": -58.252804,
+            "name": "Mural Justo José de Urquiza"
+        },
+        "d689c482d5433281b0f551234725cb88.16": {
+            "guid": "d689c482d5433281b0f551234725cb88.16",
+            "lat": -32.487325,
+            "lng": -58.253991,
+            "name": "Paseo Peatonal Sansoni"
+        },
+        "88d371b2cad736bbb56d9c63c0360c75.16": {
+            "guid": "88d371b2cad736bbb56d9c63c0360c75.16",
+            "lat": -32.487558,
+            "lng": -58.254126,
+            "name": "Batalla del General Ramírez y la Delfina"
+        },
+        "637acb7760c236789cb61f68bc47e235.16": {
+            "guid": "637acb7760c236789cb61f68bc47e235.16",
+            "lat": -32.487735,
+            "lng": -58.254174,
+            "name": "General Francisco Ramírez"
+        },
+        "57fe06bb553e4fb8b35dfb47de3b1b6f.16": {
+            "guid": "57fe06bb553e4fb8b35dfb47de3b1b6f.16",
+            "lat": -32.488677,
+            "lng": -58.257123,
+            "name": "Iglesia Del Rio de la Plata"
+        },
+        "ad52b7e68e023fd1b2187193510f9c9c.16": {
+            "guid": "ad52b7e68e023fd1b2187193510f9c9c.16",
+            "lat": -32.489174,
+            "lng": -58.255698,
+            "name": "El 2° Mega Tanque"
+        },
+        "2a83e88c094049a6b1aa0ffa8bb852e7.16": {
+            "guid": "2a83e88c094049a6b1aa0ffa8bb852e7.16",
+            "lat": -32.489559,
+            "lng": -58.255413,
+            "name": "Cementerio Israelita"
+        },
+        "38d6e762365d45dbb2dbd5dbc0401425.16": {
+            "guid": "38d6e762365d45dbb2dbd5dbc0401425.16",
+            "lat": -32.490305,
+            "lng": -58.256232,
+            "name": "Mural Familia felíz"
+        },
+        "3c5c0b7442ba44a38cb7f6a34d82c939.16": {
+            "guid": "3c5c0b7442ba44a38cb7f6a34d82c939.16",
+            "lat": -32.490025,
+            "lng": -58.254335,
+            "name": "Monolito homenaje: San José"
+        },
+        "df8ead91126246b3a0f7f5c91dc7ceff.16": {
+            "guid": "df8ead91126246b3a0f7f5c91dc7ceff.16",
+            "lat": -32.489077,
+            "lng": -58.253227,
+            "name": "Virgen Protectora del Cementerio"
+        },
+        "9e97be92f6033e6f8033bf37529e4313.16": {
+            "guid": "9e97be92f6033e6f8033bf37529e4313.16",
+            "lat": -32.48555,
+            "lng": -58.25325,
+            "name": "Asociación de Cooperativas Argentinas"
+        },
+        "87e8bf1242464e28b4c6839c94cc4e4e.16": {
+            "guid": "87e8bf1242464e28b4c6839c94cc4e4e.16",
+            "lat": -32.486499,
+            "lng": -58.252892,
+            "name": "Cartel ASDCU"
+        },
+        "61a120a1364243cbb40d6c3b82ecdf56.16": {
+            "guid": "61a120a1364243cbb40d6c3b82ecdf56.16",
+            "lat": -32.4865,
+            "lng": -58.25755,
+            "name": "Virgen Milagrosa"
+        },
+        "bba2f070e74e4402beead1e889fd47d6.16": {
+            "guid": "bba2f070e74e4402beead1e889fd47d6.16",
+            "lat": -32.485625,
+            "lng": -58.25704,
+            "name": "\"Hermita Religiosa a San Francisco de Asís\"."
+        },
+        "3c705268cda346729ffb1f7cf2fbec0f.16": {
+            "guid": "3c705268cda346729ffb1f7cf2fbec0f.16",
+            "lat": -32.48825,
+            "lng": -58.259705,
+            "name": "Parque de juegos saludable"
+        },
+        "1b444df3f4c047138c8754a5d6ce45a8.16": {
+            "guid": "1b444df3f4c047138c8754a5d6ce45a8.16",
+            "lat": -32.488529,
+            "lng": -58.259851,
+            "name": "Escudo Concepción Del Uruguay"
+        },
+        "e8f58491429f4d16b925b3663ef5a8f1.16": {
+            "guid": "e8f58491429f4d16b925b3663ef5a8f1.16",
+            "lat": -32.488261,
+            "lng": -58.262578,
+            "name": "Santuario \"Gauchito Gil\""
+        },
+        "05a7bf3f71154ca99dd63dd146db6d75.16": {
+            "guid": "05a7bf3f71154ca99dd63dd146db6d75.16",
+            "lat": -32.484924,
+            "lng": -58.261174,
+            "name": "Templo Ríos de Vida"
+        },
+        "09a6d4b72a983e5c9ff1512c67435f1b.16": {
+            "guid": "09a6d4b72a983e5c9ff1512c67435f1b.16",
+            "lat": -32.485686,
+            "lng": -58.260625,
+            "name": "Tanque B° Quinta La Paz"
+        },
+        "43df56ccb15a44e6a9c5e337061b93ff.16": {
+            "guid": "43df56ccb15a44e6a9c5e337061b93ff.16",
+            "lat": -32.485367,
+            "lng": -58.260286,
+            "name": "Placa: Barrio Quinta La Paz"
+        },
+        "d28281a7292648d2a48f92a8b6575df3.16": {
+            "guid": "d28281a7292648d2a48f92a8b6575df3.16",
+            "lat": -32.488228,
+            "lng": -58.258601,
+            "name": "¡Auto Loco!"
+        },
+        "2369c2b6537f46a291854fb77e827e10.16": {
+            "guid": "2369c2b6537f46a291854fb77e827e10.16",
+            "lat": -32.487635,
+            "lng": -58.258234,
+            "name": "Mural: \"Ave Fénix y Soldador\""
+        },
+        "2b4db98c07f53f95b0cfb48cb5c123f5.16": {
+            "guid": "2b4db98c07f53f95b0cfb48cb5c123f5.16",
+            "lat": -32.486634,
+            "lng": -58.258311,
+            "name": "Barrio Inocencio R.Giles"
+        },
+        "30fe6788670436ab803e15925386c15b.16": {
+            "guid": "30fe6788670436ab803e15925386c15b.16",
+            "lat": -32.485687,
+            "lng": -58.258594,
+            "name": "\"La Chinita\""
+        },
+        "18a7ce6047f3443d87f2de1898b697e5.16": {
+            "guid": "18a7ce6047f3443d87f2de1898b697e5.16",
+            "lat": -32.492787,
+            "lng": -58.258304,
+            "name": "Busto Homenaje a Gral. Güemes."
+        },
+        "cc4bd38e71224c27a34c0c76322d5986.16": {
+            "guid": "cc4bd38e71224c27a34c0c76322d5986.16",
+            "lat": -32.492626,
+            "lng": -58.258592,
+            "name": "Monolito Virgen María"
+        },
+        "992b855e0b484a098e917f14e8df6cf3.16": {
+            "guid": "992b855e0b484a098e917f14e8df6cf3.16",
+            "lat": -32.492579,
+            "lng": -58.258346,
+            "name": "Plazoleta: General Martin M. de Güemes"
+        },
+        "9b153016446540d99367c5c3221e6f10.16": {
+            "guid": "9b153016446540d99367c5c3221e6f10.16",
+            "lat": -32.492169,
+            "lng": -58.258919,
+            "name": "Placa homenaje: Dr. Italo Max Desideri"
+        },
+        "93f55f58a2944b1198dde5112f697284.16": {
+            "guid": "93f55f58a2944b1198dde5112f697284.16",
+            "lat": -32.492038,
+            "lng": -58.259667,
+            "name": "Mural: Zaida."
+        },
+        "2ca91fea260b4d36a673183f1d18edf9.16": {
+            "guid": "2ca91fea260b4d36a673183f1d18edf9.16",
+            "lat": -32.490835,
+            "lng": -58.259721,
+            "name": "Asociación civil: Peña Angel Clemente Rojas"
+        },
+        "73650e15743b4feb837f24e6e1862026.16": {
+            "guid": "73650e15743b4feb837f24e6e1862026.16",
+            "lat": -32.489984,
+            "lng": -58.259402,
+            "name": "Club social y deportivo Bajada Grande"
+        },
+        "4b80371fd7cf4057b41334f29c21da9f.16": {
+            "guid": "4b80371fd7cf4057b41334f29c21da9f.16",
+            "lat": -32.489174,
+            "lng": -58.259359,
+            "name": "Iglesia pentecostal de santidad"
+        },
+        "3dbac0e915d643d3a38849cc3c07566d.16": {
+            "guid": "3dbac0e915d643d3a38849cc3c07566d.16",
+            "lat": -32.489946,
+            "lng": -58.257805,
+            "name": "Hermita: San Expedito"
+        },
+        "2a8724b781524b8cb6605f7252627c91.16": {
+            "guid": "2a8724b781524b8cb6605f7252627c91.16",
+            "lat": -32.494338,
+            "lng": -58.261455,
+            "name": "Catedral de la FE"
+        },
+        "f929efc2144748dba81b1a4617e593ff.16": {
+            "guid": "f929efc2144748dba81b1a4617e593ff.16",
+            "lat": -32.478468,
+            "lng": -58.222281,
+            "name": "Parque de Juegos Saludables"
+        },
+        "110f6d78664b46dbb6013341fcb14003.16": {
+            "guid": "110f6d78664b46dbb6013341fcb14003.16",
+            "lat": -32.478849,
+            "lng": -58.222212,
+            "name": "Wenceslao Gadea - Busto"
+        },
+        "9491996d89aa3059969c5b04a221d9b7.16": {
+            "guid": "9491996d89aa3059969c5b04a221d9b7.16",
+            "lat": -32.475733,
+            "lng": -58.223411,
+            "name": "Cancha de Fútbol"
+        },
+        "ae696c61496c446886b09dae5c36b40b.16": {
+            "guid": "ae696c61496c446886b09dae5c36b40b.16",
+            "lat": -32.476554,
+            "lng": -58.228936,
+            "name": "Monolitos Olímpicos"
+        },
+        "7b5bd81b9b4e361596ce68f27c330a16.16": {
+            "guid": "7b5bd81b9b4e361596ce68f27c330a16.16",
+            "lat": -32.480781,
+            "lng": -58.223511,
+            "name": "Prefectura Naval Argentina"
+        },
+        "37056826daea31c893cbebac75f87e34.16": {
+            "guid": "37056826daea31c893cbebac75f87e34.16",
+            "lat": -32.485619,
+            "lng": -58.237812,
+            "name": "Mural \"Reiju\""
+        },
+        "8c9820f66e533408b2837225fd727d46.16": {
+            "guid": "8c9820f66e533408b2837225fd727d46.16",
+            "lat": -32.487656,
+            "lng": -58.23772,
+            "name": "MaxFlor"
+        },
+        "1c1234bf33f238adbcbfe3ad4af34edc.16": {
+            "guid": "1c1234bf33f238adbcbfe3ad4af34edc.16",
+            "lat": -32.481789,
+            "lng": -58.234395,
+            "name": "Mural \"Hombre en Bicicleta\""
+        },
+        "537491825f153ee7b041d5a53521967e.16": {
+            "guid": "537491825f153ee7b041d5a53521967e.16",
+            "lat": -32.478554,
+            "lng": -58.232574,
+            "name": "Mural \"Vaciá la caja dale\""
+        },
+        "c78af5fe92aa3bd1b05cd8eddb030e7b.16": {
+            "guid": "c78af5fe92aa3bd1b05cd8eddb030e7b.16",
+            "lat": -32.478158,
+            "lng": -58.231566,
+            "name": "CIEER"
+        },
+        "aca85351827b3d1e87dbbe5b5b614142.16": {
+            "guid": "aca85351827b3d1e87dbbe5b5b614142.16",
+            "lat": -32.493107,
+            "lng": -58.23465,
+            "name": "Restos de Doña María Delfina"
+        },
+        "f17ae59659373513b48251cc0bfc7c19.16": {
+            "guid": "f17ae59659373513b48251cc0bfc7c19.16",
+            "lat": -32.49204,
+            "lng": -58.23445,
+            "name": "Playón \"La Concepción\""
+        },
+        "5650b0da09c6345abf199786371ebafc.16": {
+            "guid": "5650b0da09c6345abf199786371ebafc.16",
+            "lat": -32.491988,
+            "lng": -58.234139,
+            "name": "Mural \"El Protector de los Skater\""
+        },
+        "988018aa9c77394a88443f528434fe5e.16": {
+            "guid": "988018aa9c77394a88443f528434fe5e.16",
+            "lat": -32.491041,
+            "lng": -58.230215,
+            "name": "Mural \"Trabajadores Libres\""
+        },
+        "cedf7da31daf3d7db9bd4175e49aaf47.16": {
+            "guid": "cedf7da31daf3d7db9bd4175e49aaf47.16",
+            "lat": -32.489883,
+            "lng": -58.230363,
+            "name": "Tiempos de sueños y pesamientos"
+        },
+        "fa7ff999df7d358db5cebd88106c1deb.16": {
+            "guid": "fa7ff999df7d358db5cebd88106c1deb.16",
+            "lat": -32.481036,
+            "lng": -58.246359,
+            "name": "Mural \"El Pata\""
+        },
+        "3369580dfcad3114ac8a51e584528981.16": {
+            "guid": "3369580dfcad3114ac8a51e584528981.16",
+            "lat": -32.476289,
+            "lng": -58.251182,
+            "name": "El Tayta de América"
+        },
+        "3201114195e3344688672114b7614e4e.16": {
+            "guid": "3201114195e3344688672114b7614e4e.16",
+            "lat": -32.476045,
+            "lng": -58.248761,
+            "name": "Mural \"Mujer y Flores\""
+        },
+        "20a6bc70449a3e2588557488c677383e.16": {
+            "guid": "20a6bc70449a3e2588557488c677383e.16",
+            "lat": -32.474919,
+            "lng": -58.245885,
+            "name": "Mural \"Malvinas\""
+        },
+        "6b9b073e08dd310891e80ad69acc765f.16": {
+            "guid": "6b9b073e08dd310891e80ad69acc765f.16",
+            "lat": -32.473837,
+            "lng": -58.24691,
+            "name": "Pilar \"1396\""
+        },
+        "08447dcaac8c3d7b9a083731db1202e4.16": {
+            "guid": "08447dcaac8c3d7b9a083731db1202e4.16",
+            "lat": -32.473165,
+            "lng": -58.238404,
+            "name": "El Apostol \"San Pablo\""
+        },
+        "011d1b2d41e038208a732f8e7d968274.16": {
+            "guid": "011d1b2d41e038208a732f8e7d968274.16",
+            "lat": -32.475594,
+            "lng": -58.234742,
+            "name": "Mural \"Gato Basurero\""
+        },
+        "ddaeeca8172e36f4a1225055e9955b06.16": {
+            "guid": "ddaeeca8172e36f4a1225055e9955b06.16",
+            "lat": -32.481366,
+            "lng": -58.222379,
+            "name": "La Casona"
+        },
+        "281bf77d649237e3bfc97f8147ceb3cd.16": {
+            "guid": "281bf77d649237e3bfc97f8147ceb3cd.16",
+            "lat": -32.480449,
+            "lng": -58.221759,
+            "name": "Mural \"Perro Verde\""
+        },
+        "664f7888b5163361af9a402d4d57a50d.16": {
+            "guid": "664f7888b5163361af9a402d4d57a50d.16",
+            "lat": -32.480741,
+            "lng": -58.222407,
+            "name": "Mural \"Vaca Amptí\""
+        },
+        "18d6f8fde5c331c0a0447cc8d607e6b6.16": {
+            "guid": "18d6f8fde5c331c0a0447cc8d607e6b6.16",
+            "lat": -32.476984,
+            "lng": -58.213599,
+            "name": "Centro de Interpretación del Humedal"
+        },
+        "226837fde1593350a76a0656b4b9a947.16": {
+            "guid": "226837fde1593350a76a0656b4b9a947.16",
+            "lat": -32.478371,
+            "lng": -58.212995,
+            "name": "Mi Punto Solar"
+        },
+        "926fc7678e78330ea189b29d49e1b16c.16": {
+            "guid": "926fc7678e78330ea189b29d49e1b16c.16",
+            "lat": -32.480032,
+            "lng": -58.243363,
+            "name": "Museo \"El Ferroviario\""
+        },
+        "cd58e4bf603d378ba85ee4d4ea07aa3f.16": {
+            "guid": "cd58e4bf603d378ba85ee4d4ea07aa3f.16",
+            "lat": -32.480931,
+            "lng": -58.243527,
+            "name": "Busto \"Dr. René G. Favaloro\""
+        },
+        "b2bc67f2fa54382ba6117524e576f70d.16": {
+            "guid": "b2bc67f2fa54382ba6117524e576f70d.16",
+            "lat": -32.483466,
+            "lng": -58.226258,
+            "name": "Mural \"Cheers\""
+        },
+        "32b328b451e8344b8ee51fb692310702.16": {
+            "guid": "32b328b451e8344b8ee51fb692310702.16",
+            "lat": -32.474381,
+            "lng": -58.243008,
+            "name": "Mural \"Panda en un Árbol\""
+        },
+        "226690e1623736a8a34765acf00e0225.16": {
+            "guid": "226690e1623736a8a34765acf00e0225.16",
+            "lat": -32.488294,
+            "lng": -58.2498,
+            "name": "Mural \"El As del Joker\""
+        }
+    },
+    "notpogo": {},
+    "ignoredCellsExtraGyms": {},
+    "ignoredCellsMissingGyms": {}
+}
