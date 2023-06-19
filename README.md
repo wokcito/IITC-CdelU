@@ -16,17 +16,17 @@ Importamos el archivo descargado de este repositorio
 
 ## Celdas actualizadas
 
-|  #  |  Celda   | Información complementaria                                                                                                              |
-| :-: | :------: | --------------------------------------------------------------------------------------------------------------------------------------- |
-|  1  | 95afda53 | En la celda 95afda5224 no aparece la pokeparada 'Corazón Solidario'[¹](#notas)                                                          |
-|  2  | 95afdbad | En la celda 95afdbacec no aparece el gym 'Terminal de Ómnibus'[¹](#notas)                                                               |
-|  3  | 95afdba7 | En la celda 95afdba7fc no aparece la pokeparada 'Mural "Pitin"'[¹](#notas)                                                              |
-|  4  | 95afdb07 | En la celda 95afdb0734 hay dos pokeparadas activas ('Antigua Sociedad de Seguros Mutuos' y 'Escudo del Personal Embarcados')[²](#notas) |
-|  5  | 95afdbab | En la celda 95afdbaae4 no aparece la pokeparada 'Mural "Chica Fit"'[¹](#notas)                                                          |
-|  6  | 95afda57 | En la celda 95afda56c4 no aparece la pokeparada 'Mural "La Casa de Los Sentimientos"'[¹](#notas)                                        |
-|  7  | 95afdb1d | En la celda 95afdb1d5c hay un gym y una pokeparada activos ('Monumento al Marino' y 'Parque de Juegos Saludables')[²](#notas)           |
-|     |          | En la celda 95afdb1d44 hay un gym y una pokeparada activos ('Monumento a la Madre' y 'Wenceslao Gadea - Busto')[²](#notas)              |
-|  8  | 95afdb0d | Hay un Gym adicional[²](#notas)                                                                                                         |
+|  Celda   | Información complementaria                                                                                                              |
+| :------: | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 95afda53 | En la celda 95afda5224 no aparece la pokeparada 'Corazón Solidario'[¹](#notas)                                                          |
+| 95afdbad | En la celda 95afdbacec no aparece el gym 'Terminal de Ómnibus'[¹](#notas)                                                               |
+| 95afdba7 | En la celda 95afdba7fc no aparece la pokeparada 'Mural "Pitin"'[¹](#notas)                                                              |
+| 95afdb07 | En la celda 95afdb0734 hay dos pokeparadas activas ('Antigua Sociedad de Seguros Mutuos' y 'Escudo del Personal Embarcados')[²](#notas) |
+| 95afdbab | En la celda 95afdbaae4 no aparece la pokeparada 'Mural "Chica Fit"'[¹](#notas)                                                          |
+| 95afda57 | En la celda 95afda56c4 no aparece la pokeparada 'Mural "La Casa de Los Sentimientos"'[¹](#notas)                                        |
+| 95afdb1d | En la celda 95afdb1d5c hay un gym y una pokeparada activos ('Monumento al Marino' y 'Parque de Juegos Saludables')[²](#notas)           |
+|          | En la celda 95afdb1d44 hay un gym y una pokeparada activos ('Monumento a la Madre' y 'Wenceslao Gadea - Busto')[²](#notas)              |
+| 95afdb0d | Hay un Gym adicional[²](#notas)                                                                                                         |
 
 ### Notas
 
