@@ -514,6 +514,84 @@
             "lat": -32.471074,
             "lng": -58.250329,
             "name": "Potrero en La Rural"
+        },
+        "bf341ce5ea7b3a1cb13055838dbc41ba.16": {
+            "guid": "bf341ce5ea7b3a1cb13055838dbc41ba.16",
+            "lat": -32.497749,
+            "lng": -58.251091,
+            "name": "Mural: Diego A. Maradona"
+        },
+        "3529f554509f46d09ae6dce931fa7603.16": {
+            "guid": "3529f554509f46d09ae6dce931fa7603.16",
+            "lat": -32.494456,
+            "lng": -58.25588,
+            "name": "Hermita \"San Marcos\"."
+        },
+        "0d23400a37e244a7af5d7a2b8b75500e.16": {
+            "guid": "0d23400a37e244a7af5d7a2b8b75500e.16",
+            "lat": -32.492122,
+            "lng": -58.253304,
+            "name": "Tanque de Agua Barrio 64 viviendas"
+        },
+        "ba95910107224000bbdd2435fd8a9774.16": {
+            "guid": "ba95910107224000bbdd2435fd8a9774.16",
+            "lat": -32.48013,
+            "lng": -58.257557,
+            "name": "Iglesias Cristiana \"Jesús Vuelve\""
+        },
+        "600847a2ceb946e195d7c5697388648d.16": {
+            "guid": "600847a2ceb946e195d7c5697388648d.16",
+            "lat": -32.479481,
+            "lng": -58.255305,
+            "name": "Ermita Virgen del Rosario"
+        },
+        "5cd4675974e54d68ac9e943196f5eb32.16": {
+            "guid": "5cd4675974e54d68ac9e943196f5eb32.16",
+            "lat": -32.479576,
+            "lng": -58.260635,
+            "name": "Parque de juegos infantiles"
+        },
+        "afe92852c05b400f8621e4678cef368b.16": {
+            "guid": "afe92852c05b400f8621e4678cef368b.16",
+            "lat": -32.477842,
+            "lng": -58.262713,
+            "name": "Capilla Nuestra Señora de Lourdes"
+        },
+        "7f3781a8030d4046a5d06d9db909d578.16": {
+            "guid": "7f3781a8030d4046a5d06d9db909d578.16",
+            "lat": -32.47251,
+            "lng": -58.257908,
+            "name": "Parque de juegos"
+        },
+        "ebdd0fb7f0e4400ea4740255f477bb75.16": {
+            "guid": "ebdd0fb7f0e4400ea4740255f477bb75.16",
+            "lat": -32.466213,
+            "lng": -58.235089,
+            "name": "Club Atletico Uruguay"
+        },
+        "2fe4100d34fd47db887ac71ddb3bf98f.16": {
+            "guid": "2fe4100d34fd47db887ac71ddb3bf98f.16",
+            "lat": -32.463045,
+            "lng": -58.237705,
+            "name": "Juego del parque de la ciudad"
+        },
+        "6922baac8f874e269f977c3159fd41f3.16": {
+            "guid": "6922baac8f874e269f977c3159fd41f3.16",
+            "lat": -32.462215,
+            "lng": -58.238266,
+            "name": "Area de descanso parque de la ciudad"
+        },
+        "c7c98b03667348e3a574bf99fc9ac70f.16": {
+            "guid": "c7c98b03667348e3a574bf99fc9ac70f.16",
+            "lat": -32.482573,
+            "lng": -58.272256,
+            "name": "Tanque IAPV"
+        },
+        "fa5b8690cb5e39e686678f3447a27764.16": {
+            "guid": "fa5b8690cb5e39e686678f3447a27764.16",
+            "lat": -32.471442,
+            "lng": -58.276456,
+            "name": "Tanque de agua urbanizacion \"El Molino\""
         }
     },
     "pokestops": {
@@ -3360,6 +3438,192 @@
             "lat": -32.488294,
             "lng": -58.2498,
             "name": "Mural \"El As del Joker\""
+        },
+        "e7a334c7bd6436a284f592bc68faa04c.16": {
+            "guid": "e7a334c7bd6436a284f592bc68faa04c.16",
+            "lat": -32.48923,
+            "lng": -58.248607,
+            "name": "Power GYM"
+        },
+        "fc49f225928d3a34ae478683267db2ed.16": {
+            "guid": "fc49f225928d3a34ae478683267db2ed.16",
+            "lat": -32.4966,
+            "lng": -58.250852,
+            "name": "Ermita: Maria del Rosario de San Nicolas"
+        },
+        "7aa8eee1f4b648529016da86d8ecc74d.16": {
+            "guid": "7aa8eee1f4b648529016da86d8ecc74d.16",
+            "lat": -32.494301,
+            "lng": -58.254487,
+            "name": "Parque de juegos infantil"
+        },
+        "90c411741d274e91951478b40390f683.16": {
+            "guid": "90c411741d274e91951478b40390f683.16",
+            "lat": -32.49432,
+            "lng": -58.254997,
+            "name": "Salón comunitario."
+        },
+        "40f90b5decb74037b071b3d44b73eb41.16": {
+            "guid": "40f90b5decb74037b071b3d44b73eb41.16",
+            "lat": -32.492072,
+            "lng": -58.253575,
+            "name": "Monilito homenaje a la Virgen Maria."
+        },
+        "66394c5ef17848e09b1fe04e816cc6bb.16": {
+            "guid": "66394c5ef17848e09b1fe04e816cc6bb.16",
+            "lat": -32.492959,
+            "lng": -58.256485,
+            "name": "Homenaje a la Virgen María."
+        },
+        "2808049411ab4027bf1ebd557c94aef7.16": {
+            "guid": "2808049411ab4027bf1ebd557c94aef7.16",
+            "lat": -32.49315,
+            "lng": -58.257138,
+            "name": "Plazoleta Flavia V. Schiavo"
+        },
+        "b3f9256135684a42aa9ca1e92ded7398.16": {
+            "guid": "b3f9256135684a42aa9ca1e92ded7398.16",
+            "lat": -32.479396,
+            "lng": -58.256775,
+            "name": "Monolito: Virgen Maria."
+        },
+        "c98a517d90ff3c78bd5db9b4cb6b0bea.16": {
+            "guid": "c98a517d90ff3c78bd5db9b4cb6b0bea.16",
+            "lat": -32.479186,
+            "lng": -58.254214,
+            "name": "Santuario religioso"
+        },
+        "119624bcd96d4ae2ad795e228af7cc04.16": {
+            "guid": "119624bcd96d4ae2ad795e228af7cc04.16",
+            "lat": -32.482326,
+            "lng": -58.257517,
+            "name": "Área de descanso B° Libertad"
+        },
+        "13842b7d32ec406a825b52df31be3cba.16": {
+            "guid": "13842b7d32ec406a825b52df31be3cba.16",
+            "lat": -32.481674,
+            "lng": -58.255567,
+            "name": "Parque de juegos Barrio Libertad"
+        },
+        "c6afd9f8067a486086df0a7c9892f169.16": {
+            "guid": "c6afd9f8067a486086df0a7c9892f169.16",
+            "lat": -32.482065,
+            "lng": -58.263989,
+            "name": "Club Atlético Engranaje"
+        },
+        "e55ba6f332ed499cbd1d62df5105a4b3.16": {
+            "guid": "e55ba6f332ed499cbd1d62df5105a4b3.16",
+            "lat": -32.482232,
+            "lng": -58.262199,
+            "name": "Plaza Villa Sol"
+        },
+        "00c3b997a1f24f81b617b2cd2cf64863.16": {
+            "guid": "00c3b997a1f24f81b617b2cd2cf64863.16",
+            "lat": -32.480822,
+            "lng": -58.261346,
+            "name": "Facultad de Ciencias de la Salud Uner"
+        },
+        "b96440cb7fb742559c0ecb69753da67b.16": {
+            "guid": "b96440cb7fb742559c0ecb69753da67b.16",
+            "lat": -32.480494,
+            "lng": -58.259568,
+            "name": "Super torre de agua"
+        },
+        "ef07b962dcdc4017861981128bd0613b.16": {
+            "guid": "ef07b962dcdc4017861981128bd0613b.16",
+            "lat": -32.48019,
+            "lng": -58.262168,
+            "name": "Universidad Nacional de Entre Ríos"
+        },
+        "99f39eff0d294240b61ab6b6f2c5062d.16": {
+            "guid": "99f39eff0d294240b61ab6b6f2c5062d.16",
+            "lat": -32.47771,
+            "lng": -58.259519,
+            "name": "Tanque de agua Cuadrado."
+        },
+        "a5b7a6f5b0423b529c8803ba5b3d2999.16": {
+            "guid": "a5b7a6f5b0423b529c8803ba5b3d2999.16",
+            "lat": -32.473475,
+            "lng": -58.261647,
+            "name": "Placa IAPV"
+        },
+        "18b14d1ef0b53820ab1ebbc808043a8e.16": {
+            "guid": "18b14d1ef0b53820ab1ebbc808043a8e.16",
+            "lat": -32.473398,
+            "lng": -58.260271,
+            "name": "Juego Infantiles"
+        },
+        "c9442028d06d457299632b9cd5bed052.16": {
+            "guid": "c9442028d06d457299632b9cd5bed052.16",
+            "lat": -32.466313,
+            "lng": -58.236393,
+            "name": "Arco del CAU 1904"
+        },
+        "01347571ff2f4c76837877b3b03101fd.16": {
+            "guid": "01347571ff2f4c76837877b3b03101fd.16",
+            "lat": -32.463499,
+            "lng": -58.237029,
+            "name": "Parque de la ciudad"
+        },
+        "f10286b75e4c4d4791889a0596befb72.16": {
+            "guid": "f10286b75e4c4d4791889a0596befb72.16",
+            "lat": -32.463002,
+            "lng": -58.238194,
+            "name": "Domo espacial"
+        },
+        "d4da2dd1a2a230a0aab95664680cbc2c.16": {
+            "guid": "d4da2dd1a2a230a0aab95664680cbc2c.16",
+            "lat": -32.46322,
+            "lng": -58.238492,
+            "name": "Ojos de Búho"
+        },
+        "1f8f0ffd0f223df18ebb780cdf4496be.16": {
+            "guid": "1f8f0ffd0f223df18ebb780cdf4496be.16",
+            "lat": -32.461497,
+            "lng": -58.237567,
+            "name": "Puente del Lago"
+        },
+        "6a665f54f6bf4ba5ad633c2c29ac6d14.16": {
+            "guid": "6a665f54f6bf4ba5ad633c2c29ac6d14.16",
+            "lat": -32.48292,
+            "lng": -58.272224,
+            "name": "Placa IAPV Programa Federal"
+        },
+        "8a3b955ec4d444cdafe8e2d7b18f4809.16": {
+            "guid": "8a3b955ec4d444cdafe8e2d7b18f4809.16",
+            "lat": -32.483998,
+            "lng": -58.273904,
+            "name": "Parque de Juegos"
+        },
+        "fcc40f62d18d4742812322733d819760.16": {
+            "guid": "fcc40f62d18d4742812322733d819760.16",
+            "lat": -32.481458,
+            "lng": -58.27339,
+            "name": "Tanque de agua potable barrio morado"
+        },
+        "3904e708020132cea3902c9e8598dac7.16": {
+            "guid": "3904e708020132cea3902c9e8598dac7.16",
+            "lat": -32.472054,
+            "lng": -58.276777,
+            "name": "El barco abandonado"
+        },
+        "ee2ba409df114f5289bbca4acf1271fd.16": {
+            "guid": "ee2ba409df114f5289bbca4acf1271fd.16",
+            "lat": -32.470317,
+            "lng": -58.269573,
+            "name": "STIA Sindicato"
+        },
+        "16b843df6fdc4bda881c8e4b6fb66022.16": {
+            "guid": "16b843df6fdc4bda881c8e4b6fb66022.16",
+            "lat": -32.487561,
+            "lng": -58.278579,
+            "name": "Monumento A La Niña"
+        },
+        "740f19ae391a4f13a54e4a0a1fe14985.16": {
+            "guid": "740f19ae391a4f13a54e4a0a1fe14985.16",
+            "lat": -32.489244,
+            "lng": -58.278163,
+            "name": "Tanque de Agua Potable"
         }
     },
     "notpogo": {},

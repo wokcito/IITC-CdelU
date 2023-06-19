@@ -1,8 +1,8 @@
 # ¿Cómo importo los Gyms y Pokestops de Concepción del Uruguay?
 
-> Requisitos: Tener el plugin s2check.user.js instalado.
+> Requisitos: Tener el plugin s2check.user.js instalado ([descargar acá](https://gist.github.com/5310/c216c40cf6d34834c9cfaad0d820ae4d)).
 
-Descargamos el archivo [IITC-CdelU.json](https://github.com/Wokcito/IITC-CdelU/releases/download/v1.0.0/IITC-CdelU.json) y seguimos los siguientes pasos:
+Descargamos el archivo [IITC-CdelU.json](https://github.com/Wokcito/IITC-CdelU/releases/download/v1.1.0/IITC-CdelU.json) y seguimos los siguientes pasos:
 
 ![image](https://user-images.githubusercontent.com/99556533/207217423-82607fbd-8203-452d-bd34-5b2f2d453885.png)
 
@@ -10,7 +10,7 @@ Descargamos el archivo [IITC-CdelU.json](https://github.com/Wokcito/IITC-CdelU/r
 
 ![image](https://user-images.githubusercontent.com/99556533/207221600-d965c531-e721-4d4c-9f19-14ef41bdb5e6.png)
 
-Importamos el archivo descargado
+Importamos el archivo descargado de este este repositorio
 
 ![image](https://user-images.githubusercontent.com/99556533/207221653-1fe5d404-885d-4154-87fb-072b19182faa.png)
 
@@ -71,9 +71,3 @@ Importamos el archivo descargado
 
 1. Está muy cerca de una pokeparada o gym y por eso no aparece en IITC, pero sigue activa/o en el mapa.
 2. Probablemente en los primeros años del juego no existían las celdas y eso causa el error.
-
-### ¿Dónde veo las celdas?
-
-Usando [s2.sidewalklabs](https://s2.sidewalklabs.com/regioncoverer/) buscamos con el código de alguna celda (Por ejemplo: 95afdb01)
-
-![image](https://user-images.githubusercontent.com/99556533/207418351-6e698810-d5ea-47f5-8ce2-9edd66f20a8e.png)
