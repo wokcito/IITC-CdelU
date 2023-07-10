@@ -2,7 +2,7 @@
 
 > Requisitos: Tener el plugin s2check.user.js instalado ([descargar acá](https://gist.github.com/5310/c216c40cf6d34834c9cfaad0d820ae4d)).
 
-Descargamos el archivo [IITC-CdelU.json](https://github.com/Wokcito/IITC-CdelU/releases/download/v1.1.1/IITC-CdelU.json) y seguimos los siguientes pasos:
+Descargamos el archivo [IITC-CdelU.json](https://github.com/Wokcito/IITC-CdelU/releases/download/v1.2.0/IITC-CdelU.json) y seguimos los siguientes pasos:
 
 ![image](https://user-images.githubusercontent.com/99556533/207217423-82607fbd-8203-452d-bd34-5b2f2d453885.png)
 
@@ -19,7 +19,6 @@ Importamos el archivo descargado de este repositorio
 |  Celda   | Información complementaria                                                                                                              |
 | :------: | --------------------------------------------------------------------------------------------------------------------------------------- |
 | 95afda53 | En la celda 95afda5224 no aparece la pokeparada 'Corazón Solidario'[¹](#notas)                                                          |
-| 95afdbad | En la celda 95afdbacec no aparece el gym 'Terminal de Ómnibus'[¹](#notas)                                                               |
 | 95afdba7 | En la celda 95afdba7fc no aparece la pokeparada 'Mural "Pitin"'[¹](#notas)                                                              |
 | 95afdb07 | En la celda 95afdb0734 hay dos pokeparadas activas ('Antigua Sociedad de Seguros Mutuos' y 'Escudo del Personal Embarcados')[²](#notas) |
 | 95afdbab | En la celda 95afdbaae4 no aparece la pokeparada 'Mural "Chica Fit"'[¹](#notas)                                                          |

@@ -592,6 +592,24 @@
             "lat": -32.471442,
             "lng": -58.276456,
             "name": "Tanque de agua urbanizacion \"El Molino\""
+        },
+        "6e37b9919ad74991bec9b885a8c2f5ef.16": {
+            "guid": "6e37b9919ad74991bec9b885a8c2f5ef.16",
+            "lat": -32.485408,
+            "lng": -58.242318,
+            "name": "Terminal de Ómnibus C. del Uruguay"
+        },
+        "42cb807a6f13331b9e9088af04cf3ab0.16": {
+            "guid": "42cb807a6f13331b9e9088af04cf3ab0.16",
+            "lat": -32.455798,
+            "lng": -58.209761,
+            "name": "Tanque Cuadrado de Banco Pelay"
+        },
+        "38b3547e4a1b4cf78cc6ef1d63ef49f6.16": {
+            "guid": "38b3547e4a1b4cf78cc6ef1d63ef49f6.16",
+            "lat": -32.450102,
+            "lng": -58.209855,
+            "name": "Placa: Avenida \"Elvio Suárez\""
         }
     },
     "pokestops": {
@@ -1501,12 +1519,6 @@
             "lng": -58.237743,
             "name": "Hombres trabajando"
         },
-        "f6c9f04c632a4ee4b745c01f24fc4840.16": {
-            "guid": "f6c9f04c632a4ee4b745c01f24fc4840.16",
-            "lat": -32.496256,
-            "lng": -58.229172,
-            "name": "Mural del Estudiante"
-        },
         "ed75a156ed3c47ed8f3a47cee03026e3.16": {
             "guid": "ed75a156ed3c47ed8f3a47cee03026e3.16",
             "lat": -32.498426,
@@ -1530,12 +1542,6 @@
             "lat": -32.497362,
             "lng": -58.228712,
             "name": "Plaza Carlos Schiavo"
-        },
-        "5dfbf2061da94a9b8e56c1f21e25d62f.16": {
-            "guid": "5dfbf2061da94a9b8e56c1f21e25d62f.16",
-            "lat": -32.49657,
-            "lng": -58.22912,
-            "name": "Capilla Nuestra Señora de Fátima"
         },
         "a1f64af4378743f1beb15858a7fdea58.16": {
             "guid": "a1f64af4378743f1beb15858a7fdea58.16",
@@ -3624,6 +3630,108 @@
             "lat": -32.489244,
             "lng": -58.278163,
             "name": "Tanque de Agua Potable"
+        },
+        "ec18c3f15af739dd999cb59e3d2e1f24.16": {
+            "guid": "ec18c3f15af739dd999cb59e3d2e1f24.16",
+            "lat": -32.486956,
+            "lng": -58.245484,
+            "name": "Mural \"Palmeras\""
+        },
+        "6157a6d670c132c6a119ead83e31cf85.16": {
+            "guid": "6157a6d670c132c6a119ead83e31cf85.16",
+            "lat": -32.48713,
+            "lng": -58.245208,
+            "name": "Mástiles de Inmuner"
+        },
+        "50ab425a599a34c0a9f1dffaba9a211c.16": {
+            "guid": "50ab425a599a34c0a9f1dffaba9a211c.16",
+            "lat": -32.45695,
+            "lng": -58.21013,
+            "name": "Area de descanso y parrillas"
+        },
+        "46129587c408305c9f70241b0aebe607.16": {
+            "guid": "46129587c408305c9f70241b0aebe607.16",
+            "lat": -32.450685,
+            "lng": -58.210342,
+            "name": "Tanque de Agua Banco Pelay"
+        },
+        "20b0fb807594362599cc40d48a8e392e.16": {
+            "guid": "20b0fb807594362599cc40d48a8e392e.16",
+            "lat": -32.450038,
+            "lng": -58.210383,
+            "name": "Juego infantiles"
+        },
+        "f6c9f04c632a4ee4b745c01f24fc4840.16": {
+            "guid": "f6c9f04c632a4ee4b745c01f24fc4840.16",
+            "lat": -32.496256,
+            "lng": -58.229172,
+            "name": "Mural del Estudiante"
+        },
+        "5dfbf2061da94a9b8e56c1f21e25d62f.16": {
+            "guid": "5dfbf2061da94a9b8e56c1f21e25d62f.16",
+            "lat": -32.49657,
+            "lng": -58.229119,
+            "name": "Capilla Nuestra Señora de Fátima"
+        },
+        "befa7e92b7f539ac819e1f8529a53215.16": {
+            "guid": "befa7e92b7f539ac819e1f8529a53215.16",
+            "lat": -32.488669,
+            "lng": -58.235778,
+            "name": "La bicicleta de Vicente"
+        },
+        "4a2647d8803a3d5abb6a0baa3a57c2df.16": {
+            "guid": "4a2647d8803a3d5abb6a0baa3a57c2df.16",
+            "lat": -32.487434,
+            "lng": -58.242067,
+            "name": "Mural \"Escudo Nacional\""
+        },
+        "1064283f5ffe3002a62e7db16ac53acc.16": {
+            "guid": "1064283f5ffe3002a62e7db16ac53acc.16",
+            "lat": -32.487788,
+            "lng": -58.241957,
+            "name": "Mural \"San Martín\""
+        },
+        "0c4acbecebb031b7bdd3663b061350da.16": {
+            "guid": "0c4acbecebb031b7bdd3663b061350da.16",
+            "lat": -32.476962,
+            "lng": -58.22841,
+            "name": "Canchas de tenis del Club Rocamora"
+        },
+        "b87adb1f03c5332ebdbeeb88ba80d445.16": {
+            "guid": "b87adb1f03c5332ebdbeeb88ba80d445.16",
+            "lat": -32.479705,
+            "lng": -58.223607,
+            "name": "Oficinas del Puerto"
+        },
+        "0ea0f2df7ab33c3c8713df1453509886.16": {
+            "guid": "0ea0f2df7ab33c3c8713df1453509886.16",
+            "lat": -32.478664,
+            "lng": -58.22368,
+            "name": "Mural \"Flash\""
+        },
+        "74c50ad33cc230b2828d89034082a51a.16": {
+            "guid": "74c50ad33cc230b2828d89034082a51a.16",
+            "lat": -32.479413,
+            "lng": -58.232305,
+            "name": "SITRACyT Paraná"
+        },
+        "95c5a7f389b633bdbb4f074580f0bc66.16": {
+            "guid": "95c5a7f389b633bdbb4f074580f0bc66.16",
+            "lat": -32.481932,
+            "lng": -58.231799,
+            "name": "Poder Judicial"
+        },
+        "7294d433bd153d5ea829cd94c51b5c2c.16": {
+            "guid": "7294d433bd153d5ea829cd94c51b5c2c.16",
+            "lat": -32.466562,
+            "lng": -58.250094,
+            "name": "Cancha de Rivadavia"
+        },
+        "d7a8ba4c32aa3b61a1cd7329136f1ae2.16": {
+            "guid": "d7a8ba4c32aa3b61a1cd7329136f1ae2.16",
+            "lat": -32.466932,
+            "lng": -58.250155,
+            "name": "Escudo de la Provincia de Entre Ríos"
         }
     },
     "notpogo": {},
