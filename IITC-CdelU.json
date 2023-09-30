@@ -610,6 +610,24 @@
             "lat": -32.450102,
             "lng": -58.209855,
             "name": "Placa: Avenida \"Elvio Suárez\""
+        },
+        "25e226a372fe400c822028ecec03f1df.16": {
+            "guid": "25e226a372fe400c822028ecec03f1df.16",
+            "lat": -32.501072,
+            "lng": -58.279856,
+            "name": "programa federal techo digno"
+        },
+        "e48488e29ffa47ceb3970094905523eb.16": {
+            "guid": "e48488e29ffa47ceb3970094905523eb.16",
+            "lat": -32.497613,
+            "lng": -58.282971,
+            "name": "Barrio Chilo Zaragoza"
+        },
+        "bf9ba00b516041ce8a8091cbb9f6ad46.16": {
+            "guid": "bf9ba00b516041ce8a8091cbb9f6ad46.16",
+            "lat": -32.48652,
+            "lng": -58.301016,
+            "name": "Concepción del Uruguay"
         }
     },
     "pokestops": {
@@ -3732,6 +3750,66 @@
             "lat": -32.466932,
             "lng": -58.250155,
             "name": "Escudo de la Provincia de Entre Ríos"
+        },
+        "92520a8596fe3a9f8e77fd925412d0e0.16": {
+            "guid": "92520a8596fe3a9f8e77fd925412d0e0.16",
+            "lat": -32.479273,
+            "lng": -58.23552,
+            "name": "Mural \"Zaninetti\""
+        },
+        "7088db8abb553f0e86cb38f2d656e7f3.16": {
+            "guid": "7088db8abb553f0e86cb38f2d656e7f3.16",
+            "lat": -32.478254,
+            "lng": -58.23982,
+            "name": "Ferrugem"
+        },
+        "8eec02f26e3c3242ab6a0eba52d21789.16": {
+            "guid": "8eec02f26e3c3242ab6a0eba52d21789.16",
+            "lat": -32.483573,
+            "lng": -58.250932,
+            "name": "Nuevo Anfiteatro"
+        },
+        "2f13142e70bc4e05bd69ac5f72e6e1da.16": {
+            "guid": "2f13142e70bc4e05bd69ac5f72e6e1da.16",
+            "lat": -32.500861,
+            "lng": -58.276029,
+            "name": "Juegos saludables"
+        },
+        "48974fe59c13444f84b1ebea0a9b6965.16": {
+            "guid": "48974fe59c13444f84b1ebea0a9b6965.16",
+            "lat": -32.503116,
+            "lng": -58.280045,
+            "name": "Placa IAPV"
+        },
+        "f02d71ad0fe3480ba196a9128ef36644.16": {
+            "guid": "f02d71ad0fe3480ba196a9128ef36644.16",
+            "lat": -32.49937,
+            "lng": -58.283155,
+            "name": "Tanque de Agua"
+        },
+        "ffc784d85dc841f8be8c2db83f904683.16": {
+            "guid": "ffc784d85dc841f8be8c2db83f904683.16",
+            "lat": -32.508733,
+            "lng": -58.270453,
+            "name": "Santuario de la Virgen Stella Maris"
+        },
+        "092270d13c4d42d7bbfb279a67285302.16": {
+            "guid": "092270d13c4d42d7bbfb279a67285302.16",
+            "lat": -32.491546,
+            "lng": -58.263501,
+            "name": "Parque las mandarinas"
+        },
+        "832e586c1a6c41c4b7c170351855bde3.16": {
+            "guid": "832e586c1a6c41c4b7c170351855bde3.16",
+            "lat": -32.476101,
+            "lng": -58.299443,
+            "name": "Capilla Santa Lucía"
+        },
+        "f009e9f322344fef8a74e8bb93ff82d4.16": {
+            "guid": "f009e9f322344fef8a74e8bb93ff82d4.16",
+            "lat": -32.486714,
+            "lng": -58.302064,
+            "name": "Santuario Con Garita"
         }
     },
     "notpogo": {},
