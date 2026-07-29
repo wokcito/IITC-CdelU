@@ -7,8 +7,8 @@
 // @updateURL    https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
 // @homepageURL  https://github.com/wokcito/IITC-CdelU/
 // @supportURL   https://discord.gg/niawayfarer
-// @version      0.110
-// @description  v0.110. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
+// @version      0.111
+// @description  v0.111. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
 // @author       Alfonso M.
 // @match        https://intel.ingress.com/*
 // @grant        none
@@ -2165,19 +2165,38 @@
 		 *    PoI count, etc.). labelRow stacks labels vertically by grid index, so different
 		 *    configured grid levels never draw their ID text on top of each other.
 		 */
+		/**
+		 * Copies text to the clipboard, falling back to the plugin's manual copy dialog
+		 * when the Clipboard API isn't available (e.g. old IITCm webviews).
+		 */
+		function copyToClipboard(text) {
+			if (navigator.clipboard && navigator.clipboard.writeText) {
+				navigator.clipboard.writeText(text).catch(() => promptForCopy(text));
+			} else {
+				promptForCopy(text);
+			}
+		}
+
 		function writeCellId(cell, labelRow) {
 			// anchor to a corner instead of the center to avoid overlapping writeInCell()
 			const corner = cell.getCornerLatLngs()[0];
+			const token = cell.getIdToken();
 
 			const marker = L.marker(corner, {
 				icon: L.divIcon({
 					className: "pogo-cellid",
 					iconAnchor: [0, -14 * (labelRow || 0)],
 					iconSize: [150, 14],
-					html: cell.getIdToken(),
+					html: '<span title="Click to copy">' + token + "</span>",
 				}),
-				clickable: false,
-				interactive: false,
+			});
+			marker.on("click", function () {
+				copyToClipboard(token);
+				const el = marker.getElement ? marker.getElement() : marker._icon;
+				if (el) {
+					el.classList.add("copied");
+					setTimeout(() => el.classList.remove("copied"), 600);
+				}
 			});
 			return marker;
 		}
@@ -3502,7 +3521,7 @@
         }
 
         .pogo-cellid {
-            pointer-events: none;
+            cursor: pointer;
             border: none !important;
             background: none !important;
             font-size: 11px;
@@ -3510,6 +3529,9 @@
             color: #000;
             text-shadow: 1px 1px #FFF, 2px 2px 6px #fff, -1px -1px #fff, -2px -2px 6px #fff;
             white-space: nowrap;
+        }
+        .pogo-cellid.copied {
+            color: #0a0;
         }
 
     // TODO: should this be removed? Heck if I know, so it's probably here to stay!
