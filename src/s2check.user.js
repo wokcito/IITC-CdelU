@@ -2,13 +2,13 @@
 // @name         Pogo Tools w/ PoGOHWH
 // @id           s2check@alfonsoml
 // @category     Layer
-// @namespace    https://gitlab.com/NvlblNm/pogo-s2/
+// @namespace    https://github.com/wokcito/IITC-CdelU/
 // @downloadURL  https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
 // @updateURL    https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
-// @homepageURL  https://gitlab.com/NvlblNm/pogo-s2/
+// @homepageURL  https://github.com/wokcito/IITC-CdelU/
 // @supportURL   https://discord.gg/niawayfarer
 // @version      0.110
-// @description  Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
+// @description  v0.110. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
 // @author       Alfonso M.
 // @match        https://intel.ingress.com/*
 // @grant        none
