@@ -3814,5 +3814,21 @@
     },
     "notpogo": {},
     "ignoredCellsExtraGyms": {},
-    "ignoredCellsMissingGyms": {}
+    "ignoredCellsMissingGyms": {},
+    "powerspots": {
+		"s2-pogo-32468893-5824906787585.62104055252": {
+			"guid": "s2-pogo-32468893-5824906787585.62104055252",
+			"lat": "-32.468893",
+			"lng": "-58.249067",
+			"name": "Santa Candida",
+			"exists": true
+		},
+		"b06331f24d6e42848b023c982e30220c.16": {
+			"guid": "b06331f24d6e42848b023c982e30220c.16",
+			"lat": -32.474525,
+			"lng": -58.252606,
+			"name": "Mural Floreado",
+			"exists": true
+		}
+	}
 }
