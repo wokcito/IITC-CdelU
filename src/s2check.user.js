@@ -3,11 +3,11 @@
 // @id           s2check@alfonsoml
 // @category     Layer
 // @namespace    https://gitlab.com/NvlblNm/pogo-s2/
-// @downloadURL  https://gitlab.com/NvlblNm/pogo-s2/raw/master/s2check.user.js
-// @updateURL    https://gitlab.com/NvlblNm/pogo-s2/raw/master/s2check.user.js
+// @downloadURL  https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
+// @updateURL    https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
 // @homepageURL  https://gitlab.com/NvlblNm/pogo-s2/
 // @supportURL   https://discord.gg/niawayfarer
-// @version      0.109
+// @version      0.110
 // @description  Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
 // @author       Alfonso M.
 // @match        https://intel.ingress.com/*
@@ -226,6 +226,150 @@
 			cell.level = level;
 
 			return cell;
+		};
+
+		// The Hilbert curve swap/invert automaton Google's S2 library uses to walk (i,j)
+		// across a face, keyed by orientation state; each entry is [digit, nextState].
+		const S2_HILBERT_MAP = {
+			a: [
+				[0, "d"],
+				[1, "a"],
+				[3, "b"],
+				[2, "a"],
+			],
+			b: [
+				[2, "b"],
+				[1, "b"],
+				[3, "a"],
+				[0, "c"],
+			],
+			c: [
+				[2, "c"],
+				[3, "d"],
+				[1, "c"],
+				[0, "b"],
+			],
+			d: [
+				[0, "a"],
+				[3, "c"],
+				[1, "d"],
+				[2, "d"],
+			],
+		};
+
+		// Inverse of S2_HILBERT_MAP: given a state and a digit, returns [quadIndex, nextState]
+		const S2_HILBERT_MAP_INVERSE = {};
+		Object.keys(S2_HILBERT_MAP).forEach((state) => {
+			S2_HILBERT_MAP_INVERSE[state] = [];
+			S2_HILBERT_MAP[state].forEach((entry, quadIndex) => {
+				const [digit, nextState] = entry;
+				S2_HILBERT_MAP_INVERSE[state][digit] = [quadIndex, nextState];
+			});
+		});
+
+		// Walks (i,j) down the S2 Hilbert curve for the cell's face, returning the base-4
+		// digit chosen at each level (MSB first). This is the same swap/invert automaton
+		// Google's S2 library uses, so the result matches the real S2 cell hierarchy.
+		function pointToHilbertQuadList(x, y, order, face) {
+			let currentSquare = face % 2 ? "d" : "a";
+			const positions = [];
+
+			for (let i = order - 1; i >= 0; i--) {
+				const mask = 1 << i;
+				const quadX = x & mask ? 1 : 0;
+				const quadY = y & mask ? 1 : 0;
+				const t = S2_HILBERT_MAP[currentSquare][quadX * 2 + quadY];
+				positions.push(t[0]);
+				currentSquare = t[1];
+			}
+
+			return positions;
+		}
+
+		// Inverse of pointToHilbertQuadList: given the base-4 Hilbert curve digits (MSB
+		// first) for a face, reconstructs the (i,j) point they encode.
+		function hilbertQuadListToPoint(quads, face) {
+			let currentSquare = face % 2 ? "d" : "a";
+			let x = 0;
+			let y = 0;
+
+			for (const digit of quads) {
+				const t = S2_HILBERT_MAP_INVERSE[currentSquare][digit];
+				const quadIndex = t[0];
+				x = (x << 1) | (quadIndex >> 1);
+				y = (y << 1) | (quadIndex & 1);
+				currentSquare = t[1];
+			}
+
+			return [x, y];
+		}
+
+		// Builds the real 64-bit S2 CellId (face + Hilbert curve position + level marker bit,
+		// see https://s2geometry.io/devguide/s2cell_hierarchy.html) and returns it as the
+		// standard hex "token" (trailing zero nibbles stripped), the format used by every other
+		// S2 tool. Uses BigInt since the id doesn't fit in a JS safe integer.
+		S2.S2Cell.prototype.getIdToken = function () {
+			const quads = pointToHilbertQuadList(
+				this.ij[0],
+				this.ij[1],
+				this.level,
+				this.face,
+			);
+
+			let pos = 0n;
+			for (const digit of quads) {
+				pos = (pos << 2n) | BigInt(digit);
+			}
+
+			const id =
+				(BigInt(this.face) << 61n) |
+				(pos << BigInt(61 - 2 * this.level)) |
+				(1n << BigInt(60 - 2 * this.level));
+
+			let hex = id.toString(16).padStart(16, "0");
+			hex = hex.replace(/0+$/, "");
+			return hex || "0";
+		};
+
+		// Inverse of getIdToken(): parses a standard S2 cell hex token and returns the
+		// corresponding S2Cell, or null if the token isn't a valid S2 cell id.
+		S2.S2Cell.FromToken = function (token) {
+			if (typeof token !== "string") {
+				return null;
+			}
+			const clean = token.trim().toLowerCase();
+			if (!/^[0-9a-f]{1,16}$/.test(clean)) {
+				return null;
+			}
+
+			const id = BigInt("0x" + clean.padEnd(16, "0"));
+			if (id === 0n) {
+				return null;
+			}
+
+			const face = Number(id >> 61n);
+			if (face > 5) {
+				return null;
+			}
+
+			// isolate the lowest set bit (the level marker) to find the level
+			const lsb = id & -id;
+			const trailingZeros = lsb.toString(2).length - 1;
+			if (trailingZeros > 60 || trailingZeros % 2 !== 0) {
+				return null;
+			}
+			const level = 30 - trailingZeros / 2;
+
+			const posBits = BigInt(2 * level);
+			const pos = (id >> BigInt(trailingZeros + 1)) & ((1n << posBits) - 1n);
+
+			const quads = [];
+			for (let i = level - 1; i >= 0; i--) {
+				quads.push(Number((pos >> BigInt(2 * i)) & 3n));
+			}
+
+			const ij = hilbertQuadListToPoint(quads, face);
+			return S2.S2Cell.FromFaceIJ(face, ij, level);
 		};
 
 		S2.S2Cell.prototype.toString = function () {
@@ -605,6 +749,7 @@
 		let gridLayerGroup; // s2 grid
 		let cellLayerGroup; // cell shading and borders
 		let gymCenterLayerGroup; // gym centers
+		let searchResultLayerGroup; // highlight for the cell-search-by-id feature
 
 		let countLayer; // layer with count of portals in each cell
 
@@ -631,6 +776,12 @@
 			highlightGymCenter: false,
 			analyzeForMissingData: true,
 			centerMapOnClick: true,
+			showCellId: false,
+			// how many zoom levels past a cell's own S2 level you need to zoom in before
+			// its ID label is shown; applied the same way to every grid level, but since
+			// it's relative to each cell's level, smaller (higher level) cells still need
+			// more zoom than bigger ones to reveal their label
+			cellIdZoomOffset: 2,
 			syncEnabled: true,
 			syncUrl:
 				"https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/database.json",
@@ -806,6 +957,13 @@
 					settings.syncEnabled = defaultSettings.syncEnabled;
 					settings.syncUrl = defaultSettings.syncUrl;
 				}
+
+				if (typeof settings.showCellId === "undefined") {
+					settings.showCellId = defaultSettings.showCellId;
+				}
+				if (typeof settings.cellIdZoomOffset === "undefined") {
+					settings.cellIdZoomOffset = defaultSettings.cellIdZoomOffset;
+				}
 			} catch (e) {
 				// eslint-disable-line no-empty
 			}
@@ -882,6 +1040,12 @@
 			if (typeof settings.syncUrl === "undefined") {
 				settings.syncEnabled = defaultSettings.syncEnabled;
 				settings.syncUrl = defaultSettings.syncUrl;
+			}
+			if (typeof settings.showCellId === "undefined") {
+				settings.showCellId = defaultSettings.showCellId;
+			}
+			if (typeof settings.cellIdZoomOffset === "undefined") {
+				settings.cellIdZoomOffset = defaultSettings.cellIdZoomOffset;
 			}
 
 			setThisIsPogo();
@@ -1217,6 +1381,8 @@
 				selectRow.replace("{{level}}", "1st") +
 				selectRow.replace("{{level}}", "2nd") +
 				`<p><input type="checkbox" id="chkHighlightCandidates" /><label for="chkHighlightCandidates" title="1) Highlight level 17 cells with a pokéstop/gym.<br/>2) Show the amount of pokéstops needed for a new gym (in the center of level 14 cells).<br/>3) Highlight a border around level 14 cells that need 1-3 more pokéstops for a new gym.">Highlight Cells that might get a Gym</label></p>
+                 <p><input type="checkbox" id="chkShowCellId" /><label for="chkShowCellId" title="Shows the S2 cell ID over each visible cell of the grids above, once you zoom in enough for that grid level to be drawn.">Show cell ID on grid cells</label></p>
+                 <p><label for="numCellIdZoomOffset" title="Extra zoom levels (relative to each cell's own S2 level) needed before its ID label is shown. Same number applies to every grid level; bigger cells need less extra zoom than smaller ones. Higher = fewer labels, lower = more labels.">Cell ID zoom offset:</label> <input type="number" id="numCellIdZoomOffset" min="0" max="10" step="1" style="width:4em"></p>
                  <p><input type="checkbox" id="chkDisplayCircle20" /><label for="chkDisplayCircle20" title="New wayspots within 20 meters of an existing portal will not be visible in Ingress.">Show 20m submit radius for portals</label></p>
                  <p><input type="checkbox" id="chkDisplayCircle22" /><label for="chkDisplayCircle22" title="New wayspot may become a powerspot if it is in an occupied level 17 cell and at least 22 meters from the nearest pokéstop or gym.">Show 22m submit radius for powerspots</label></p>
                  <p><input type="checkbox" id="chkDisplayCircle80" /><label for="chkDisplayCircle80" title="Display 80 meter circles showing how far you can be to interact with a pokéstop, gym or a powerspot.">Show 80m interaction radius</label></p>
@@ -1249,6 +1415,24 @@
 
 			chkHighlight.addEventListener("change", (e) => {
 				settings.highlightGymCandidateCells = chkHighlight.checked;
+				saveSettings();
+				updateMapGrid();
+			});
+
+			// Checkbox for "Show cell ID on grid cells"
+			const chkShowCellId = div.querySelector("#chkShowCellId");
+			chkShowCellId.checked = settings.showCellId;
+			chkShowCellId.addEventListener("change", (e) => {
+				settings.showCellId = chkShowCellId.checked;
+				saveSettings();
+				updateMapGrid();
+			});
+
+			const numCellIdZoomOffset = div.querySelector("#numCellIdZoomOffset");
+			numCellIdZoomOffset.value = settings.cellIdZoomOffset;
+			numCellIdZoomOffset.addEventListener("change", (e) => {
+				const value = parseInt(numCellIdZoomOffset.value, 10);
+				settings.cellIdZoomOffset = Number.isNaN(value) ? 0 : value;
 				saveSettings();
 				updateMapGrid();
 			});
@@ -1769,7 +1953,13 @@
 
 			const bounds = map.getBounds();
 			const seenCells = {};
-			const drawCellAndNeighbors = function (cell, color, width, opacity) {
+			const drawCellAndNeighbors = function (
+				cell,
+				color,
+				width,
+				opacity,
+				labelRow,
+			) {
 				const cellStr = cell.toString();
 
 				if (!seenCells[cellStr]) {
@@ -1779,6 +1969,13 @@
 					if (isCellOnScreen(bounds, cell)) {
 						// on screen - draw it
 						gridLayerGroup.addLayer(drawCell(cell, color, width, opacity));
+
+						// only label cells once zoomed in well past the point the grid
+						// itself becomes visible, otherwise every cell on screen gets a
+						// label and it turns into an unreadable mess
+						if (settings.showCellId && zoom - cell.level >= settings.cellIdZoomOffset) {
+							gridLayerGroup.addLayer(writeCellId(cell, labelRow));
+						}
 
 						// show number of PoI in the cell
 						const cellGroup = cellsPortals[cellStr];
@@ -1791,7 +1988,13 @@
 						// and recurse to our neighbors
 						const neighbors = cell.getNeighbors();
 						for (let i = 0; i < neighbors.length; i++) {
-							drawCellAndNeighbors(neighbors[i], color, width, opacity);
+							drawCellAndNeighbors(
+								neighbors[i],
+								color,
+								width,
+								opacity,
+								labelRow,
+							);
 						}
 					}
 				}
@@ -1805,7 +2008,9 @@
 						getLatLngPoint(map.getCenter()),
 						gridLevel,
 					);
-					drawCellAndNeighbors(cell, grid.color, grid.width, grid.opacity);
+					// labelRow keeps different configured grid levels' ID labels from being
+					// drawn on top of each other when they share a screen position
+					drawCellAndNeighbors(cell, grid.color, grid.width, grid.opacity, i);
 				}
 			}
 		}
@@ -1949,6 +2154,30 @@
 			// fixme, maybe add some click handler
 			marker.on("click", function () {
 				displayCellSummary(cell);
+			});
+			return marker;
+		}
+
+		/**
+		 *    Writes the real S2 cell ID (hex token, see
+		 *    https://s2geometry.io/devguide/s2cell_hierarchy.html) near a corner of the cell,
+		 *    so it doesn't overlap with whatever else is written in the center (missing stops,
+		 *    PoI count, etc.). labelRow stacks labels vertically by grid index, so different
+		 *    configured grid levels never draw their ID text on top of each other.
+		 */
+		function writeCellId(cell, labelRow) {
+			// anchor to a corner instead of the center to avoid overlapping writeInCell()
+			const corner = cell.getCornerLatLngs()[0];
+
+			const marker = L.marker(corner, {
+				icon: L.divIcon({
+					className: "pogo-cellid",
+					iconAnchor: [0, -14 * (labelRow || 0)],
+					iconSize: [150, 14],
+					html: cell.getIdToken(),
+				}),
+				clickable: false,
+				interactive: false,
 			});
 			return marker;
 		}
@@ -2928,9 +3157,9 @@
 		 */
 		thisPlugin.syncFromUrl = function (url, silent) {
 			if (!url) {
-				return;
+				return Promise.resolve();
 			}
-			fetch(url)
+			return fetch(url)
 				.then((response) => {
 					if (!response.ok) {
 						throw new Error("HTTP " + response.status);
@@ -3272,6 +3501,17 @@
             }
         }
 
+        .pogo-cellid {
+            pointer-events: none;
+            border: none !important;
+            background: none !important;
+            font-size: 11px;
+            font-weight: bold;
+            color: #000;
+            text-shadow: 1px 1px #FFF, 2px 2px 6px #fff, -1px -1px #fff, -2px -2px 6px #fff;
+            white-space: nowrap;
+        }
+
     // TODO: should this be removed? Heck if I know, so it's probably here to stay!
     .thisIsPogo .layer_off_warning,
     .thisIsPogo .mods,
@@ -3583,6 +3823,40 @@
             .toggle-create-manual-pokestops svg{
                 max-height: 20px;
                 max-width: 20px;
+            }
+            .search-cell-by-id,
+            .pogo-sync-button{
+                box-shadow: 0 0 5px;
+                cursor:pointer;
+                font-weight: bold;
+                color: #000!important;
+                background-color: #fff;
+                border-bottom: 1px solid #ccc;
+                width: 26px;
+                height: 26px;
+                line-height: 26px;
+                text-decoration: none;
+                border-radius: 4px;
+                border-bottom: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .search-cell-by-id:hover,
+            .pogo-sync-button:hover{
+                text-decoration:none;
+            }
+            .search-cell-by-id svg,
+            .pogo-sync-button svg{
+                max-height: 16px;
+                max-width: 16px;
+            }
+            .pogo-sync-button.syncing svg{
+                animation: pogo-spin 1s linear infinite;
+            }
+            @keyframes pogo-spin {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
             }
             .pogo-s2-popup {
                 width:200px;
@@ -5031,6 +5305,162 @@
 			});
 		}
 
+		const SEARCH_RESULT_HIGHLIGHT_MS = 3000;
+		let searchResultTimer;
+
+		/**
+		 * Highlights the given cell on the map for a few seconds and pans/zooms so it's
+		 * fully in view.
+		 */
+		function goToCell(cell) {
+			if (!searchResultLayerGroup) {
+				return;
+			}
+			if (searchResultTimer) {
+				clearTimeout(searchResultTimer);
+			}
+			searchResultLayerGroup.clearLayers();
+
+			const corners = cell.getCornerLatLngs();
+			const bounds = L.latLngBounds([corners[0], corners[1]])
+				.extend(corners[2])
+				.extend(corners[3]);
+
+			searchResultLayerGroup.addLayer(
+				L.polygon(corners, {
+					color: "#00e5ff",
+					weight: 4,
+					fill: false,
+					clickable: false,
+					interactive: false,
+				}),
+			);
+
+			map.fitBounds(bounds, { maxZoom: 21, padding: [40, 40] });
+
+			searchResultTimer = setTimeout(() => {
+				searchResultLayerGroup.clearLayers();
+				searchResultTimer = null;
+			}, SEARCH_RESULT_HIGHLIGHT_MS);
+		}
+
+		function promptForCellId() {
+			const div = document.createElement("div");
+
+			const input = document.createElement("input");
+			input.type = "text";
+			input.placeholder = "e.g. 89c25a2ac2fbf or 95afda35";
+			input.style.width = "100%";
+			div.appendChild(input);
+
+			const error = document.createElement("p");
+			error.style.color = "#f88";
+			error.style.display = "none";
+			error.textContent = "Invalid cell ID";
+			div.appendChild(error);
+
+			const width = Math.min(screen.availWidth, 360);
+
+			const doSearch = function () {
+				const cell = input.value.trim() && S2.S2Cell.FromToken(input.value);
+				if (!cell) {
+					error.style.display = "";
+					return;
+				}
+				container.dialog("close");
+				goToCell(cell);
+			};
+
+			const container = dialog({
+				id: "searchCellById",
+				html: div,
+				width: width + "px",
+				title: "Search S2 cell by ID",
+				buttons: {
+					Search: doSearch,
+				},
+			});
+
+			input.addEventListener("keydown", (e) => {
+				if (e.key === "Enter") {
+					e.preventDefault();
+					doSearch();
+				}
+			});
+
+			input.focus();
+		}
+
+		function createSearchCellControl() {
+			L.Control.SearchCell = L.Control.extend({
+				onAdd: function (map) {
+					const button = L.DomUtil.create("a");
+					button.classList.add("search-cell-by-id");
+					button.href = "#";
+					button.title = "Search a S2 cell by its ID";
+					button.innerHTML =
+						'<svg height="16px" width="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">' +
+						'<path fill="none" stroke="currentColor" stroke-width="1.5" d="M7 1a6 6 0 100 12A6 6 0 007 1zM15 15l-4.35-4.35"/>' +
+						"</svg>";
+					return button;
+				},
+
+				onRemove: function (map) {
+					// Nothing to do here
+				},
+			});
+
+			L.control.searchcell = function (opts) {
+				return new L.Control.SearchCell(opts);
+			};
+
+			L.control.searchcell({ position: "topleft" }).addTo(map);
+			$(".search-cell-by-id").on("click", (e) => {
+				e.preventDefault();
+				e.stopPropagation();
+				promptForCellId();
+			});
+		}
+
+		function createSyncControl() {
+			L.Control.SyncButton = L.Control.extend({
+				onAdd: function (map) {
+					const button = L.DomUtil.create("a");
+					button.classList.add("pogo-sync-button");
+					button.href = "#";
+					button.title = "Sync PoGo data now";
+					button.innerHTML =
+						'<svg height="16px" width="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+						'<polyline points="23 4 23 10 17 10"/>' +
+						'<polyline points="1 20 1 14 7 14"/>' +
+						'<path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>' +
+						"</svg>";
+					return button;
+				},
+
+				onRemove: function (map) {
+					// Nothing to do here
+				},
+			});
+
+			L.control.syncbutton = function (opts) {
+				return new L.Control.SyncButton(opts);
+			};
+
+			L.control.syncbutton({ position: "topleft" }).addTo(map);
+			$(".pogo-sync-button").on("click", function (e) {
+				e.preventDefault();
+				e.stopPropagation();
+				if ($(this).hasClass("syncing")) {
+					return;
+				}
+				$(this).addClass("syncing");
+				thisPlugin
+					.syncFromUrl(settings.syncUrl, true)
+					.finally(() => $(".pogo-sync-button").removeClass("syncing"));
+			});
+		}
+
 		// Based on code from jaiperdu cache-portals plugin
 		function openS2DB() {
 			const version = 3;
@@ -5541,6 +5971,10 @@
 			gridLayerGroup = L.layerGroup();
 			// this layer will contain the gym centers for checking ex eligibility
 			gymCenterLayerGroup = L.featureGroup();
+			// this layer highlights the result of the cell-search-by-id feature; always
+			// visible (not tied to the S2 Grid overlay toggle) since it's a direct user action
+			searchResultLayerGroup = L.featureGroup();
+			map.addLayer(searchResultLayerGroup);
 
 			countLayer = L.layerGroup();
 			window.addLayerGroup("PoI in cell counter", countLayer, false);
@@ -5589,6 +6023,8 @@
 				}
 			});
 			createManualPokestops();
+			createSearchCellControl();
+			createSyncControl();
 			window.addHook("mapDataEntityInject", renderManualPokestops);
 
 			window.Render.prototype.oldAddPortalToMapLayer =
