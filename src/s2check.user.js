@@ -7,8 +7,8 @@
 // @updateURL    https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
 // @homepageURL  https://github.com/wokcito/IITC-CdelU/
 // @supportURL   https://discord.gg/niawayfarer
-// @version      0.111
-// @description  v0.111. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
+// @version      0.112
+// @description  v0.112. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
 // @author       Alfonso M.
 // @match        https://intel.ingress.com/*
 // @grant        none
@@ -2387,6 +2387,24 @@
 		}
 
 		/**
+		 * exists/newGuid are runtime-only flags set while browsing the map (see
+		 * checkIsPortalMissing) to avoid false "missing"/"moved" positives during the current
+		 * session. They're meaningless to anyone else and just cause noise in the exported
+		 * JSON's diff, so strip them from a shallow copy before exporting (without touching
+		 * the live in-memory objects, so it doesn't reset this session's own detection).
+		 */
+		function stripTransientFields(group) {
+			const newGroup = {};
+			Object.keys(group).forEach((id) => {
+				const item = Object.assign({}, group[id]);
+				delete item.exists;
+				delete item.newGuid;
+				newGroup[id] = item;
+			});
+			return newGroup;
+		}
+
+		/**
 		 * Add a JSON object to an object store with a defined keyPath
 		 * @param {*} db containing the object store
 		 * @param {*} objectStoreName to add item to
@@ -3057,13 +3075,13 @@
 		thisPlugin.optExport = function () {
 			saveToFile(
 				JSON.stringify({
-					gyms,
-					pokestops,
-					notpogo,
+					gyms: stripTransientFields(gyms),
+					pokestops: stripTransientFields(pokestops),
+					notpogo: stripTransientFields(notpogo),
 					ignoredCellsExtraGyms,
 					ignoredCellsMissingGyms,
-					waypoints,
-					powerspots,
+					waypoints: stripTransientFields(waypoints),
+					powerspots: stripTransientFields(powerspots),
 				}),
 				"IITC-pogo.json",
 			);
