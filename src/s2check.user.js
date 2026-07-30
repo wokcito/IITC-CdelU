@@ -7,8 +7,8 @@
 // @updateURL    https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
 // @homepageURL  https://github.com/wokcito/IITC-CdelU/
 // @supportURL   https://discord.gg/niawayfarer
-// @version      0.112
-// @description  v0.112. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
+// @version      0.113
+// @description  v0.113. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
 // @author       Alfonso M.
 // @match        https://intel.ingress.com/*
 // @grant        none
@@ -2443,7 +2443,11 @@
 				itemSuccessCallback(objectStoreName + ": nothing to import!");
 			}
 			items.forEach((item) => {
-				lastAdd = os.add(item);
+				// put (not add): re-importing/syncing an item we already have (e.g. a
+				// waypoint that came back in a synced file) must overwrite it, not throw a
+				// ConstraintError - since items of the same type share one transaction, a
+				// single add() failure used to silently abort the whole batch
+				lastAdd = os.put(item);
 
 				lastAdd.onsuccess = (e) => {
 					successCount++;
