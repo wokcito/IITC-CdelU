@@ -7,8 +7,8 @@
 // @updateURL    https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
 // @homepageURL  https://github.com/wokcito/IITC-CdelU/
 // @supportURL   https://discord.gg/niawayfarer
-// @version      0.114
-// @description  v0.114. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
+// @version      0.115
+// @description  v0.115. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
 // @author       Alfonso M.
 // @match        https://intel.ingress.com/*
 // @grant        none
@@ -5716,6 +5716,9 @@
 			}
 			waypoint.latE6 = Math.round(lat * 1e6);
 			waypoint.lngE6 = Math.round(lng * 1e6);
+			// bump the timestamp so IITC's entity diffing sees this as changed data and
+			// actually re-renders it, instead of assuming the same guid means "unchanged"
+			waypoint.timestamp = Date.now();
 			putWaypoint(waypoint);
 
 			const pogoData = thisPlugin.findByGuid(guid);
@@ -5728,10 +5731,23 @@
 				updateItemInObjectStoreStore(S2.db, pogoData.type, item);
 			}
 
+			// IITC treats portals as static and won't reposition an already-rendered
+			// marker just because its data changed - drop the stale one (same cleanup
+			// deleteManualWaypoint does) so the refresh below recreates it at the new spot
+			removeManualStop(guid);
+			if (portals[guid] !== undefined) {
+				portals[guid].remove();
+			}
+			if (
+				window.plugin?.cachePortalDetailsOnMap?.cache &&
+				guid in window.plugin.cachePortalDetailsOnMap.cache
+			) {
+				delete window.plugin.cachePortalDetailsOnMap.cache[guid];
+			}
+
 			window.mapDataRequest.start();
 			thisPlugin.resetAllMarkers();
 			updateMapGrid();
-			renderPortalDetails(guid);
 		};
 
 		function removeManualStop(guid) {
