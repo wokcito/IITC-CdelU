@@ -7,8 +7,8 @@
 // @updateURL    https://raw.githubusercontent.com/wokcito/IITC-CdelU/main/src/s2check.user.js
 // @homepageURL  https://github.com/wokcito/IITC-CdelU/
 // @supportURL   https://discord.gg/niawayfarer
-// @version      0.113
-// @description  v0.113. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
+// @version      0.114
+// @description  v0.114. Pokemon Go tools over IITC. Support in #tools-chat on https://discord.gg/niawayfarer
 // @author       Alfonso M.
 // @match        https://intel.ingress.com/*
 // @grant        none
@@ -2710,7 +2710,8 @@
 						"<br></div>";
 					if (window.selectedPortal.includes("s2-pogo")) {
 						modHtml +=
-							"<a href='#' onclick='window.deleteManualWaypoint()' id='deleteManualWaypoint'>Delete Waypoint</a>";
+							"<a href='#' onclick='window.deleteManualWaypoint()' id='deleteManualWaypoint'>Delete Waypoint</a>" +
+							"<a href='#' onclick='window.plugin.pogo.promptUpdateWaypointLocation();return false;' id='updateWaypointLocation'>Update location</a>";
 					}
 					$(portalDetails).append(modHtml);
 
@@ -5656,6 +5657,81 @@
 				thisPlugin.resetAllMarkers();
 				updateMapGrid();
 			}
+		};
+
+		/**
+		 * Lets the user fix the position of a manually-added waypoint by typing new
+		 * coordinates, without touching its guid (so it stays the same item: same
+		 * classification history, same guid referenced elsewhere).
+		 */
+		thisPlugin.promptUpdateWaypointLocation = function () {
+			const guid = window.selectedPortal;
+			if (!guid || !waypoints[guid]) {
+				return;
+			}
+			const current = waypoints[guid];
+			const currentLat = (current.latE6 / 1e6).toFixed(6);
+			const currentLng = (current.lngE6 / 1e6).toFixed(6);
+
+			const div = document.createElement("div");
+			div.innerHTML = `<p>
+                <label>Latitude<br><input type="text" id="pogo-update-lat" value="${currentLat}" style="width:100%"></label>
+                </p>
+                <p>
+                <label>Longitude<br><input type="text" id="pogo-update-lng" value="${currentLng}" style="width:100%"></label>
+                </p>`;
+
+			const container = dialog({
+				id: "updateWaypointLocationDialog",
+				html: div,
+				title: "Update location",
+				buttons: {
+					Save: function () {
+						const lat = parseFloat(
+							div.querySelector("#pogo-update-lat").value,
+						);
+						const lng = parseFloat(
+							div.querySelector("#pogo-update-lng").value,
+						);
+						if (Number.isNaN(lat) || Number.isNaN(lng)) {
+							alert("Invalid coordinates");
+							return;
+						}
+						container.dialog("close");
+						thisPlugin.updateWaypointLocation(guid, lat, lng);
+					},
+				},
+			});
+		};
+
+		/**
+		 * Updates only the lat/lng of an existing manual waypoint (its own "waypoints"
+		 * record plus whichever gyms/pokestops/powerspots/notpogo classification it has),
+		 * keeping its guid untouched.
+		 */
+		thisPlugin.updateWaypointLocation = function (guid, lat, lng) {
+			const waypoint = waypoints[guid];
+			if (!waypoint) {
+				return;
+			}
+			waypoint.latE6 = Math.round(lat * 1e6);
+			waypoint.lngE6 = Math.round(lng * 1e6);
+			putWaypoint(waypoint);
+
+			const pogoData = thisPlugin.findByGuid(guid);
+			if (pogoData) {
+				const item = pogoData.store[guid];
+				item.lat = lat;
+				item.lng = lng;
+				// the cell ids cached on the item belong to the old position
+				delete item.cells;
+				updateItemInObjectStoreStore(S2.db, pogoData.type, item);
+			}
+
+			window.mapDataRequest.start();
+			thisPlugin.resetAllMarkers();
+			updateMapGrid();
+			renderPortalDetails(guid);
 		};
 
 		function removeManualStop(guid) {
