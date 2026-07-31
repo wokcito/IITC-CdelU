@@ -6723,7 +6723,7 @@
             "team": 0,
             "latE6": -32489204,
             "lngE6": -58230388,
-            "name": "Gran Rex",
+            "name": "Gran Rex ",
             "image": "",
             "type": "powerspots",
             "timestamp": 1785424642908
@@ -6900,13 +6900,49 @@
             "guid": "s2-pogo-32489204-5823038850821.639786611115",
             "lat": "-32.489204",
             "lng": "-58.230388",
-            "name": "Gran Rex"
+            "name": "Gran Rex "
         },
         "s2-pogo-32491343-5825393983352.78677140837": {
             "guid": "s2-pogo-32491343-5825393983352.78677140837",
             "lat": "-32.491343",
             "lng": "-58.253939",
             "name": "kiosko Lucy"
+        },
+        "1b3cca84436033edb11a63033b34cbd2.16": {
+            "guid": "1b3cca84436033edb11a63033b34cbd2.16",
+            "lat": -32.482886,
+            "lng": -58.223033,
+            "name": "Agencia de Extensión Rural"
+        },
+        "bbe19c19e878419bbcc47bd3910811cb.16": {
+            "guid": "bbe19c19e878419bbcc47bd3910811cb.16",
+            "lat": -32.483603,
+            "lng": -58.226808,
+            "name": "mural del mono"
+        },
+        "b70ae6caa7d73a358bdca1326896aeeb.16": {
+            "guid": "b70ae6caa7d73a358bdca1326896aeeb.16",
+            "lat": -32.47874,
+            "lng": -58.23828,
+            "name": "Santuario Gauchito Alberto Gil"
+        },
+        "91a50ffb7aec4ac095d9137f5bf1c272.16": {
+            "guid": "91a50ffb7aec4ac095d9137f5bf1c272.16",
+            "lat": -32.475566,
+            "lng": -58.236971,
+            "name": "Peña Rey de Copas \"Luli Ríos\"."
+        },
+        "822fdfb71a1042ca84e664f086cecaf7.16": {
+            "guid": "822fdfb71a1042ca84e664f086cecaf7.16",
+            "lat": -32.480231,
+            "lng": -58.243425,
+            "name": "Mural: Predio Multieventos"
+        },
+        "86159dd676be4d69b21d3f46258b52c4.16": {
+            "guid": "86159dd676be4d69b21d3f46258b52c4.16",
+            "lat": -32.478043,
+            "lng": -58.244353,
+            "name": "Mural Matt Groening"
         }
     }
 }
