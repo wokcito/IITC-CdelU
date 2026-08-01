@@ -6578,6 +6578,16 @@
             "type": "powerspots",
             "timestamp": 1785499393625
         },
+        "s2-pogo-32469569.999999996-582508086541.57497516598": {
+            "guid": "s2-pogo-32469569.999999996-582508086541.57497516598",
+            "team": 0,
+            "latE6": -32469569.999999996,
+            "lngE6": -58250808,
+            "name": "Pizzeria Dodo's",
+            "image": "",
+            "type": "powerspots",
+            "timestamp": 1785595436014
+        },
         "s2-pogo-32473578.000000004-5823924397169.39789201974": {
             "guid": "s2-pogo-32473578.000000004-5823924397169.39789201974",
             "team": 0,
@@ -6637,6 +6647,16 @@
             "image": "",
             "type": "powerspots",
             "timestamp": 1785499085779
+        },
+        "s2-pogo-32478796.000000004-5821324423950.083081104123": {
+            "guid": "s2-pogo-32478796.000000004-5821324423950.083081104123",
+            "team": 0,
+            "latE6": -32478796.000000004,
+            "lngE6": -58213244,
+            "name": "Panza Verde Pizza Bar",
+            "image": "",
+            "type": "powerspots",
+            "timestamp": 1785538207553
         },
         "s2-pogo-32483748-5822879514187.265865766089": {
             "guid": "s2-pogo-32483748-5822879514187.265865766089",
@@ -6740,6 +6760,12 @@
         }
     },
     "powerspots": {
+        "1b3cca84436033edb11a63033b34cbd2.16": {
+            "guid": "1b3cca84436033edb11a63033b34cbd2.16",
+            "lat": -32.482886,
+            "lng": -58.223033,
+            "name": "Agencia de Extensión Rural"
+        },
         "1eda4653680c446a8f9f50b05c03c2fe.16": {
             "guid": "1eda4653680c446a8f9f50b05c03c2fe.16",
             "lat": -32.486037,
@@ -6788,11 +6814,41 @@
             "lng": -58.234971,
             "name": "Club Gimnasia y Esgrima de Concepción del Uruguay"
         },
+        "822fdfb71a1042ca84e664f086cecaf7.16": {
+            "guid": "822fdfb71a1042ca84e664f086cecaf7.16",
+            "lat": -32.480231,
+            "lng": -58.243425,
+            "name": "Mural: Predio Multieventos"
+        },
+        "86159dd676be4d69b21d3f46258b52c4.16": {
+            "guid": "86159dd676be4d69b21d3f46258b52c4.16",
+            "lat": -32.478043,
+            "lng": -58.244353,
+            "name": "Mural Matt Groening"
+        },
+        "91a50ffb7aec4ac095d9137f5bf1c272.16": {
+            "guid": "91a50ffb7aec4ac095d9137f5bf1c272.16",
+            "lat": -32.475566,
+            "lng": -58.236971,
+            "name": "Peña Rey de Copas \"Luli Ríos\"."
+        },
         "b06331f24d6e42848b023c982e30220c.16": {
             "guid": "b06331f24d6e42848b023c982e30220c.16",
             "lat": -32.474525,
             "lng": -58.252606,
             "name": "Mural Floreado"
+        },
+        "b70ae6caa7d73a358bdca1326896aeeb.16": {
+            "guid": "b70ae6caa7d73a358bdca1326896aeeb.16",
+            "lat": -32.47874,
+            "lng": -58.23828,
+            "name": "Santuario Gauchito Alberto Gil"
+        },
+        "bbe19c19e878419bbcc47bd3910811cb.16": {
+            "guid": "bbe19c19e878419bbcc47bd3910811cb.16",
+            "lat": -32.483603,
+            "lng": -58.226808,
+            "name": "mural del mono"
         },
         "cb49c305d2353a959b91d600fc2b365a.16": {
             "guid": "cb49c305d2353a959b91d600fc2b365a.16",
@@ -6817,6 +6873,12 @@
             "lat": "-32.468893",
             "lng": "-58.249067",
             "name": "Santa Candida"
+        },
+        "s2-pogo-32469569.999999996-582508086541.57497516598": {
+            "guid": "s2-pogo-32469569.999999996-582508086541.57497516598",
+            "lat": "-32.469570",
+            "lng": "-58.250808",
+            "name": "Pizzeria Dodo's"
         },
         "s2-pogo-32473578.000000004-5823924397169.39789201974": {
             "guid": "s2-pogo-32473578.000000004-5823924397169.39789201974",
@@ -6853,6 +6915,12 @@
             "lat": "-32.477370",
             "lng": "-58.254941",
             "name": "Acacia Eventos"
+        },
+        "s2-pogo-32478796.000000004-5821324423950.083081104123": {
+            "guid": "s2-pogo-32478796.000000004-5821324423950.083081104123",
+            "lat": "-32.478796",
+            "lng": "-58.213244",
+            "name": "Panza Verde Pizza Bar"
         },
         "s2-pogo-32483748-5822879514187.265865766089": {
             "guid": "s2-pogo-32483748-5822879514187.265865766089",
@@ -6907,42 +6975,6 @@
             "lat": "-32.491343",
             "lng": "-58.253939",
             "name": "kiosko Lucy"
-        },
-        "1b3cca84436033edb11a63033b34cbd2.16": {
-            "guid": "1b3cca84436033edb11a63033b34cbd2.16",
-            "lat": -32.482886,
-            "lng": -58.223033,
-            "name": "Agencia de Extensión Rural"
-        },
-        "bbe19c19e878419bbcc47bd3910811cb.16": {
-            "guid": "bbe19c19e878419bbcc47bd3910811cb.16",
-            "lat": -32.483603,
-            "lng": -58.226808,
-            "name": "mural del mono"
-        },
-        "b70ae6caa7d73a358bdca1326896aeeb.16": {
-            "guid": "b70ae6caa7d73a358bdca1326896aeeb.16",
-            "lat": -32.47874,
-            "lng": -58.23828,
-            "name": "Santuario Gauchito Alberto Gil"
-        },
-        "91a50ffb7aec4ac095d9137f5bf1c272.16": {
-            "guid": "91a50ffb7aec4ac095d9137f5bf1c272.16",
-            "lat": -32.475566,
-            "lng": -58.236971,
-            "name": "Peña Rey de Copas \"Luli Ríos\"."
-        },
-        "822fdfb71a1042ca84e664f086cecaf7.16": {
-            "guid": "822fdfb71a1042ca84e664f086cecaf7.16",
-            "lat": -32.480231,
-            "lng": -58.243425,
-            "name": "Mural: Predio Multieventos"
-        },
-        "86159dd676be4d69b21d3f46258b52c4.16": {
-            "guid": "86159dd676be4d69b21d3f46258b52c4.16",
-            "lat": -32.478043,
-            "lng": -58.244353,
-            "name": "Mural Matt Groening"
         }
     }
 }
